@@ -21,6 +21,11 @@
       "Name": "jbcs-http24-curl"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202224963001",
+      "Version": "636",
+      "Name": "jbcs-httpd24-apr"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202233099001",
       "Version": "636",
       "Name": "lua"
@@ -31,14 +36,14 @@
       "Name": "mod_security"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20233817001",
-      "Version": "636",
-      "Name": "jbcs-httpd24-openssl-pkcs11"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20233817002",
       "Version": "636",
       "Name": "jbcs-httpd24-openssl-chil"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20233817003",
+      "Version": "636",
+      "Name": "jbcs-httpd24-openssl-pkcs11"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20199516001",
@@ -49,11 +54,6 @@
       "ID": "oval:com.redhat.unaffected:obj:202036325001",
       "Version": "635",
       "Name": "jbcs-httpd24-jansson"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202135940001",
-      "Version": "635",
-      "Name": "jbcs-httpd24-apr"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202224048001",

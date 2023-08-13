@@ -201,12 +201,12 @@
       "Name": "python-tornado"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329409002",
+      "ID": "oval:com.redhat.cve:obj:202329409004",
       "Version": "636",
       "Name": "conmon"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329409012",
+      "ID": "oval:com.redhat.cve:obj:202329409008",
       "Version": "636",
       "Name": "ignition"
     },
@@ -254,6 +254,11 @@
       "ID": "oval:com.redhat.cve:obj:20233153008",
       "Version": "636",
       "Name": "ovn-2021"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202337788001",
+      "Version": "636",
+      "Name": "sandboxed-containers"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202337920001",
@@ -344,6 +349,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202325399001",
       "Version": "635",
       "Name": "python-sortedcontainers"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20234016001",
+      "Version": "635",
+      "Name": "procps-ng"
     }
   ],
   "RpmverifyfileObjects": [

@@ -81,11 +81,6 @@
       "Name": "rhsso-container-image"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241862001",
-      "Version": "636",
-      "Name": "jdbc-postgresql"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20224244001",
       "Version": "636",
       "Name": "org.codehaus.plexus-plexus-utils"
@@ -116,9 +111,9 @@
       "Name": "log4j"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232798001",
+      "ID": "oval:com.redhat.cve:obj:20233635001",
       "Version": "636",
-      "Name": "htmlUnit"
+      "Name": "okio"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20227411001",
@@ -216,6 +211,11 @@
       "Name": "maven-shared-utils"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:202231197001",
+      "Version": "635",
+      "Name": "jdbc-postgresql"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202231690001",
       "Version": "635",
       "Name": "spring-security-oauth2-client"
@@ -281,9 +281,19 @@
       "Name": "org.keycloak-keycloak-parent"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:20232798001",
+      "Version": "635",
+      "Name": "htmlUnit"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202332697001",
       "Version": "635",
       "Name": "sqlite-jdbc"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202334623001",
+      "Version": "635",
+      "Name": "jtidy"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202336661001",

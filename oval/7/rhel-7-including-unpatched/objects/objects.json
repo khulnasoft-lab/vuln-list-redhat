@@ -12486,11 +12486,6 @@
       "Name": "flac"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202010713001",
-      "Version": "636",
-      "Name": "dbxtool"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202010730001",
       "Version": "636",
       "Name": "ldb-tools"
@@ -13271,12 +13266,12 @@
       "Name": "gomtree"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202035530002",
+      "ID": "oval:com.redhat.cve:obj:202035530001",
       "Version": "636",
       "Name": "libraw1394-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202035530003",
+      "ID": "oval:com.redhat.cve:obj:202035530004",
       "Version": "636",
       "Name": "libraw1394"
     },
@@ -14993,7 +14988,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20232602001",
       "Version": "636",
-      "Name": "libcap"
+      "Name": "compat-libcap1"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232602002",
@@ -15003,7 +14998,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20232602003",
       "Version": "636",
-      "Name": "compat-libcap1"
+      "Name": "libcap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202326112001",
@@ -15099,6 +15094,11 @@
       "ID": "oval:com.redhat.cve:obj:202337732001",
       "Version": "636",
       "Name": "yasm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202338325003",
+      "Version": "636",
+      "Name": "python-adal"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234156001",
@@ -20789,11 +20789,6 @@
       "ID": "oval:com.redhat.unaffected:obj:20221955001",
       "Version": "635",
       "Name": "perl-SNMP_Session"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202229217002",
-      "Version": "635",
-      "Name": "python-adal"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202229799001",

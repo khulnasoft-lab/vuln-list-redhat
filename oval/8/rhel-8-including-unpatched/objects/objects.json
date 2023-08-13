@@ -8636,49 +8636,49 @@
       "Name": "weldr-client"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20222127007",
-      "Version": "636",
-      "Name": "samba-usershares"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20222127008",
-      "Version": "636",
-      "Name": "python3-samba-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20222127009",
-      "Version": "636",
-      "Name": "python3-samba-dc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20222127014",
-      "Version": "636",
-      "Name": "samba-tools"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20222127015",
-      "Version": "636",
-      "Name": "libnetapi"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20222127018",
+      "ID": "oval:com.redhat.cve:obj:20222127002",
       "Version": "636",
       "Name": "libnetapi-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20222127024",
+      "ID": "oval:com.redhat.cve:obj:20222127005",
+      "Version": "636",
+      "Name": "libnetapi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20222127008",
+      "Version": "636",
+      "Name": "python3-samba-dc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20222127012",
+      "Version": "636",
+      "Name": "python3-samba-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20222127021",
+      "Version": "636",
+      "Name": "samba-usershares"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20222127022",
+      "Version": "636",
+      "Name": "samba-dc-libs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20222127027",
       "Version": "636",
       "Name": "samba-ldb-ldap-modules"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20222127030",
+      "ID": "oval:com.redhat.cve:obj:20222127032",
       "Version": "636",
       "Name": "samba-dcerpc"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20222127031",
+      "ID": "oval:com.redhat.cve:obj:20222127035",
       "Version": "636",
-      "Name": "samba-dc-libs"
+      "Name": "samba-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202221299001",
@@ -9781,7 +9781,7 @@
       "Name": "oci-seccomp-bpf-hook"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241723006",
+      "ID": "oval:com.redhat.cve:obj:202241723010",
       "Version": "636",
       "Name": "git-lfs"
     },
@@ -10253,12 +10253,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202325193002",
       "Version": "636",
-      "Name": "harfbuzz"
+      "Name": "harfbuzz-icu"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325193003",
       "Version": "636",
-      "Name": "harfbuzz-icu"
+      "Name": "harfbuzz"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325399001",
@@ -10269,16 +10269,6 @@
       "ID": "oval:com.redhat.cve:obj:202325399004",
       "Version": "636",
       "Name": "python2-scipy"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232602001",
-      "Version": "636",
-      "Name": "libcap"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232602002",
-      "Version": "636",
-      "Name": "libcap-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202326112001",
@@ -10391,21 +10381,6 @@
       "Name": "flatpak"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202328484001",
-      "Version": "636",
-      "Name": "libxml2-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202328484002",
-      "Version": "636",
-      "Name": "libxml2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202328484003",
-      "Version": "636",
-      "Name": "python3-libxml2"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202328486001",
       "Version": "636",
       "Name": "sudo"
@@ -10461,37 +10436,37 @@
       "Name": "openssl-ibmca"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932001",
+      "ID": "oval:com.redhat.cve:obj:202329933001",
       "Version": "636",
       "Name": "llvm-test"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932002",
+      "ID": "oval:com.redhat.cve:obj:202329933002",
       "Version": "636",
       "Name": "llvm-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932003",
+      "ID": "oval:com.redhat.cve:obj:202329933003",
       "Version": "636",
       "Name": "llvm-doc"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932004",
+      "ID": "oval:com.redhat.cve:obj:202329933004",
       "Version": "636",
       "Name": "llvm-static"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932005",
+      "ID": "oval:com.redhat.cve:obj:202329933005",
       "Version": "636",
       "Name": "llvm"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932006",
+      "ID": "oval:com.redhat.cve:obj:202329933006",
       "Version": "636",
       "Name": "llvm-googletest"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202329932007",
+      "ID": "oval:com.redhat.cve:obj:202329933007",
       "Version": "636",
       "Name": "llvm-devel"
     },
@@ -10511,7 +10486,7 @@
       "Name": "perl-HTTP-Tiny"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202332681001",
+      "ID": "oval:com.redhat.cve:obj:202332681002",
       "Version": "636",
       "Name": "python2-requests"
     },
@@ -10519,6 +10494,56 @@
       "ID": "oval:com.redhat.cve:obj:20233446016",
       "Version": "636",
       "Name": "shim-unsigned-x64"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390002",
+      "Version": "636",
+      "Name": "aspnetcore-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390003",
+      "Version": "636",
+      "Name": "aspnetcore-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390004",
+      "Version": "636",
+      "Name": "dotnet-sdk-7.0-source-built-artifacts"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390005",
+      "Version": "636",
+      "Name": "dotnet-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390007",
+      "Version": "636",
+      "Name": "dotnet-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390015",
+      "Version": "636",
+      "Name": "dotnet-templates-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390018",
+      "Version": "636",
+      "Name": "dotnet-hostfxr-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390019",
+      "Version": "636",
+      "Name": "dotnet-apphost-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390021",
+      "Version": "636",
+      "Name": "dotnet7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202335390022",
+      "Version": "636",
+      "Name": "dotnet-sdk-7.0"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202335789001",
@@ -10544,11 +10569,6 @@
       "ID": "oval:com.redhat.cve:obj:202337732001",
       "Version": "636",
       "Name": "yasm"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202338403001",
-      "Version": "636",
-      "Name": "iperf3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202338497001",
@@ -10638,12 +10658,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202338633002",
       "Version": "636",
-      "Name": "librsvg2-tools"
+      "Name": "librsvg2-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202338633003",
       "Version": "636",
-      "Name": "librsvg2-devel"
+      "Name": "librsvg2-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202339128002",
@@ -10654,6 +10674,11 @@
       "ID": "oval:com.redhat.cve:obj:202339128008",
       "Version": "636",
       "Name": "crash-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20234016002",
+      "Version": "636",
+      "Name": "procps-ng-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234156001",
@@ -14971,6 +14996,21 @@
       "Name": "clutter-doc"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20201827001",
+      "Version": "635",
+      "Name": "libxml2"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20201827002",
+      "Version": "635",
+      "Name": "libxml2-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20201827003",
+      "Version": "635",
+      "Name": "python3-libxml2"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20201878001",
       "Version": "636",
       "Name": "openchange"
@@ -16836,51 +16876,6 @@
       "Name": "mingw64-zlib-static"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20227826001",
-      "Version": "638",
-      "Name": "aspnetcore-runtime-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826002",
-      "Version": "638",
-      "Name": "aspnetcore-targeting-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826004",
-      "Version": "638",
-      "Name": "dotnet-apphost-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826006",
-      "Version": "638",
-      "Name": "dotnet-hostfxr-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826007",
-      "Version": "638",
-      "Name": "dotnet-runtime-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826008",
-      "Version": "638",
-      "Name": "dotnet-sdk-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826009",
-      "Version": "638",
-      "Name": "dotnet-sdk-7.0-source-built-artifacts"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826010",
-      "Version": "638",
-      "Name": "dotnet-targeting-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227826011",
-      "Version": "638",
-      "Name": "dotnet-templates-7.0"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20230087001",
       "Version": "635",
       "Name": "usbguard"
@@ -18686,9 +18681,34 @@
       "Name": "open-vm-tools-salt-minion"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:12340007012",
+      "ID": "oval:com.redhat.rhsa:obj:20234520001",
       "Version": "635",
-      "Name": "dotnet7.0"
+      "Name": "python3-requests"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234524001",
+      "Version": "635",
+      "Name": "libcap"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234524002",
+      "Version": "635",
+      "Name": "libcap-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234531006",
+      "Version": "635",
+      "Name": "kpatch-patch-4_18_0-477_13_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234531007",
+      "Version": "635",
+      "Name": "kpatch-patch-4_18_0-477_15_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234570001",
+      "Version": "635",
+      "Name": "iperf3"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:19990428005",
@@ -18754,6 +18774,11 @@
       "ID": "oval:com.redhat.unaffected:obj:201510082002",
       "Version": "635",
       "Name": "libplist-devel"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20158370007",
+      "Version": "635",
+      "Name": "grub2"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20159262001",
@@ -20246,12 +20271,12 @@
       "Name": "tbb"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202035530002",
+      "ID": "oval:com.redhat.unaffected:obj:202035530001",
       "Version": "635",
       "Name": "libraw1394-devel"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202035530003",
+      "ID": "oval:com.redhat.unaffected:obj:202035530002",
       "Version": "635",
       "Name": "libraw1394"
     },
@@ -20374,11 +20399,6 @@
       "ID": "oval:com.redhat.unaffected:obj:202133641001",
       "Version": "635",
       "Name": "byacc"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20213418005",
-      "Version": "635",
-      "Name": "grub2"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20213418009",
@@ -20633,12 +20653,12 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:20233817001",
       "Version": "635",
-      "Name": "openssl-pkcs11"
+      "Name": "openssl-ibmpkcs11"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20233817002",
       "Version": "635",
-      "Name": "openssl-ibmpkcs11"
+      "Name": "openssl-pkcs11"
     }
   ],
   "RpmverifyfileObjects": [
@@ -23369,6 +23389,54 @@
     {
       "ID": "oval:com.redhat.rhsa:obj:20233847027",
       "Version": "637",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20191167001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234517027",
+      "Version": "641",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20191167001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234531005",
+      "Version": "635",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20191167001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234541015",
+      "Version": "639",
       "Filepath": {
         "Text": "/boot/grub2/grub.cfg",
         "Datatype": "string"

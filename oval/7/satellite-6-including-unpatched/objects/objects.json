@@ -623,12 +623,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202241717002",
       "Version": "636",
-      "Name": "yggdrasil"
+      "Name": "foreman_ygg_worker"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241717003",
       "Version": "636",
-      "Name": "foreman_ygg_worker"
+      "Name": "yggdrasil"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244566001",
@@ -674,6 +674,21 @@
       "ID": "oval:com.redhat.cve:obj:202337276002",
       "Version": "636",
       "Name": "python-aiohttp"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202338325001",
+      "Version": "636",
+      "Name": "python-cryptography"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202338325002",
+      "Version": "636",
+      "Name": "ansiblerole-foreman_scap_client"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202338325003",
+      "Version": "636",
+      "Name": "python3-cryptography"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20214702003",
@@ -971,11 +986,6 @@
       "Name": "jsoup"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202236087001",
-      "Version": "635",
-      "Name": "ansiblerole-foreman_scap_client"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:202237866001",
       "Version": "635",
       "Name": "apache-ivy"
@@ -1029,6 +1039,16 @@
       "ID": "oval:com.redhat.unaffected:obj:20232976001",
       "Version": "635",
       "Name": "guava"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202334453001",
+      "Version": "635",
+      "Name": "snappy-java"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202334453002",
+      "Version": "635",
+      "Name": "snappy-java-debuginfo"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202336617001",

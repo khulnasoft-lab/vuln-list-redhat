@@ -94,7 +94,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396002"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417070"
                   }
                 ]
               },
@@ -107,7 +107,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-contrib is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396004"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417046"
                   }
                 ]
               },
@@ -120,7 +120,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-contrib-syspaths is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396006"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417062"
                   }
                 ]
               },
@@ -133,7 +133,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-devel is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396008"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417080"
                   }
                 ]
               },
@@ -146,7 +146,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-docs is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396010"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417026"
                   }
                 ]
               },
@@ -159,7 +159,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-libs is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396012"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417024"
                   }
                 ]
               },
@@ -172,7 +172,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-plperl is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396014"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417002"
                   }
                 ]
               },
@@ -185,7 +185,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-plpython is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396016"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417058"
                   }
                 ]
               },
@@ -198,7 +198,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-plpython3 is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396018"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417010"
                   }
                 ]
               },
@@ -211,7 +211,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-pltcl is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396020"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417018"
                   }
                 ]
               },
@@ -224,7 +224,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-server is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396022"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417064"
                   }
                 ]
               },
@@ -237,7 +237,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-server-syspaths is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396024"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417060"
                   }
                 ]
               },
@@ -250,7 +250,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-static is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396026"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417014"
                   }
                 ]
               },
@@ -263,7 +263,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-syspaths is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396028"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417054"
                   }
                 ]
               },
@@ -276,7 +276,7 @@
                   },
                   {
                     "Comment": "rh-postgresql13-postgresql-test is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20212396030"
+                    "TestRef": "oval:com.redhat.cve:tst:202339417040"
                   }
                 ]
               }
