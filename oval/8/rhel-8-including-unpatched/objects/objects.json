@@ -10078,12 +10078,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202246751001",
       "Version": "636",
-      "Name": "apache-ivy"
+      "Name": "apache-ivy-javadoc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202246751002",
       "Version": "636",
-      "Name": "apache-ivy-javadoc"
+      "Name": "apache-ivy"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202247016001",
@@ -10388,7 +10388,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202325193001",
       "Version": "636",
-      "Name": "harfbuzz-devel"
+      "Name": "harfbuzz"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325193002",
@@ -10398,7 +10398,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202325193003",
       "Version": "636",
-      "Name": "harfbuzz"
+      "Name": "harfbuzz-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325399001",
