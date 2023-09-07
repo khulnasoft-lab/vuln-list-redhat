@@ -10643,12 +10643,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202339319026",
       "Version": "636",
-      "Name": "go-toolset"
+      "Name": "delve"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202339319027",
       "Version": "636",
-      "Name": "delve"
+      "Name": "go-toolset"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202339615001",
