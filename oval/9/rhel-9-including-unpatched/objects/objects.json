@@ -8501,56 +8501,6 @@
       "Name": "sqlite-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202336799003",
-      "Version": "636",
-      "Name": "dotnet-sdk-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799005",
-      "Version": "636",
-      "Name": "dotnet-hostfxr-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799006",
-      "Version": "636",
-      "Name": "dotnet-runtime-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799008",
-      "Version": "636",
-      "Name": "dotnet-templates-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799012",
-      "Version": "636",
-      "Name": "aspnetcore-targeting-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799013",
-      "Version": "636",
-      "Name": "dotnet-apphost-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799017",
-      "Version": "636",
-      "Name": "dotnet-sdk-7.0-source-built-artifacts"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799020",
-      "Version": "636",
-      "Name": "dotnet-targeting-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799021",
-      "Version": "636",
-      "Name": "dotnet7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336799022",
-      "Version": "636",
-      "Name": "aspnetcore-runtime-7.0"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202337369001",
       "Version": "636",
       "Name": "qt5-qtbase"
@@ -10834,6 +10784,51 @@
       "ID": "oval:com.redhat.rhsa:obj:20228420004",
       "Version": "636",
       "Name": "mingw64-zlib-static"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434001",
+      "Version": "636",
+      "Name": "aspnetcore-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434002",
+      "Version": "636",
+      "Name": "aspnetcore-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434003",
+      "Version": "636",
+      "Name": "dotnet-apphost-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434005",
+      "Version": "636",
+      "Name": "dotnet-hostfxr-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434006",
+      "Version": "636",
+      "Name": "dotnet-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434007",
+      "Version": "636",
+      "Name": "dotnet-sdk-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434008",
+      "Version": "636",
+      "Name": "dotnet-sdk-7.0-source-built-artifacts"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434009",
+      "Version": "636",
+      "Name": "dotnet-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228434010",
+      "Version": "636",
+      "Name": "dotnet-templates-7.0"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20228444001",
@@ -14029,6 +14024,11 @@
       "ID": "oval:com.redhat.unaffected:obj:20222526011",
       "Version": "635",
       "Name": "systemd-debugsource"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202226929001",
+      "Version": "635",
+      "Name": "dotnet7.0"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202226929005",
