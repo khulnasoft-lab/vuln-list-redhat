@@ -4646,6 +4646,11 @@
       "Name": "skopeo"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20213468007",
+      "Version": "636",
+      "Name": "avahi-tools"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202135065001",
       "Version": "636",
       "Name": "gjs"
@@ -4668,82 +4673,82 @@
     {
       "ID": "oval:com.redhat.cve:obj:202135937001",
       "Version": "636",
-      "Name": "rpm-apidocs"
+      "Name": "rpm-plugin-selinux"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937002",
       "Version": "636",
-      "Name": "rpm-plugin-audit"
+      "Name": "rpm-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937003",
       "Version": "636",
-      "Name": "rpm-plugin-ima"
+      "Name": "rpm-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937004",
       "Version": "636",
-      "Name": "rpm-plugin-selinux"
+      "Name": "rpm-apidocs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937005",
       "Version": "636",
-      "Name": "rpm-libs"
+      "Name": "rpm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937006",
       "Version": "636",
-      "Name": "rpm-devel"
+      "Name": "rpm-build"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937007",
       "Version": "636",
-      "Name": "rpm-plugin-syslog"
+      "Name": "rpm-cron"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937008",
       "Version": "636",
-      "Name": "rpm-build-libs"
+      "Name": "rpm-plugin-fapolicyd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937009",
       "Version": "636",
-      "Name": "rpm"
+      "Name": "rpm-sign-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937010",
       "Version": "636",
-      "Name": "rpm-plugin-fapolicyd"
+      "Name": "rpm-plugin-systemd-inhibit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937011",
       "Version": "636",
-      "Name": "rpm-sign"
+      "Name": "rpm-plugin-syslog"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937012",
       "Version": "636",
-      "Name": "python3-rpm"
+      "Name": "rpm-build-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937013",
       "Version": "636",
-      "Name": "rpm-cron"
+      "Name": "python3-rpm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937014",
       "Version": "636",
-      "Name": "rpm-build"
+      "Name": "rpm-plugin-ima"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937015",
       "Version": "636",
-      "Name": "rpm-sign-libs"
+      "Name": "rpm-sign"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937016",
       "Version": "636",
-      "Name": "rpm-plugin-systemd-inhibit"
+      "Name": "rpm-plugin-audit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20213595015",
@@ -6931,6 +6936,16 @@
       "Name": "xdg-utils"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202240897001",
+      "Version": "636",
+      "Name": "python3.11-setuptools"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202240897002",
+      "Version": "636",
+      "Name": "python3.11-setuptools-wheel"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202241317001",
       "Version": "636",
       "Name": "squid"
@@ -7274,11 +7289,6 @@
       "ID": "oval:com.redhat.cve:obj:20231786001",
       "Version": "636",
       "Name": "cloud-init"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20231981007",
-      "Version": "636",
-      "Name": "avahi-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202322745001",
