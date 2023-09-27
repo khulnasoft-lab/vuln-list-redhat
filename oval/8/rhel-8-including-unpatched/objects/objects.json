@@ -5348,12 +5348,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202017049002",
       "Version": "636",
-      "Name": "libkadm5"
+      "Name": "krb5-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049003",
       "Version": "636",
-      "Name": "krb5-pkinit"
+      "Name": "krb5-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049004",
@@ -5363,22 +5363,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:202017049005",
       "Version": "636",
-      "Name": "krb5-libs"
+      "Name": "krb5-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049006",
       "Version": "636",
-      "Name": "krb5-workstation"
+      "Name": "libkadm5"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049007",
       "Version": "636",
-      "Name": "krb5-server"
+      "Name": "krb5-workstation"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049008",
       "Version": "636",
-      "Name": "krb5-devel"
+      "Name": "krb5-pkinit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202018651001",
@@ -9798,12 +9798,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202240897009",
       "Version": "636",
-      "Name": "python2-setuptools-wheel"
+      "Name": "python2-setuptools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240897010",
       "Version": "636",
-      "Name": "python2-setuptools"
+      "Name": "python2-setuptools-wheel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240898001",
@@ -9841,7 +9841,7 @@
       "Name": "oci-seccomp-bpf-hook"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241723008",
+      "ID": "oval:com.redhat.cve:obj:202241723003",
       "Version": "636",
       "Name": "git-lfs"
     },
