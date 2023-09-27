@@ -19714,21 +19714,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gcc-toolset-12-gdb is installed",
-      "ID": "oval:com.redhat.cve:tst:202132256009",
+      "Comment": "gcc-toolset-12-binutils-gold is installed",
+      "ID": "oval:com.redhat.cve:tst:202132256003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256002"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "gcc-toolset-12-gdb is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202132256010",
+      "Comment": "gcc-toolset-12-binutils-gold is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202132256004",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -19737,6 +19737,28 @@
     {
       "Check": "at least one",
       "Comment": "gcc-toolset-12-binutils is installed",
+      "ID": "oval:com.redhat.cve:tst:202132256007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gcc-toolset-12-binutils is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202132256008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gcc-toolset-12-gdb is installed",
       "ID": "oval:com.redhat.cve:tst:202132256011",
       "Version": "636",
       "Object": {
@@ -19746,7 +19768,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gcc-toolset-12-binutils is signed with Red Hat redhatrelease2 key",
+      "Comment": "gcc-toolset-12-gdb is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202132256012",
       "Version": "636",
       "Object": {
@@ -19759,42 +19781,20 @@
     {
       "Check": "at least one",
       "Comment": "gcc-toolset-12-binutils-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202132256013",
+      "ID": "oval:com.redhat.cve:tst:202132256021",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256007"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256011"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "gcc-toolset-12-binutils-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202132256014",
+      "ID": "oval:com.redhat.cve:tst:202132256022",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256007"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gcc-toolset-12-binutils-gold is installed",
-      "ID": "oval:com.redhat.cve:tst:202132256015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gcc-toolset-12-binutils-gold is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202132256016",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256011"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -30553,6 +30553,50 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202241317001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "idm-jss is installed",
+      "ID": "oval:com.redhat.cve:tst:20224132001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20224132001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "idm-jss is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20224132002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20224132001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jss is installed",
+      "ID": "oval:com.redhat.cve:tst:20224132005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20224132003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jss is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20224132006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20224132003"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -44127,6 +44171,72 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:20234874001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwebp-tools is installed",
+      "ID": "oval:com.redhat.cve:tst:20235129003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwebp-tools is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235129004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwebp-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:20235129007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwebp-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235129008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwebp is installed",
+      "ID": "oval:com.redhat.cve:tst:20235129009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwebp is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235129010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129005"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -69616,22 +69726,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20232078001",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232078001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libwebp is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20232078002",
-      "Version": "638",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -69640,22 +69738,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20232078003",
       "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232078001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libwebp-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20232078004",
-      "Version": "638",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -88573,7 +88659,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20235214001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20235214001"
@@ -88585,7 +88671,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20235214003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20235214001"
@@ -88597,22 +88683,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20235214005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235214003"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20235214003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libwebp-tools is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235214006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235214003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -93503,32 +93577,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libwebp is installed",
-      "ID": "oval:com.redhat.unaffected:tst:201825009001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "libwebp is not installed",
       "ID": "oval:com.redhat.unaffected:tst:201825009002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libwebp-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:201825009003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129005"
       },
       "State": {}
     },
@@ -93539,7 +93593,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232078002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235129004"
       },
       "State": {}
     },
@@ -100543,7 +100597,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256002"
       },
       "State": {}
     },
@@ -100554,7 +100608,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256007"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256011"
       },
       "State": {}
     },
@@ -100576,7 +100630,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256006"
       },
       "State": {}
     },
@@ -100587,7 +100641,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202132256006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202132256004"
       },
       "State": {}
     },
@@ -100763,8 +100817,19 @@
     },
     {
       "Check": "at least one",
+      "Comment": "postgresql-docs is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202021469004",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20232454013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "postgresql-upgrade-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202021469012",
+      "ID": "oval:com.redhat.unaffected:tst:202021469022",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -100775,22 +100840,11 @@
     {
       "Check": "at least one",
       "Comment": "postgresql-static is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202021469022",
+      "ID": "oval:com.redhat.unaffected:tst:202021469026",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:20232454001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "postgresql-docs is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202021469028",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232454013"
       },
       "State": {}
     },
@@ -109308,7 +109362,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-devel is installed",
+      "Comment": "elfutils-default-yama-scope is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294001",
       "Version": "635",
       "Object": {
@@ -109318,7 +109372,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-devel is not installed",
+      "Comment": "elfutils-default-yama-scope is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294002",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109329,7 +109383,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-debuginfod-client-devel is installed",
+      "Comment": "elfutils-debuginfod is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294003",
       "Version": "635",
       "Object": {
@@ -109339,7 +109393,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-debuginfod-client-devel is not installed",
+      "Comment": "elfutils-debuginfod is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294004",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109350,7 +109404,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-debuginfod-client is installed",
+      "Comment": "elfutils-libelf-devel is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294005",
       "Version": "635",
       "Object": {
@@ -109360,7 +109414,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-debuginfod-client is not installed",
+      "Comment": "elfutils-libelf-devel is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294006",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109371,7 +109425,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-debuginfod is installed",
+      "Comment": "elfutils-libs is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294007",
       "Version": "635",
       "Object": {
@@ -109381,7 +109435,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-debuginfod is not installed",
+      "Comment": "elfutils-libs is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294008",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109392,7 +109446,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils is installed",
+      "Comment": "elfutils-devel is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294009",
       "Version": "635",
       "Object": {
@@ -109402,7 +109456,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils is not installed",
+      "Comment": "elfutils-devel is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294010",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109413,7 +109467,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-libs is installed",
+      "Comment": "elfutils-debuginfod-client is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294011",
       "Version": "635",
       "Object": {
@@ -109423,7 +109477,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-libs is not installed",
+      "Comment": "elfutils-debuginfod-client is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294012",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109434,7 +109488,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-default-yama-scope is installed",
+      "Comment": "elfutils-libelf is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294013",
       "Version": "635",
       "Object": {
@@ -109444,7 +109498,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-default-yama-scope is not installed",
+      "Comment": "elfutils-libelf is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294014",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109455,7 +109509,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-libelf is installed",
+      "Comment": "elfutils is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294015",
       "Version": "635",
       "Object": {
@@ -109465,7 +109519,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-libelf is not installed",
+      "Comment": "elfutils is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294016",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -109476,7 +109530,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-libelf-devel is installed",
+      "Comment": "elfutils-debuginfod-client-devel is installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294017",
       "Version": "635",
       "Object": {
@@ -109486,7 +109540,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "elfutils-libelf-devel is not installed",
+      "Comment": "elfutils-debuginfod-client-devel is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202133294018",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -113447,32 +113501,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "jss is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20214213001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20214213001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "jss is not installed",
       "ID": "oval:com.redhat.unaffected:tst:20214213002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20214213001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "idm-jss is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20214213003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20214213002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20224132003"
       },
       "State": {}
     },
@@ -113483,7 +113517,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20214213002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20224132001"
       },
       "State": {}
     },
