@@ -10041,24 +10041,44 @@
       "Name": "mutt"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235129002",
-      "Version": "636",
-      "Name": "libwebp"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20235129004",
-      "Version": "636",
-      "Name": "libwebp-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20235129005",
-      "Version": "636",
-      "Name": "libwebp-tools"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20235157004",
       "Version": "636",
       "Name": "galera"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215001",
+      "Version": "636",
+      "Name": "libnbd-bash-completion"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215002",
+      "Version": "636",
+      "Name": "libnbd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215003",
+      "Version": "636",
+      "Name": "nbdfuse"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215004",
+      "Version": "636",
+      "Name": "ocaml-libnbd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215005",
+      "Version": "636",
+      "Name": "libnbd-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215006",
+      "Version": "636",
+      "Name": "python3-libnbd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235215007",
+      "Version": "636",
+      "Name": "ocaml-libnbd-devel"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20228256001",
@@ -11216,6 +11236,16 @@
       "Name": "kpatch-patch-5_14_0-162_22_2"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20232078001",
+      "Version": "638",
+      "Name": "libwebp"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232078002",
+      "Version": "638",
+      "Name": "libwebp-devel"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20232166001",
       "Version": "636",
       "Name": "freeradius"
@@ -11684,6 +11714,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20235093007",
       "Version": "639",
       "Name": "kpatch-patch-5_14_0-284_25_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20235214003",
+      "Version": "636",
+      "Name": "libwebp-tools"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20020059002",
@@ -12889,41 +12924,6 @@
       "ID": "oval:com.redhat.unaffected:obj:202120270001",
       "Version": "635",
       "Name": "python3-pygments"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286001",
-      "Version": "635",
-      "Name": "libnbd-bash-completion"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286002",
-      "Version": "635",
-      "Name": "libnbd"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286003",
-      "Version": "635",
-      "Name": "ocaml-libnbd-devel"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286004",
-      "Version": "635",
-      "Name": "nbdfuse"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286005",
-      "Version": "635",
-      "Name": "python3-libnbd"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286006",
-      "Version": "635",
-      "Name": "ocaml-libnbd"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202120286007",
-      "Version": "635",
-      "Name": "libnbd-devel"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202120305001",
