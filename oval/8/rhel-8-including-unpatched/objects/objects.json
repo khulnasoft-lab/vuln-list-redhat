@@ -11921,6 +11921,16 @@
       "Name": "ocaml-libnbd-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20235217002",
+      "Version": "636",
+      "Name": "libvpx-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235217003",
+      "Version": "636",
+      "Name": "libvpx"
+    },
+    {
       "ID": "oval:com.redhat.rhba:obj:20193416001",
       "Version": "637",
       "Name": "apache-commons-collections"
@@ -15524,16 +15534,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20204628002",
       "Version": "637",
       "Name": "libcmis"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20204629001",
-      "Version": "636",
-      "Name": "libvpx"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20204629002",
-      "Version": "636",
-      "Name": "libvpx-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20204649001",

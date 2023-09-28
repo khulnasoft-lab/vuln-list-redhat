@@ -5698,87 +5698,87 @@
     {
       "ID": "oval:com.redhat.cve:obj:202227635001",
       "Version": "636",
-      "Name": "linux-firmware-whence"
+      "Name": "netronome-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635002",
       "Version": "636",
-      "Name": "iwl6000g2a-firmware"
+      "Name": "iwl2030-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635003",
       "Version": "636",
-      "Name": "iwl6000g2b-firmware"
+      "Name": "iwl3160-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635004",
       "Version": "636",
-      "Name": "iwl2000-firmware"
+      "Name": "iwl105-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635005",
       "Version": "636",
-      "Name": "iwl2030-firmware"
+      "Name": "iwl6000g2a-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635006",
       "Version": "636",
-      "Name": "iwl5150-firmware"
+      "Name": "iwl5000-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635007",
       "Version": "636",
-      "Name": "iwl7260-firmware"
+      "Name": "iwl2000-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635008",
       "Version": "636",
-      "Name": "iwl1000-firmware"
+      "Name": "iwl6050-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635009",
       "Version": "636",
-      "Name": "iwl3160-firmware"
+      "Name": "iwl135-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635010",
       "Version": "636",
-      "Name": "linux-firmware"
+      "Name": "libertas-sd8787-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635011",
       "Version": "636",
-      "Name": "iwl105-firmware"
+      "Name": "iwl100-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635012",
       "Version": "636",
-      "Name": "iwl135-firmware"
+      "Name": "linux-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635013",
       "Version": "636",
-      "Name": "iwl100-firmware"
+      "Name": "iwl6000g2b-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635014",
       "Version": "636",
-      "Name": "iwl6050-firmware"
+      "Name": "iwl7260-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635015",
       "Version": "636",
-      "Name": "iwl5000-firmware"
+      "Name": "linux-firmware-whence"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635016",
       "Version": "636",
-      "Name": "netronome-firmware"
+      "Name": "iwl1000-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227635017",
       "Version": "636",
-      "Name": "libertas-sd8787-firmware"
+      "Name": "iwl5150-firmware"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227943001",
@@ -10079,6 +10079,16 @@
       "ID": "oval:com.redhat.cve:obj:20235215007",
       "Version": "636",
       "Name": "ocaml-libnbd-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235217001",
+      "Version": "636",
+      "Name": "libvpx-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235217005",
+      "Version": "636",
+      "Name": "libvpx"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20228256001",
