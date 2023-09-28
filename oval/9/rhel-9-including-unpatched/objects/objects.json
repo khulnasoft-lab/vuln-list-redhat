@@ -4258,17 +4258,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202125786001",
       "Version": "636",
-      "Name": "qpdf"
+      "Name": "qpdf-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202125786002",
       "Version": "636",
-      "Name": "qpdf-devel"
+      "Name": "qpdf"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202125786003",
       "Version": "636",
-      "Name": "qpdf-libs"
+      "Name": "qpdf-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202126291001",
@@ -10056,7 +10056,7 @@
       "Name": "libwebp"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235157007",
+      "ID": "oval:com.redhat.cve:obj:20235157004",
       "Version": "636",
       "Name": "galera"
     },

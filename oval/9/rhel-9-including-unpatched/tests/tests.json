@@ -18724,7 +18724,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "qpdf is installed",
+      "Comment": "qpdf-libs is installed",
       "ID": "oval:com.redhat.cve:tst:202125786001",
       "Version": "636",
       "Object": {
@@ -18734,7 +18734,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "qpdf is signed with Red Hat redhatrelease2 key",
+      "Comment": "qpdf-libs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202125786002",
       "Version": "636",
       "Object": {
@@ -18746,7 +18746,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "qpdf-devel is installed",
+      "Comment": "qpdf is installed",
       "ID": "oval:com.redhat.cve:tst:202125786003",
       "Version": "636",
       "Object": {
@@ -18756,7 +18756,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "qpdf-devel is signed with Red Hat redhatrelease2 key",
+      "Comment": "qpdf is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202125786004",
       "Version": "636",
       "Object": {
@@ -18768,7 +18768,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "qpdf-libs is installed",
+      "Comment": "qpdf-devel is installed",
       "ID": "oval:com.redhat.cve:tst:202125786005",
       "Version": "636",
       "Object": {
@@ -18778,7 +18778,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "qpdf-libs is signed with Red Hat redhatrelease2 key",
+      "Comment": "qpdf-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202125786006",
       "Version": "636",
       "Object": {
@@ -44245,20 +44245,20 @@
     {
       "Check": "at least one",
       "Comment": "galera is installed",
-      "ID": "oval:com.redhat.cve:tst:20235157013",
+      "ID": "oval:com.redhat.cve:tst:20235157007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235157007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235157004"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "galera is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20235157014",
+      "ID": "oval:com.redhat.cve:tst:20235157008",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235157007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235157004"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -111740,7 +111740,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202125786002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202125786003"
       },
       "State": {}
     },
@@ -111751,7 +111751,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202125786001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202125786002"
       },
       "State": {}
     },
@@ -111762,7 +111762,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202125786003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202125786001"
       },
       "State": {}
     },
