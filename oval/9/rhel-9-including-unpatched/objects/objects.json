@@ -4383,17 +4383,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202129390001",
       "Version": "636",
-      "Name": "libjpeg-turbo-devel"
+      "Name": "turbojpeg-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202129390002",
       "Version": "636",
-      "Name": "turbojpeg"
+      "Name": "libjpeg-turbo-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202129390003",
       "Version": "636",
-      "Name": "turbojpeg-devel"
+      "Name": "libjpeg-turbo-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202129390004",
@@ -4403,7 +4403,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202129390005",
       "Version": "636",
-      "Name": "libjpeg-turbo-utils"
+      "Name": "turbojpeg"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202129923001",
@@ -7273,17 +7273,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20231667001",
       "Version": "636",
-      "Name": "libssh-devel"
+      "Name": "libssh"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20231667002",
       "Version": "636",
-      "Name": "libssh-config"
+      "Name": "libssh-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20231667003",
       "Version": "636",
-      "Name": "libssh"
+      "Name": "libssh-config"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20231672001",
@@ -8721,14 +8721,14 @@
       "Name": "libreswan"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339128002",
+      "ID": "oval:com.redhat.cve:obj:202339128001",
       "Version": "636",
-      "Name": "crash-devel"
+      "Name": "crash"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202339128003",
       "Version": "636",
-      "Name": "crash"
+      "Name": "crash-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202339350001",
@@ -10048,47 +10048,47 @@
     {
       "ID": "oval:com.redhat.cve:obj:20235215001",
       "Version": "636",
-      "Name": "libnbd-bash-completion"
+      "Name": "ocaml-libnbd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215002",
       "Version": "636",
-      "Name": "libnbd"
+      "Name": "ocaml-libnbd-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215003",
       "Version": "636",
-      "Name": "nbdfuse"
+      "Name": "libnbd-bash-completion"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215004",
       "Version": "636",
-      "Name": "ocaml-libnbd"
+      "Name": "libnbd-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215005",
       "Version": "636",
-      "Name": "libnbd-devel"
+      "Name": "libnbd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215006",
       "Version": "636",
-      "Name": "python3-libnbd"
+      "Name": "nbdfuse"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215007",
       "Version": "636",
-      "Name": "ocaml-libnbd-devel"
+      "Name": "python3-libnbd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235217001",
       "Version": "636",
-      "Name": "libvpx-devel"
+      "Name": "libvpx"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235217005",
+      "ID": "oval:com.redhat.cve:obj:20235217004",
       "Version": "636",
-      "Name": "libvpx"
+      "Name": "libvpx-devel"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20228256001",
