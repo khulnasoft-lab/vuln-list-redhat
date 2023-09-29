@@ -44354,21 +44354,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libvpx is installed",
-      "ID": "oval:com.redhat.cve:tst:20235217001",
+      "Comment": "libvpx-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:20235217003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235217001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235217002"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "libvpx is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20235217002",
+      "Comment": "libvpx-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235217004",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235217001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235217002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -44376,7 +44376,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libvpx-devel is installed",
+      "Comment": "libvpx is installed",
       "ID": "oval:com.redhat.cve:tst:20235217007",
       "Version": "636",
       "Object": {
@@ -44386,7 +44386,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libvpx-devel is signed with Red Hat redhatrelease2 key",
+      "Comment": "libvpx is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20235217008",
       "Version": "636",
       "Object": {

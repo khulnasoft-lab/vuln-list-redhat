@@ -10081,14 +10081,14 @@
       "Name": "python3-libnbd"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235217001",
+      "ID": "oval:com.redhat.cve:obj:20235217002",
       "Version": "636",
-      "Name": "libvpx"
+      "Name": "libvpx-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235217004",
       "Version": "636",
-      "Name": "libvpx-devel"
+      "Name": "libvpx"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20228256001",
