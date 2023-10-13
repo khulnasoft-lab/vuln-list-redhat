@@ -8881,32 +8881,32 @@
       "Name": "python3.11-urllib3"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487016",
-      "Version": "636",
-      "Name": "varnish-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487025",
-      "Version": "636",
-      "Name": "libnghttp2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487033",
-      "Version": "636",
-      "Name": "nghttp2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487035",
+      "ID": "oval:com.redhat.cve:obj:202344487015",
       "Version": "636",
       "Name": "varnish-docs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487039",
+      "ID": "oval:com.redhat.cve:obj:202344487018",
+      "Version": "636",
+      "Name": "libnghttp2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202344487023",
+      "Version": "636",
+      "Name": "varnish-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202344487035",
       "Version": "636",
       "Name": "libnghttp2-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487055",
+      "ID": "oval:com.redhat.cve:obj:202344487041",
+      "Version": "636",
+      "Name": "nghttp2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202344487050",
       "Version": "636",
       "Name": "varnish"
     },

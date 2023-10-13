@@ -10786,17 +10786,17 @@
       "Name": "python-podman"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487007",
-      "Version": "636",
-      "Name": "libnghttp2-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487028",
+      "ID": "oval:com.redhat.cve:obj:202344487012",
       "Version": "636",
       "Name": "libnghttp2"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487031",
+      "ID": "oval:com.redhat.cve:obj:202344487025",
+      "Version": "636",
+      "Name": "libnghttp2-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202344487030",
       "Version": "636",
       "Name": "nghttp2"
     },
@@ -10808,7 +10808,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202344487073",
       "Version": "636",
-      "Name": "varnish-docs"
+      "Name": "varnish-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344487074",
@@ -10818,7 +10818,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202344487075",
       "Version": "636",
-      "Name": "varnish-modules"
+      "Name": "varnish-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234641001",
