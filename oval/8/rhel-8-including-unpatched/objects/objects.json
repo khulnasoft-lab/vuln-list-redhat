@@ -1523,27 +1523,27 @@
     {
       "ID": "oval:com.redhat.cve:obj:20181000876001",
       "Version": "636",
-      "Name": "mingw64-binutils"
+      "Name": "binutils-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20181000876002",
       "Version": "636",
-      "Name": "binutils"
+      "Name": "mingw64-binutils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20181000876003",
       "Version": "636",
-      "Name": "mingw-binutils-generic"
+      "Name": "mingw32-binutils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20181000876004",
       "Version": "636",
-      "Name": "mingw32-binutils"
+      "Name": "binutils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20181000876005",
       "Version": "636",
-      "Name": "binutils-devel"
+      "Name": "mingw-binutils-generic"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20181000876006",
@@ -8301,7 +8301,7 @@
       "Name": "gmp-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202145078004",
+      "ID": "oval:com.redhat.cve:obj:202145078002",
       "Version": "636",
       "Name": "gcc-toolset-11-binutils"
     },
@@ -8976,14 +8976,14 @@
       "Name": "pidgin-debugsource"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202227664001",
-      "Version": "636",
-      "Name": "toolbox"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202227664002",
+      "ID": "oval:com.redhat.cve:obj:202227664003",
       "Version": "636",
       "Name": "toolbox-tests"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202227664004",
+      "Version": "636",
+      "Name": "toolbox"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227943002",
@@ -9966,24 +9966,24 @@
       "Name": "python3-sssdconfig"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20224285002",
-      "Version": "636",
-      "Name": "gcc-toolset-11-gdb"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20224285003",
+      "ID": "oval:com.redhat.cve:obj:20224285001",
       "Version": "636",
       "Name": "gcc-toolset-11-gdb-gdbserver"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20224285004",
+      "ID": "oval:com.redhat.cve:obj:20224285005",
       "Version": "636",
-      "Name": "gcc-toolset-11-gdb-doc"
+      "Name": "gcc-toolset-12-gdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20224285006",
       "Version": "636",
-      "Name": "gcc-toolset-12-gdb"
+      "Name": "gcc-toolset-11-gdb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20224285008",
+      "Version": "636",
+      "Name": "gcc-toolset-11-gdb-doc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244638001",
@@ -10786,39 +10786,39 @@
       "Name": "python-podman"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487012",
+      "ID": "oval:com.redhat.cve:obj:202344487006",
       "Version": "636",
       "Name": "libnghttp2"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487025",
+      "ID": "oval:com.redhat.cve:obj:202344487010",
       "Version": "636",
       "Name": "libnghttp2-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487030",
+      "ID": "oval:com.redhat.cve:obj:202344487045",
       "Version": "636",
       "Name": "nghttp2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344487072",
       "Version": "636",
-      "Name": "varnish-devel"
+      "Name": "varnish"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344487073",
       "Version": "636",
-      "Name": "varnish-modules"
+      "Name": "varnish-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344487074",
       "Version": "636",
-      "Name": "varnish"
+      "Name": "varnish-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344487075",
       "Version": "636",
-      "Name": "varnish-docs"
+      "Name": "varnish-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234641001",
