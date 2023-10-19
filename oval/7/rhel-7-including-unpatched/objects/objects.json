@@ -11906,6 +11906,51 @@
       "Name": "libwebp"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:201825091001",
+      "Version": "636",
+      "Name": "resource-agents-aliyun"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091002",
+      "Version": "636",
+      "Name": "resource-agents-gcp"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091003",
+      "Version": "636",
+      "Name": "resource-agents"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091006",
+      "Version": "636",
+      "Name": "resource-agents-sap"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091007",
+      "Version": "636",
+      "Name": "sap-cluster-connector"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091008",
+      "Version": "636",
+      "Name": "resource-agents-sap-hana"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091009",
+      "Version": "636",
+      "Name": "resource-agents-sap-hana-scaleout"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091010",
+      "Version": "636",
+      "Name": "python-urllib3"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091011",
+      "Version": "636",
+      "Name": "python-s3transfer"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20185389001",
       "Version": "636",
       "Name": "libreswan"
@@ -13591,41 +13636,6 @@
       "Name": "kexec-tools-eppic"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202120270001",
-      "Version": "636",
-      "Name": "resource-agents-gcp"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202120270002",
-      "Version": "636",
-      "Name": "resource-agents-sap"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202120270003",
-      "Version": "636",
-      "Name": "resource-agents"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202120270004",
-      "Version": "636",
-      "Name": "sap-cluster-connector"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202120270005",
-      "Version": "636",
-      "Name": "resource-agents-sap-hana"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202120270006",
-      "Version": "636",
-      "Name": "resource-agents-aliyun"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202120270007",
-      "Version": "636",
-      "Name": "resource-agents-sap-hana-scaleout"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202120291001",
       "Version": "636",
       "Name": "skopeo"
@@ -15098,12 +15108,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20233153002",
       "Version": "636",
-      "Name": "ovn2.11"
+      "Name": "ovn2.13"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20233153003",
       "Version": "636",
-      "Name": "ovn2.13"
+      "Name": "ovn2.11"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202333461001",
@@ -15133,22 +15143,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202337460001",
       "Version": "636",
-      "Name": "plexus-archiver-javadoc"
+      "Name": "plexus-archiver"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202337460002",
       "Version": "636",
-      "Name": "plexus-archiver"
+      "Name": "plexus-archiver-javadoc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202337732001",
       "Version": "636",
       "Name": "yasm"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202339325001",
-      "Version": "636",
-      "Name": "rhc-worker-script"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202339976001",
@@ -15181,14 +15186,29 @@
       "Name": "gawk"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804001",
+      "ID": "oval:com.redhat.cve:obj:202345853001",
       "Version": "636",
-      "Name": "python-s3transfer"
+      "Name": "minizip-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804011",
+      "ID": "oval:com.redhat.cve:obj:202345853002",
       "Version": "636",
-      "Name": "python-urllib3"
+      "Name": "minizip"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202345853003",
+      "Version": "636",
+      "Name": "zlib-static"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202345853004",
+      "Version": "636",
+      "Name": "zlib-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202345853005",
+      "Version": "636",
+      "Name": "zlib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234641001",
@@ -19936,31 +19956,6 @@
       "Name": "gzip"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20222213001",
-      "Version": "635",
-      "Name": "minizip"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20222213002",
-      "Version": "635",
-      "Name": "minizip-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20222213003",
-      "Version": "635",
-      "Name": "zlib"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20222213004",
-      "Version": "635",
-      "Name": "zlib-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20222213005",
-      "Version": "635",
-      "Name": "zlib-static"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20224655013",
       "Version": "634",
       "Name": "kpatch-patch-3_10_0-1160_62_1"
@@ -20119,6 +20114,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20235574009",
       "Version": "637",
       "Name": "kpatch-patch-3_10_0-1160_99_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20235835001",
+      "Version": "636",
+      "Name": "rhc-worker-script"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20052991001",

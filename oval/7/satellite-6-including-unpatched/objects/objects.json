@@ -603,12 +603,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202240899002",
       "Version": "636",
-      "Name": "python2-future"
+      "Name": "python3-future"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240899003",
       "Version": "636",
-      "Name": "python3-future"
+      "Name": "python2-future"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240899004",
@@ -691,12 +691,12 @@
       "Name": "tfm-rubygem-activesupport"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339325001",
+      "ID": "oval:com.redhat.cve:obj:202339325003",
       "Version": "636",
       "Name": "satellite_client_6/yggdrasil"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339325002",
+      "ID": "oval:com.redhat.cve:obj:202339325005",
       "Version": "636",
       "Name": "satellite_client_6/foreman_ygg_worker"
     },
@@ -839,6 +839,11 @@
       "ID": "oval:com.redhat.unaffected:obj:201814643001",
       "Version": "635",
       "Name": "tfm-rubygem-smart_proxy_dynflow_core"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201825091001",
+      "Version": "635",
+      "Name": "ansiblerole-foreman_scap_client"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20187212002",
@@ -1016,11 +1021,6 @@
       "Name": "jsoup"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202236087001",
-      "Version": "635",
-      "Name": "ansiblerole-foreman_scap_client"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:202237866001",
       "Version": "635",
       "Name": "apache-ivy"
@@ -1078,12 +1078,12 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:202338325001",
       "Version": "635",
-      "Name": "python-cryptography"
+      "Name": "python3-cryptography"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202338325003",
+      "ID": "oval:com.redhat.unaffected:obj:202338325002",
       "Version": "635",
-      "Name": "python3-cryptography"
+      "Name": "python-cryptography"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202340590002",

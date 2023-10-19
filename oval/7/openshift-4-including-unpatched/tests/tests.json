@@ -553,20 +553,20 @@
     {
       "Check": "at least one",
       "Comment": "atomic-enterprise-service-catalog is installed",
-      "ID": "oval:com.redhat.cve:tst:202138561003",
+      "ID": "oval:com.redhat.cve:tst:202138561001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202138561002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202138561001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "atomic-enterprise-service-catalog is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202138561004",
+      "ID": "oval:com.redhat.cve:tst:202138561002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202138561002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202138561001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -663,20 +663,20 @@
     {
       "Check": "at least one",
       "Comment": "ignition is installed",
-      "ID": "oval:com.redhat.cve:tst:20221705013",
+      "ID": "oval:com.redhat.cve:tst:20221705011",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221705007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221705006"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "ignition is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20221705014",
+      "ID": "oval:com.redhat.cve:tst:20221705012",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221705007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221705006"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -685,20 +685,20 @@
     {
       "Check": "at least one",
       "Comment": "butane is installed",
-      "ID": "oval:com.redhat.cve:tst:20221705019",
+      "ID": "oval:com.redhat.cve:tst:20221705015",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221705010"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221705008"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "butane is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20221705020",
+      "ID": "oval:com.redhat.cve:tst:20221705016",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221705010"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221705008"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1037,20 +1037,20 @@
     {
       "Check": "at least one",
       "Comment": "sandboxed-containers is installed",
-      "ID": "oval:com.redhat.cve:tst:202329409015",
+      "ID": "oval:com.redhat.cve:tst:202329409001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202329409001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "sandboxed-containers is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329409016",
+      "ID": "oval:com.redhat.cve:tst:202329409002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202329409001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1124,7 +1124,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ovn22.09 is installed",
+      "Comment": "ovn23.03 is installed",
       "ID": "oval:com.redhat.cve:tst:20233153001",
       "Version": "636",
       "Object": {
@@ -1134,7 +1134,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ovn22.09 is signed with Red Hat redhatrelease2 key",
+      "Comment": "ovn23.03 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20233153002",
       "Version": "636",
       "Object": {
@@ -1146,7 +1146,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ovn22.03 is installed",
+      "Comment": "ovn22.12 is installed",
       "ID": "oval:com.redhat.cve:tst:20233153003",
       "Version": "636",
       "Object": {
@@ -1156,143 +1156,11 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ovn22.03 is signed with Red Hat redhatrelease2 key",
+      "Comment": "ovn22.12 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20233153004",
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:20233153002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn21.09 is installed",
-      "ID": "oval:com.redhat.cve:tst:20233153005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn21.09 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20233153006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn-2021 is installed",
-      "ID": "oval:com.redhat.cve:tst:20233153007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn-2021 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20233153008",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn22.06 is installed",
-      "ID": "oval:com.redhat.cve:tst:20233153009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn22.06 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20233153010",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn23.03 is installed",
-      "ID": "oval:com.redhat.cve:tst:20233153011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn23.03 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20233153012",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn22.12 is installed",
-      "ID": "oval:com.redhat.cve:tst:20233153013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153007"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn22.12 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20233153014",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153007"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn21.12 is installed",
-      "ID": "oval:com.redhat.cve:tst:20233153015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ovn21.12 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20233153016",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20233153008"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1782,7 +1650,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221705007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221705006"
       },
       "State": {}
     },
@@ -1804,7 +1672,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202138561002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202138561001"
       },
       "State": {}
     },
@@ -2008,7 +1876,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221705010"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221705008"
       },
       "State": {}
     },

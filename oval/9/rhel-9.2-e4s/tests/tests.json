@@ -65040,6 +65040,1602 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20235689004"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "aspnetcore-runtime-6.0 is earlier than 0:6.0.23-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "aspnetcore-targeting-pack-6.0 is earlier than 0:6.0.23-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-apphost-pack-6.0 is earlier than 0:6.0.23-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-hostfxr-6.0 is earlier than 0:6.0.23-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-runtime-6.0 is earlier than 0:6.0.23-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-sdk-6.0 is earlier than 0:6.0.123-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-sdk-6.0-source-built-artifacts is earlier than 0:6.0.123-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-targeting-pack-6.0 is earlier than 0:6.0.23-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-templates-6.0 is earlier than 0:6.0.123-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235708017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235708003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-all-modules is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-all-modules is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-core is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-core is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-filesystem is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-filesystem is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-devel is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-http-image-filter is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-http-image-filter is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-http-perl is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-http-perl is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711014",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-http-xslt-filter is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-http-xslt-filter is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711016",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-mail is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-mail is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711018",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-stream is earlier than 1:1.20.1-14.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235711019",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235711001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nginx-mod-stream is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235711020",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235711010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-fastdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-slowdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733007",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733009",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-fastdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733011",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-slowdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733013",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-fastdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733015",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733017",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-fastdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733019",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-slowdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733021",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733023",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc-zip is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733025",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-slowdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733027",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733029",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-fastdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733031",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-slowdebug is earlier than 1:1.8.0.392.b08-3.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235733033",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235733003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-bin is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-docs is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-misc is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-race is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-src is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-tests is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "go-toolset is earlier than 0:1.19.13-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235738015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225799008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235738001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744021",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744023",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc-zip is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744025",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744027",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744029",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744031",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744033",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744035",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744037",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744039",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744041",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-fastdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744043",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-slowdebug is earlier than 1:11.0.21.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235744045",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221728023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235744001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "aspnetcore-runtime-7.0 is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "aspnetcore-targeting-pack-7.0 is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-apphost-pack-7.0 is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-host is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-hostfxr-7.0 is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-runtime-7.0 is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-sdk-7.0 is earlier than 0:7.0.112-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749013",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-sdk-7.0-source-built-artifacts is earlier than 0:7.0.112-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749015",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-targeting-pack-7.0 is earlier than 0:7.0.12-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749017",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "dotnet-templates-7.0 is earlier than 0:7.0.112-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749019",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228434010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "netstandard-targeting-pack-2.1 is earlier than 0:7.0.112-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235749021",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20225749011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235749003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753001",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753003",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753005",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753007",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753009",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753011",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753013",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753015",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753017",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753019",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753021",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-javadoc is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753023",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-javadoc-zip is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753025",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753027",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753029",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753031",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753033",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753035",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753037",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753039",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753041",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs-fastdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753043",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs-slowdebug is earlier than 1:17.0.9.0.9-2.el9",
+      "ID": "oval:com.redhat.rhsa:tst:20235753045",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235753001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "curl is earlier than 0:7.76.1-23.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20235763001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225245001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235763001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "curl-minimal is earlier than 0:7.76.1-23.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20235763003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225245002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235763001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcurl is earlier than 0:7.76.1-23.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20235763005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225245003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235763003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcurl-devel is earlier than 0:7.76.1-23.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20235763007",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225245004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235763003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcurl-minimal is earlier than 0:7.76.1-23.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20235763009",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225245005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235763003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs is earlier than 1:16.20.2-3.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235765001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235765001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-docs is earlier than 1:16.20.2-3.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235765003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235765003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-full-i18n is earlier than 1:16.20.2-3.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235765005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235765001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-libs is earlier than 1:16.20.2-3.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235765007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235765004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "npm is earlier than 1:8.19.4-1.16.20.2.3.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235765009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235765005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnghttp2 is earlier than 0:1.43.0-5.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235838001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235838001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235838001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnghttp2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235838002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235838001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnghttp2-devel is earlier than 0:1.43.0-5.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235838003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235838002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235838001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnghttp2-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235838004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235838002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nghttp2 is earlier than 0:1.43.0-5.el9_2.1",
+      "ID": "oval:com.redhat.rhsa:tst:20235838005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235838003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235838003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nghttp2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20235838006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20235838003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs is earlier than 1:18.18.2-2.module+el9.2.0.z+20408+7cb5fda5",
+      "ID": "oval:com.redhat.rhsa:tst:20235849001",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235849001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-devel is earlier than 1:18.18.2-2.module+el9.2.0.z+20408+7cb5fda5",
+      "ID": "oval:com.redhat.rhsa:tst:20235849003",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228832002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235849001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-docs is earlier than 1:18.18.2-2.module+el9.2.0.z+20408+7cb5fda5",
+      "ID": "oval:com.redhat.rhsa:tst:20235849005",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235849003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "nodejs-full-i18n is earlier than 1:18.18.2-2.module+el9.2.0.z+20408+7cb5fda5",
+      "ID": "oval:com.redhat.rhsa:tst:20235849007",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235849001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "npm is earlier than 1:9.8.1-1.18.18.2.2.module+el9.2.0.z+20408+7cb5fda5",
+      "ID": "oval:com.redhat.rhsa:tst:20235849015",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226595005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235849006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "grafana is earlier than 0:9.0.9-4.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20235867001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225716001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20235867001"
+      }
     }
   ],
   "RpmverifyfileTests": [

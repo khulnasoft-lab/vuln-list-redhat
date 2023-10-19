@@ -2741,6 +2741,41 @@
       "Name": "openjpeg2-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:201825091001",
+      "Version": "636",
+      "Name": "python3.11-pip"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091002",
+      "Version": "636",
+      "Name": "python3-urllib3"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091006",
+      "Version": "636",
+      "Name": "python3.11-pip-wheel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091009",
+      "Version": "636",
+      "Name": "python-podman"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091010",
+      "Version": "636",
+      "Name": "python3-podman"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091018",
+      "Version": "636",
+      "Name": "python2-pip-wheel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091019",
+      "Version": "636",
+      "Name": "python2-pip"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20182773001",
       "Version": "636",
       "Name": "mariadb-common"
@@ -4306,16 +4341,6 @@
       "Name": "sqlite-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:201919450001",
-      "Version": "636",
-      "Name": "python-reportlab"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201919450002",
-      "Version": "636",
-      "Name": "python3-reportlab"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:201919921001",
       "Version": "636",
       "Name": "runc-debugsource"
@@ -5236,16 +5261,6 @@
       "Name": "python-ipaddress"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202014422003",
-      "Version": "636",
-      "Name": "python2-pip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202014422004",
-      "Version": "636",
-      "Name": "python2-pip-wheel"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202015250001",
       "Version": "636",
       "Name": "junit"
@@ -5491,22 +5506,22 @@
       "Name": "ant-manual"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202019724003",
+      "ID": "oval:com.redhat.cve:obj:202019724001",
       "Version": "636",
       "Name": "gdb-gdbserver"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202019724004",
+      "ID": "oval:com.redhat.cve:obj:202019724002",
+      "Version": "636",
+      "Name": "gdb-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202019724003",
       "Version": "636",
       "Name": "gdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202019724005",
-      "Version": "636",
-      "Name": "gdb-doc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202019724006",
       "Version": "636",
       "Name": "gdb-headless"
     },
@@ -5994,6 +6009,16 @@
       "ID": "oval:com.redhat.cve:obj:202028362013",
       "Version": "636",
       "Name": "grafana-stackdriver"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202028463001",
+      "Version": "636",
+      "Name": "python3-reportlab"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202028463002",
+      "Version": "636",
+      "Name": "python-reportlab"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202029651001",
@@ -7998,17 +8023,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202138561001",
       "Version": "636",
-      "Name": "osbuild-composer-worker"
+      "Name": "osbuild-composer-core"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202138561002",
       "Version": "636",
-      "Name": "osbuild-composer-core"
+      "Name": "osbuild-composer-dnf-json"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202138561003",
       "Version": "636",
-      "Name": "osbuild-composer-dnf-json"
+      "Name": "osbuild-composer-worker"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202138561004",
@@ -8301,12 +8326,12 @@
       "Name": "gmp-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202145078002",
+      "ID": "oval:com.redhat.cve:obj:202145078003",
       "Version": "636",
       "Name": "gcc-toolset-11-binutils"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202145078011",
+      "ID": "oval:com.redhat.cve:obj:202145078012",
       "Version": "636",
       "Name": "gcc-toolset-11-binutils-devel"
     },
@@ -9796,7 +9821,7 @@
       "Name": "oci-seccomp-bpf-hook"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241723002",
+      "ID": "oval:com.redhat.cve:obj:202241723020",
       "Version": "636",
       "Name": "git-lfs"
     },
@@ -10506,56 +10531,6 @@
       "Name": "pandoc-common"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202336435001",
-      "Version": "636",
-      "Name": "dotnet-hostfxr-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435003",
-      "Version": "636",
-      "Name": "dotnet-sdk-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435004",
-      "Version": "636",
-      "Name": "dotnet-runtime-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435007",
-      "Version": "636",
-      "Name": "dotnet-apphost-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435012",
-      "Version": "636",
-      "Name": "aspnetcore-targeting-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435015",
-      "Version": "636",
-      "Name": "dotnet7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435017",
-      "Version": "636",
-      "Name": "aspnetcore-runtime-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435018",
-      "Version": "636",
-      "Name": "dotnet-sdk-7.0-source-built-artifacts"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435020",
-      "Version": "636",
-      "Name": "dotnet-templates-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202336435023",
-      "Version": "636",
-      "Name": "dotnet-targeting-pack-7.0"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202337732001",
       "Version": "636",
       "Name": "yasm"
@@ -10761,11 +10736,6 @@
       "Name": "libXpm"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804017",
-      "Version": "636",
-      "Name": "python3-urllib3"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202343804030",
       "Version": "636",
       "Name": "python3.11-urllib3"
@@ -10776,49 +10746,39 @@
       "Name": "fence-agents-openstack"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804059",
-      "Version": "636",
-      "Name": "python-podman"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202343804060",
-      "Version": "636",
-      "Name": "python3-podman"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487011",
-      "Version": "636",
-      "Name": "libnghttp2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487024",
-      "Version": "636",
-      "Name": "libnghttp2-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487029",
-      "Version": "636",
-      "Name": "nghttp2"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487071",
-      "Version": "636",
-      "Name": "varnish-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202344487072",
+      "ID": "oval:com.redhat.cve:obj:202344487016",
       "Version": "636",
       "Name": "varnish-modules"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487073",
+      "ID": "oval:com.redhat.cve:obj:202344487017",
+      "Version": "636",
+      "Name": "varnish-docs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202344487018",
       "Version": "636",
       "Name": "varnish"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487074",
+      "ID": "oval:com.redhat.cve:obj:202344487019",
       "Version": "636",
-      "Name": "varnish-docs"
+      "Name": "varnish-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202345853001",
+      "Version": "636",
+      "Name": "zlib"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202345853002",
+      "Version": "636",
+      "Name": "zlib-static"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202345853003",
+      "Version": "636",
+      "Name": "zlib-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234641001",
@@ -12629,6 +12589,21 @@
       "ID": "oval:com.redhat.rhsa:obj:20192582002",
       "Version": "637",
       "Name": "pango-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20192692001",
+      "Version": "635",
+      "Name": "libnghttp2"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20192692002",
+      "Version": "635",
+      "Name": "libnghttp2-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20192692003",
+      "Version": "635",
+      "Name": "nghttp2"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722001",
@@ -16611,21 +16586,6 @@
       "Name": "gzip"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20221642001",
-      "Version": "635",
-      "Name": "zlib"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20221642002",
-      "Version": "635",
-      "Name": "zlib-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20221642003",
-      "Version": "635",
-      "Name": "zlib-static"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20221759005",
       "Version": "638",
       "Name": "libguestfs-appliance"
@@ -17024,6 +16984,51 @@
       "ID": "oval:com.redhat.rhsa:obj:20227813004",
       "Version": "636",
       "Name": "mingw64-zlib-static"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826001",
+      "Version": "638",
+      "Name": "aspnetcore-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826002",
+      "Version": "638",
+      "Name": "aspnetcore-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826004",
+      "Version": "638",
+      "Name": "dotnet-apphost-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826006",
+      "Version": "638",
+      "Name": "dotnet-hostfxr-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826007",
+      "Version": "638",
+      "Name": "dotnet-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826008",
+      "Version": "638",
+      "Name": "dotnet-sdk-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826009",
+      "Version": "638",
+      "Name": "dotnet-sdk-7.0-source-built-artifacts"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826010",
+      "Version": "638",
+      "Name": "dotnet-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227826011",
+      "Version": "638",
+      "Name": "dotnet-templates-7.0"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20230087001",
@@ -18869,6 +18874,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20235455008",
       "Version": "638",
       "Name": "glibc-gconv-extra"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20235712004",
+      "Version": "636",
+      "Name": "nginx-mod-devel"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:19990428005",
@@ -20726,6 +20736,11 @@
       "Name": "frr-debugsource"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:202226929001",
+      "Version": "635",
+      "Name": "dotnet7.0"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202226929030",
       "Version": "635",
       "Name": "dotnet7.0-debugsource"
@@ -20874,16 +20889,6 @@
       "ID": "oval:com.redhat.unaffected:obj:20233817002",
       "Version": "635",
       "Name": "openssl-pkcs11"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202343804001",
-      "Version": "635",
-      "Name": "python3.11-pip"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202343804006",
-      "Version": "635",
-      "Name": "python3.11-pip-wheel"
     }
   ],
   "RpmverifyfileObjects": [
@@ -21036,6 +21041,38 @@
       }
     },
     {
+      "ID": "oval:com.redhat.cve:obj:201825091021",
+      "Version": "636",
+      "Filepath": {
+        "Text": "/etc/dnf/modules.d/gimp.module",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "\\[gimp\\][\\w\\W]*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Text": "1",
+        "Datatype": "int"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201825091022",
+      "Version": "636",
+      "Filepath": {
+        "Text": "/etc/dnf/modules.d/inkscape.module",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "\\[inkscape\\][\\w\\W]*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Text": "1",
+        "Datatype": "int"
+      }
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20183750002",
       "Version": "636",
       "Filepath": {
@@ -21164,22 +21201,6 @@
       }
     },
     {
-      "ID": "oval:com.redhat.cve:obj:201925059009",
-      "Version": "636",
-      "Filepath": {
-        "Text": "/etc/dnf/modules.d/gimp.module",
-        "Datatype": "string"
-      },
-      "Pattern": {
-        "Text": "\\[gimp\\][\\w\\W]*",
-        "Operation": "pattern match"
-      },
-      "Instance": {
-        "Text": "1",
-        "Datatype": "int"
-      }
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20196486008",
       "Version": "636",
       "Filepath": {
@@ -21300,22 +21321,6 @@
       },
       "Pattern": {
         "Text": "\\[nkscape\\][\\w\\W]*",
-        "Operation": "pattern match"
-      },
-      "Instance": {
-        "Text": "1",
-        "Datatype": "int"
-      }
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036023011",
-      "Version": "636",
-      "Filepath": {
-        "Text": "/etc/dnf/modules.d/inkscape.module",
-        "Datatype": "string"
-      },
-      "Pattern": {
-        "Text": "\\[inkscape\\][\\w\\W]*",
         "Operation": "pattern match"
       },
       "Instance": {
@@ -21516,7 +21521,7 @@
       }
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202344487075",
+      "ID": "oval:com.redhat.cve:obj:202344487020",
       "Version": "636",
       "Filepath": {
         "Text": "/etc/dnf/modules.d/varnish.module",
