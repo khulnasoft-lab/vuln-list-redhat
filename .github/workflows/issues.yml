@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.5.0
         with:
-          project-url: https://github.com/orgs/khulnasoft-lab/projects/14
+          project-url: https://github.com/orgs/khulnasoft-lab/projects/20
           github-token: ${{ secrets.GITHUB_TOKEN }}
