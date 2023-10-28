@@ -684,28 +684,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "JSON-java is installed",
-      "ID": "oval:com.redhat.cve:tst:20235072001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235072001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "JSON-java is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20235072002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235072001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201712161001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "selenium is installed",
       "ID": "oval:com.redhat.cve:tst:20235590001",
       "Version": "636",
@@ -1750,6 +1728,27 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.unaffected:obj:202337460001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "JSON-java is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20235072001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20235072001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "JSON-java is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20235072002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20235072001"
       },
       "State": {}
     }
