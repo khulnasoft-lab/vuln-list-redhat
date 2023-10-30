@@ -8841,7 +8841,7 @@
       "Name": "libXpm"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804030",
+      "ID": "oval:com.redhat.cve:obj:202343804008",
       "Version": "636",
       "Name": "python3.11-urllib3"
     },
@@ -8861,54 +8861,54 @@
       "Name": "zlib-static"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202346233002",
-      "Version": "636",
-      "Name": "dotnet-apphost-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202346233005",
-      "Version": "636",
-      "Name": "aspnetcore-targeting-pack-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202346233006",
-      "Version": "636",
-      "Name": "dotnet-sdk-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202346233009",
+      "ID": "oval:com.redhat.cve:obj:202346233001",
       "Version": "636",
       "Name": "dotnet-templates-7.0"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202346233011",
-      "Version": "636",
-      "Name": "dotnet-runtime-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202346233016",
-      "Version": "636",
-      "Name": "dotnet-hostfxr-7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202346233018",
-      "Version": "636",
-      "Name": "dotnet7.0"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202346233020",
+      "ID": "oval:com.redhat.cve:obj:202346233002",
       "Version": "636",
       "Name": "aspnetcore-runtime-7.0"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202346233021",
+      "ID": "oval:com.redhat.cve:obj:202346233004",
       "Version": "636",
-      "Name": "dotnet-targeting-pack-7.0"
+      "Name": "dotnet-apphost-pack-7.0"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202346233022",
+      "ID": "oval:com.redhat.cve:obj:202346233007",
+      "Version": "636",
+      "Name": "dotnet-sdk-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346233008",
+      "Version": "636",
+      "Name": "aspnetcore-targeting-pack-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346233009",
+      "Version": "636",
+      "Name": "dotnet7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346233015",
+      "Version": "636",
+      "Name": "dotnet-hostfxr-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346233017",
+      "Version": "636",
+      "Name": "dotnet-runtime-7.0"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346233018",
       "Version": "636",
       "Name": "dotnet-sdk-7.0-source-built-artifacts"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346233020",
+      "Version": "636",
+      "Name": "dotnet-targeting-pack-7.0"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202346316001",
