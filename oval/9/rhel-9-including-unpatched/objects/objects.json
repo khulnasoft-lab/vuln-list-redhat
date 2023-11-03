@@ -8353,17 +8353,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202334058002",
       "Version": "636",
-      "Name": "open-vm-tools-salt-minion"
+      "Name": "open-vm-tools-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202334058003",
       "Version": "636",
-      "Name": "open-vm-tools-test"
+      "Name": "open-vm-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202334058004",
       "Version": "636",
-      "Name": "open-vm-tools"
+      "Name": "open-vm-tools-salt-minion"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202334058005",
