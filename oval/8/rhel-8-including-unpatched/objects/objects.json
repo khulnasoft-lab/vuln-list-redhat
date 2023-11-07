@@ -9023,12 +9023,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202227664003",
       "Version": "636",
-      "Name": "toolbox"
+      "Name": "toolbox-tests"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227664004",
       "Version": "636",
-      "Name": "toolbox-tests"
+      "Name": "toolbox"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202227943002",
