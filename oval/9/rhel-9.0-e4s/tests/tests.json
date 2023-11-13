@@ -43858,6 +43858,198 @@
       "State": {
         "StateRef": "oval:com.redhat.rhba:ste:20225749002"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "galera is earlier than 0:26.4.14-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20236883001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "galera is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20236883002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20236883001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-backup is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-common is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-devel is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-embedded is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-embedded-devel is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-errmsg is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-gssapi-server is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-oqgraph-engine is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-pam is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-server is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-server-galera is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-server-utils is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "mariadb-test is earlier than 3:10.5.22-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20236883029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225948014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20236883003"
+      }
     }
   ],
   "RpmverifyfileTests": [

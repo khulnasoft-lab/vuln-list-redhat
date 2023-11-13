@@ -5919,6 +5919,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20236796001",
       "Version": "635",
       "Name": "insights-client"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20236883001",
+      "Version": "635",
+      "Name": "galera"
     }
   ],
   "RpmverifyfileObjects": [
