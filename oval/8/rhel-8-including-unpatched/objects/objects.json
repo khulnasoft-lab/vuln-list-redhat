@@ -2163,67 +2163,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:201825091001",
       "Version": "636",
-      "Name": "python3-urllib3"
+      "Name": "python-urllib3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:201825091002",
       "Version": "636",
-      "Name": "python3.11-pip-wheel"
+      "Name": "python3-urllib3"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:201825091004",
-      "Version": "636",
-      "Name": "python-urllib3"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091008",
-      "Version": "636",
-      "Name": "python3.11-pip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091009",
-      "Version": "636",
-      "Name": "python-podman"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091010",
+      "ID": "oval:com.redhat.cve:obj:201825091003",
       "Version": "636",
       "Name": "python3-podman"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:201825091012",
+      "ID": "oval:com.redhat.cve:obj:201825091004",
       "Version": "636",
-      "Name": "python38-pip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091013",
-      "Version": "636",
-      "Name": "python39-pip-wheel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091014",
-      "Version": "636",
-      "Name": "python3x-pip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091015",
-      "Version": "636",
-      "Name": "python39-pip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091016",
-      "Version": "636",
-      "Name": "python38-pip-wheel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091018",
-      "Version": "636",
-      "Name": "python2-pip-wheel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091019",
-      "Version": "636",
-      "Name": "python2-pip"
+      "Name": "python-podman"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20182773001",
@@ -4746,6 +4701,16 @@
       "Name": "python-ipaddress"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202014422003",
+      "Version": "636",
+      "Name": "python2-pip"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202014422004",
+      "Version": "636",
+      "Name": "python2-pip-wheel"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202015250001",
       "Version": "636",
       "Name": "junit"
@@ -4808,42 +4773,42 @@
     {
       "ID": "oval:com.redhat.cve:obj:202017049001",
       "Version": "636",
-      "Name": "krb5-server-ldap"
+      "Name": "krb5-workstation"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049002",
       "Version": "636",
-      "Name": "krb5-devel"
+      "Name": "krb5-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049003",
       "Version": "636",
-      "Name": "krb5-libs"
+      "Name": "krb5"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049004",
       "Version": "636",
-      "Name": "krb5"
+      "Name": "krb5-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049005",
       "Version": "636",
-      "Name": "krb5-pkinit"
+      "Name": "libkadm5"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049006",
       "Version": "636",
-      "Name": "krb5-server"
+      "Name": "krb5-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049007",
       "Version": "636",
-      "Name": "libkadm5"
+      "Name": "krb5-server-ldap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202017049008",
       "Version": "636",
-      "Name": "krb5-workstation"
+      "Name": "krb5-pkinit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202018651001",
@@ -7336,6 +7301,11 @@
       "Name": "python-psycopg2"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202128861050",
+      "Version": "636",
+      "Name": "python38-pip"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202128861051",
       "Version": "636",
       "Name": "python38-tkinter"
@@ -7401,9 +7371,19 @@
       "Name": "python38-setuptools-wheel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202128861065",
+      "Version": "636",
+      "Name": "python38-pip-wheel"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202128861066",
       "Version": "636",
       "Name": "python38-rpm-macros"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202128861067",
+      "Version": "636",
+      "Name": "python3x-pip"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202128861068",
@@ -8461,9 +8441,19 @@
       "Name": "python39-cffi"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20220391022",
+      "Version": "636",
+      "Name": "python39-pip"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20220391023",
       "Version": "636",
       "Name": "python39-pysocks"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20220391024",
+      "Version": "636",
+      "Name": "python39-pip-wheel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20220391027",
@@ -9783,11 +9773,6 @@
     {
       "ID": "oval:com.redhat.cve:obj:20224285002",
       "Version": "636",
-      "Name": "gcc-toolset-11-gdb-doc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20224285003",
-      "Version": "636",
       "Name": "gcc-toolset-12-gdb"
     },
     {
@@ -9798,17 +9783,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:20224285005",
       "Version": "636",
+      "Name": "gcc-toolset-11-gdb-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20224285006",
+      "Version": "636",
       "Name": "gcc-toolset-11-gdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244638001",
       "Version": "636",
-      "Name": "pixman"
+      "Name": "pixman-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244638002",
       "Version": "636",
-      "Name": "pixman-devel"
+      "Name": "pixman"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244729001",
@@ -10371,51 +10361,6 @@
       "Name": "go-toolset"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20233961002",
-      "Version": "636",
-      "Name": "python3-samba-dc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961006",
-      "Version": "636",
-      "Name": "libnetapi-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961011",
-      "Version": "636",
-      "Name": "samba-usershares"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961012",
-      "Version": "636",
-      "Name": "samba-tools"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961014",
-      "Version": "636",
-      "Name": "samba-dc-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961017",
-      "Version": "636",
-      "Name": "libnetapi"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961020",
-      "Version": "636",
-      "Name": "python3-samba-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961025",
-      "Version": "636",
-      "Name": "samba-dcerpc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20233961033",
-      "Version": "636",
-      "Name": "samba-ldb-ldap-modules"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202339615001",
       "Version": "636",
       "Name": "libxml2-devel"
@@ -10491,7 +10436,7 @@
       "Name": "libXpm-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804022",
+      "ID": "oval:com.redhat.cve:obj:202343804048",
       "Version": "636",
       "Name": "python3.11-urllib3"
     },
@@ -10646,6 +10591,121 @@
       "Name": "grub2-efi-ia32"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202348161005",
+      "Version": "636",
+      "Name": "java-21-openjdk-headless-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161009",
+      "Version": "636",
+      "Name": "java-21-openjdk-devel-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161014",
+      "Version": "636",
+      "Name": "java-21-openjdk-demo-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161022",
+      "Version": "636",
+      "Name": "java-21-openjdk-static-libs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161030",
+      "Version": "636",
+      "Name": "java-21-openjdk-jmods"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161041",
+      "Version": "636",
+      "Name": "java-21-openjdk-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161048",
+      "Version": "636",
+      "Name": "java-21-openjdk-src-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161050",
+      "Version": "636",
+      "Name": "java-21-openjdk-jmods-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161051",
+      "Version": "636",
+      "Name": "java-21-openjdk-headless-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161053",
+      "Version": "636",
+      "Name": "java-21-openjdk-demo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161054",
+      "Version": "636",
+      "Name": "java-21-openjdk-static-libs-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161059",
+      "Version": "636",
+      "Name": "java-21-openjdk-jmods-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161063",
+      "Version": "636",
+      "Name": "java-21-openjdk-devel-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161071",
+      "Version": "636",
+      "Name": "java-21-openjdk-javadoc-zip"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161074",
+      "Version": "636",
+      "Name": "java-21-openjdk-javadoc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161075",
+      "Version": "636",
+      "Name": "java-21-openjdk-src"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161076",
+      "Version": "636",
+      "Name": "java-21-openjdk-headless"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161077",
+      "Version": "636",
+      "Name": "java-21-openjdk-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161081",
+      "Version": "636",
+      "Name": "java-21-openjdk-static-libs-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161082",
+      "Version": "636",
+      "Name": "java-21-openjdk-src-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161084",
+      "Version": "636",
+      "Name": "java-21-openjdk"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161086",
+      "Version": "636",
+      "Name": "java-21-openjdk-demo-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348161089",
+      "Version": "636",
+      "Name": "java-21-openjdk-slowdebug"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20235215001",
       "Version": "636",
       "Name": "libnbd-bash-completion"
@@ -10681,44 +10741,44 @@
       "Name": "ocaml-libnbd-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367002",
+      "ID": "oval:com.redhat.cve:obj:20235367003",
       "Version": "636",
       "Name": "tigervnc-server"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367010",
+      "ID": "oval:com.redhat.cve:obj:20235367004",
+      "Version": "636",
+      "Name": "tigervnc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235367006",
+      "Version": "636",
+      "Name": "tigervnc-server-minimal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235367007",
       "Version": "636",
       "Name": "tigervnc-server-module"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235367011",
       "Version": "636",
-      "Name": "tigervnc-server-minimal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20235367012",
-      "Version": "636",
-      "Name": "tigervnc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20235367013",
-      "Version": "636",
       "Name": "tigervnc-icons"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367015",
+      "ID": "oval:com.redhat.cve:obj:20235367014",
       "Version": "636",
-      "Name": "tigervnc-selinux"
+      "Name": "tigervnc-license"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367017",
+      "ID": "oval:com.redhat.cve:obj:20235367016",
       "Version": "636",
       "Name": "tigervnc-server-applet"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235367018",
       "Version": "636",
-      "Name": "tigervnc-license"
+      "Name": "tigervnc-selinux"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235557001",
@@ -17036,6 +17096,51 @@
       "Name": "libdmmp"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20232987002",
+      "Version": "637",
+      "Name": "libnetapi"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987003",
+      "Version": "637",
+      "Name": "libnetapi-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987009",
+      "Version": "637",
+      "Name": "python3-samba-dc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987010",
+      "Version": "637",
+      "Name": "python3-samba-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987018",
+      "Version": "637",
+      "Name": "samba-dc-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987019",
+      "Version": "637",
+      "Name": "samba-dcerpc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987022",
+      "Version": "637",
+      "Name": "samba-ldb-ldap-modules"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987027",
+      "Version": "637",
+      "Name": "samba-tools"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20232987028",
+      "Version": "637",
+      "Name": "samba-usershares"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20233097001",
       "Version": "636",
       "Name": "gssntlmssp"
@@ -18806,119 +18911,14 @@
       "Name": "insights-client"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20236887001",
+      "ID": "oval:com.redhat.rhsa:obj:20236914001",
       "Version": "636",
-      "Name": "java-21-openjdk"
+      "Name": "python3.11-pip"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20236887002",
+      "ID": "oval:com.redhat.rhsa:obj:20236914002",
       "Version": "636",
-      "Name": "java-21-openjdk-demo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887003",
-      "Version": "636",
-      "Name": "java-21-openjdk-demo-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887004",
-      "Version": "636",
-      "Name": "java-21-openjdk-demo-slowdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887005",
-      "Version": "636",
-      "Name": "java-21-openjdk-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887006",
-      "Version": "636",
-      "Name": "java-21-openjdk-devel-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887007",
-      "Version": "636",
-      "Name": "java-21-openjdk-devel-slowdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887008",
-      "Version": "636",
-      "Name": "java-21-openjdk-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887009",
-      "Version": "636",
-      "Name": "java-21-openjdk-headless"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887010",
-      "Version": "636",
-      "Name": "java-21-openjdk-headless-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887011",
-      "Version": "636",
-      "Name": "java-21-openjdk-headless-slowdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887012",
-      "Version": "636",
-      "Name": "java-21-openjdk-javadoc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887013",
-      "Version": "636",
-      "Name": "java-21-openjdk-javadoc-zip"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887014",
-      "Version": "636",
-      "Name": "java-21-openjdk-jmods"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887015",
-      "Version": "636",
-      "Name": "java-21-openjdk-jmods-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887016",
-      "Version": "636",
-      "Name": "java-21-openjdk-jmods-slowdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887017",
-      "Version": "636",
-      "Name": "java-21-openjdk-slowdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887018",
-      "Version": "636",
-      "Name": "java-21-openjdk-src"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887019",
-      "Version": "636",
-      "Name": "java-21-openjdk-src-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887020",
-      "Version": "636",
-      "Name": "java-21-openjdk-src-slowdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887021",
-      "Version": "636",
-      "Name": "java-21-openjdk-static-libs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887022",
-      "Version": "636",
-      "Name": "java-21-openjdk-static-libs-fastdebug"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20236887023",
-      "Version": "636",
-      "Name": "java-21-openjdk-static-libs-slowdebug"
+      "Name": "python3.11-pip-wheel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20236976001",
@@ -20968,12 +20968,12 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:202240897001",
       "Version": "635",
-      "Name": "python3.11-setuptools-wheel"
+      "Name": "python3.11-setuptools"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202240897002",
       "Version": "635",
-      "Name": "python3.11-setuptools"
+      "Name": "python3.11-setuptools-wheel"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202244020001",
@@ -21011,7 +21011,7 @@
       "Name": "libmemcached-devel"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20232975004",
+      "ID": "oval:com.redhat.unaffected:obj:20232975002",
       "Version": "635",
       "Name": "openssl-ibmca"
     },
@@ -21159,54 +21159,6 @@
       }
     },
     {
-      "ID": "oval:com.redhat.cve:obj:201825091017",
-      "Version": "636",
-      "Filepath": {
-        "Text": "/etc/dnf/modules.d/python39.module",
-        "Datatype": "string"
-      },
-      "Pattern": {
-        "Text": "\\[python39\\][\\w\\W]*",
-        "Operation": "pattern match"
-      },
-      "Instance": {
-        "Text": "1",
-        "Datatype": "int"
-      }
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091021",
-      "Version": "636",
-      "Filepath": {
-        "Text": "/etc/dnf/modules.d/gimp.module",
-        "Datatype": "string"
-      },
-      "Pattern": {
-        "Text": "\\[gimp\\][\\w\\W]*",
-        "Operation": "pattern match"
-      },
-      "Instance": {
-        "Text": "1",
-        "Datatype": "int"
-      }
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201825091022",
-      "Version": "636",
-      "Filepath": {
-        "Text": "/etc/dnf/modules.d/inkscape.module",
-        "Datatype": "string"
-      },
-      "Pattern": {
-        "Text": "\\[inkscape\\][\\w\\W]*",
-        "Operation": "pattern match"
-      },
-      "Instance": {
-        "Text": "1",
-        "Datatype": "int"
-      }
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20183750002",
       "Version": "636",
       "Filepath": {
@@ -21327,6 +21279,22 @@
       },
       "Pattern": {
         "Text": "\\[nginx\\][\\w\\W]*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Text": "1",
+        "Datatype": "int"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201925059009",
+      "Version": "636",
+      "Filepath": {
+        "Text": "/etc/dnf/modules.d/gimp.module",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "\\[gimp\\][\\w\\W]*",
         "Operation": "pattern match"
       },
       "Instance": {
@@ -21463,6 +21431,22 @@
       }
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202036023011",
+      "Version": "636",
+      "Filepath": {
+        "Text": "/etc/dnf/modules.d/inkscape.module",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "\\[inkscape\\][\\w\\W]*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Text": "1",
+        "Datatype": "int"
+      }
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202036023012",
       "Version": "636",
       "Filepath": {
@@ -21471,6 +21455,22 @@
       },
       "Pattern": {
         "Text": "\\[libreoffice\\][\\w\\W]*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Text": "1",
+        "Datatype": "int"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202036242004",
+      "Version": "636",
+      "Filepath": {
+        "Text": "/etc/dnf/modules.d/python39.module",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "\\[python39\\][\\w\\W]*",
         "Operation": "pattern match"
       },
       "Instance": {
