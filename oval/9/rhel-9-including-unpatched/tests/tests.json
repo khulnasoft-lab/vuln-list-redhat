@@ -96551,6 +96551,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "squid is earlier than 7:5.5-6.el9_3.2",
+      "ID": "oval:com.redhat.rhsa:tst:20237465001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202241317001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20237465001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "zlib-static is installed",
       "ID": "oval:com.redhat.unaffected:tst:20020059001",
       "Version": "635",
