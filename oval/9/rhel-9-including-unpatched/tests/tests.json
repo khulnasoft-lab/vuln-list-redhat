@@ -99497,6 +99497,42 @@
     },
     {
       "Check": "at least one",
+      "Comment": "thunderbird is earlier than 0:115.5.0-1.el9_3",
+      "ID": "oval:com.redhat.rhsa:tst:20237501001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20214231003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20237501001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "firefox is earlier than 0:115.5.0-1.el9_3",
+      "ID": "oval:com.redhat.rhsa:tst:20237507001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20214231002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20237501001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "firefox-x11 is earlier than 0:115.5.0-1.el9_3",
+      "ID": "oval:com.redhat.rhsa:tst:20237507003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20214231001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20237501001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "zlib-static is installed",
       "ID": "oval:com.redhat.unaffected:tst:20020059001",
       "Version": "635",
