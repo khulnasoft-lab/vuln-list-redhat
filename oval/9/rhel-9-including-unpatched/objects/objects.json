@@ -8636,6 +8636,31 @@
       "Name": "python3-pyrsistent"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20235981001",
+      "Version": "636",
+      "Name": "gnutls-dane"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235981002",
+      "Version": "636",
+      "Name": "gnutls-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235981003",
+      "Version": "636",
+      "Name": "gnutls-c++"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235981004",
+      "Version": "636",
+      "Name": "gnutls-utils"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235981005",
+      "Version": "636",
+      "Name": "gnutls"
+    },
+    {
       "ID": "oval:com.redhat.rhba:obj:20228256001",
       "Version": "635",
       "Name": "qatzip"
@@ -8894,31 +8919,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20226763009",
       "Version": "635",
       "Name": "python3-bind"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226854001",
-      "Version": "636",
-      "Name": "gnutls"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226854002",
-      "Version": "636",
-      "Name": "gnutls-c++"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226854003",
-      "Version": "636",
-      "Name": "gnutls-dane"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226854004",
-      "Version": "636",
-      "Name": "gnutls-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226854005",
-      "Version": "636",
-      "Name": "gnutls-utils"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20227090001",

@@ -37996,6 +37996,116 @@
     },
     {
       "Check": "at least one",
+      "Comment": "gnutls-dane is installed",
+      "ID": "oval:com.redhat.cve:tst:20235981001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-dane is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235981002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:20235981003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235981004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-c++ is installed",
+      "ID": "oval:com.redhat.cve:tst:20235981005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-c++ is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235981006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-utils is installed",
+      "ID": "oval:com.redhat.cve:tst:20235981007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls-utils is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235981008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls is installed",
+      "ID": "oval:com.redhat.cve:tst:20235981009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "gnutls is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20235981010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "aspnetcore-runtime-6.0 is earlier than 0:6.0.7-1.el9_0",
       "ID": "oval:com.redhat.rhba:tst:20225749001",
       "Version": "635",
@@ -45749,22 +45859,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20226854001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226854001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20226854002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -45773,22 +45871,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20226854003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226854001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls-c++ is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20226854004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -45797,22 +45883,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20226854005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854003"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226854001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls-dane is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20226854006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -45821,22 +45895,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20226854007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854004"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226854001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20226854008",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -45845,22 +45907,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20226854009",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854005"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226854003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls-utils is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20226854010",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -60974,7 +61024,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20231141001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20231141001"
@@ -60986,7 +61036,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20231141003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20231141001"
@@ -60998,7 +61048,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20231141005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854003"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20231141001"
@@ -61010,7 +61060,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20231141007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854004"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20231141001"
@@ -61022,7 +61072,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20231141009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854005"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20231141003"
@@ -120326,32 +120376,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gnutls-utils is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202120231001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "gnutls-utils is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202120231002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202120231003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981004"
       },
       "State": {}
     },
@@ -120362,7 +120392,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981005"
       },
       "State": {}
     },
@@ -120389,32 +120419,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gnutls-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202120231007",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "gnutls-devel is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202120231008",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls-dane is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202120231009",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854003"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981002"
       },
       "State": {}
     },
@@ -120425,17 +120435,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gnutls-c++ is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202120231011",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981001"
       },
       "State": {}
     },
@@ -120446,7 +120446,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226854002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20235981003"
       },
       "State": {}
     },
