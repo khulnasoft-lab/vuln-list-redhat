@@ -7888,12 +7888,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20214209001",
       "Version": "636",
-      "Name": "gnutls-utils"
+      "Name": "gnutls-c++"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20214209002",
       "Version": "636",
-      "Name": "gnutls-c++"
+      "Name": "gnutls-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20214209003",
@@ -7903,12 +7903,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20214209004",
       "Version": "636",
-      "Name": "gnutls-dane"
+      "Name": "gnutls"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20214209005",
       "Version": "636",
-      "Name": "gnutls"
+      "Name": "gnutls-dane"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20214217001",
@@ -10364,6 +10364,11 @@
       "ID": "oval:com.redhat.cve:obj:202337920024",
       "Version": "636",
       "Name": "ca-certificates"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202338469006",
+      "Version": "636",
+      "Name": "avahi-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202338633001",
@@ -18999,11 +19004,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20237189002",
       "Version": "636",
       "Name": "fwupd-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20237190013",
-      "Version": "635",
-      "Name": "avahi-tools"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20237254001",
