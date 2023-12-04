@@ -10336,7 +10336,7 @@
       "Name": "perl-HTTP-Tiny"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20233446002",
+      "ID": "oval:com.redhat.cve:obj:20233446016",
       "Version": "636",
       "Name": "shim-unsigned-x64"
     },
