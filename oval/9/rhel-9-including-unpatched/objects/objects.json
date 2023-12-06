@@ -2706,54 +2706,49 @@
       "Name": "bluez-libs-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202010135003",
+      "Version": "636",
+      "Name": "kernel-debug-modules-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135007",
+      "Version": "636",
+      "Name": "kernel-64k-modules-internal"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202010135009",
-      "Version": "636",
-      "Name": "kernel-rt-kvm"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135010",
-      "Version": "636",
-      "Name": "kernel-rt-debug-modules"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135011",
-      "Version": "636",
-      "Name": "kernel-rt-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135012",
-      "Version": "636",
-      "Name": "kernel-rt-debug-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135014",
-      "Version": "636",
-      "Name": "kernel-rt-modules-extra"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135017",
-      "Version": "636",
-      "Name": "kernel-modules-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135018",
-      "Version": "636",
-      "Name": "kernel-64k-debug-modules-partner"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135020",
       "Version": "636",
       "Name": "kernel-rt-modules-core"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202010135022",
+      "ID": "oval:com.redhat.cve:obj:202010135012",
+      "Version": "636",
+      "Name": "kernel-rt-debug-kvm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135013",
+      "Version": "636",
+      "Name": "kernel-rt"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135014",
+      "Version": "636",
+      "Name": "kernel-rt-modules"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135015",
       "Version": "636",
       "Name": "kernel-zfcpdump-modules-partner"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202010135017",
+      "Version": "636",
+      "Name": "kernel-rt-devel-matched"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202010135023",
       "Version": "636",
-      "Name": "kernel-rt-debug-core"
+      "Name": "kernel-rt-kvm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202010135024",
@@ -2763,87 +2758,127 @@
     {
       "ID": "oval:com.redhat.cve:obj:202010135028",
       "Version": "636",
-      "Name": "rv"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135029",
-      "Version": "636",
       "Name": "kernel-64k-modules-partner"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202010135030",
-      "Version": "636",
-      "Name": "kernel-rt-core"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135032",
-      "Version": "636",
-      "Name": "kernel-rt"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135034",
-      "Version": "636",
-      "Name": "kernel-rt-modules"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135037",
-      "Version": "636",
-      "Name": "kernel-zfcpdump-modules-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135041",
-      "Version": "636",
-      "Name": "kernel-64k-modules-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135046",
-      "Version": "636",
-      "Name": "kernel-rt-debug-modules-extra"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135047",
+      "ID": "oval:com.redhat.cve:obj:202010135031",
       "Version": "636",
       "Name": "kernel-modules-partner"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202010135048",
-      "Version": "636",
-      "Name": "libperf"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135056",
-      "Version": "636",
-      "Name": "kernel-64k-debug-modules-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135059",
-      "Version": "636",
-      "Name": "kernel-debug-modules-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135060",
-      "Version": "636",
-      "Name": "kernel-rt-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135063",
-      "Version": "636",
-      "Name": "kernel-rt-debug-kvm"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202010135066",
+      "ID": "oval:com.redhat.cve:obj:202010135032",
       "Version": "636",
       "Name": "kernel-debug-modules-partner"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202010135070",
+      "ID": "oval:com.redhat.cve:obj:202010135034",
       "Version": "636",
-      "Name": "kernel-ipaclones-internal"
+      "Name": "kernel-64k-debug-modules-partner"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135041",
+      "Version": "636",
+      "Name": "kernel-modules-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135042",
+      "Version": "636",
+      "Name": "kernel-rt-debug"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135043",
+      "Version": "636",
+      "Name": "kernel-rt-debug-modules"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135044",
+      "Version": "636",
+      "Name": "kernel-rt-selftests-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135045",
+      "Version": "636",
+      "Name": "kernel-rt-core"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135048",
+      "Version": "636",
+      "Name": "kernel-64k-debug-modules-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135049",
+      "Version": "636",
+      "Name": "kernel-rt-modules-partner"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135051",
+      "Version": "636",
+      "Name": "kernel-rt-debug-devel-matched"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135058",
+      "Version": "636",
+      "Name": "kernel-rt-modules-extra"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135062",
+      "Version": "636",
+      "Name": "libperf"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135064",
+      "Version": "636",
+      "Name": "kernel-rt-modules-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135067",
+      "Version": "636",
+      "Name": "kernel-zfcpdump-modules-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135068",
+      "Version": "636",
+      "Name": "rv"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135069",
+      "Version": "636",
+      "Name": "kernel-rt-debug-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135071",
+      "Version": "636",
+      "Name": "kernel-rt-debug-modules-extra"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135072",
+      "Version": "636",
+      "Name": "kernel-rt-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202010135073",
       "Version": "636",
+      "Name": "kernel-rt-debug-modules-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135074",
+      "Version": "636",
+      "Name": "kernel-rt-debug-modules-partner"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135075",
+      "Version": "636",
       "Name": "kernel-selftests-internal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135078",
+      "Version": "636",
+      "Name": "kernel-rt-debug-core"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202010135081",
+      "Version": "636",
+      "Name": "kernel-ipaclones-internal"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202012413001",
@@ -3254,41 +3289,6 @@
       "ID": "oval:com.redhat.cve:obj:202036023009",
       "Version": "636",
       "Name": "poppler"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558022",
-      "Version": "636",
-      "Name": "kernel-rt-modules-partner"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558037",
-      "Version": "636",
-      "Name": "kernel-rt-debug-devel-matched"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558040",
-      "Version": "636",
-      "Name": "kernel-rt-debug-modules-partner"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558041",
-      "Version": "636",
-      "Name": "kernel-rt-devel-matched"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558042",
-      "Version": "636",
-      "Name": "kernel-rt-selftests-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558052",
-      "Version": "636",
-      "Name": "kernel-rt-debug-modules-internal"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202036558056",
-      "Version": "636",
-      "Name": "kernel-rt-modules-internal"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202120197001",
@@ -7068,72 +7068,72 @@
     {
       "ID": "oval:com.redhat.cve:obj:20232454001",
       "Version": "636",
-      "Name": "postgresql-server"
+      "Name": "postgresql-plperl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454002",
       "Version": "636",
-      "Name": "postgresql-test"
+      "Name": "postgresql-contrib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454003",
       "Version": "636",
-      "Name": "postgresql-private-libs"
+      "Name": "postgresql-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454004",
       "Version": "636",
-      "Name": "postgresql-plpython3"
+      "Name": "postgresql-private-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454005",
       "Version": "636",
-      "Name": "postgresql-static"
+      "Name": "postgresql-private-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454006",
       "Version": "636",
-      "Name": "postgresql"
+      "Name": "postgresql-server-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454007",
       "Version": "636",
-      "Name": "postgresql-contrib"
+      "Name": "postgresql-plpython3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454008",
       "Version": "636",
-      "Name": "postgresql-upgrade-devel"
+      "Name": "postgresql-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454009",
       "Version": "636",
-      "Name": "postgresql-server-devel"
+      "Name": "postgresql-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454010",
       "Version": "636",
-      "Name": "postgresql-plperl"
+      "Name": "postgresql-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454011",
       "Version": "636",
-      "Name": "postgresql-private-devel"
+      "Name": "postgresql-pltcl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454012",
       "Version": "636",
-      "Name": "postgresql-docs"
+      "Name": "postgresql-upgrade"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454013",
       "Version": "636",
-      "Name": "postgresql-pltcl"
+      "Name": "postgresql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454014",
       "Version": "636",
-      "Name": "postgresql-upgrade"
+      "Name": "postgresql-upgrade-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325193001",
@@ -7666,7 +7666,7 @@
       "Name": "dotnet-hostfxr-8.0"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202345803020",
+      "ID": "oval:com.redhat.cve:obj:202345803023",
       "Version": "636",
       "Name": "python-pip"
     },
@@ -7674,6 +7674,31 @@
       "ID": "oval:com.redhat.cve:obj:202345897001",
       "Version": "636",
       "Name": "exfatprogs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346218001",
+      "Version": "636",
+      "Name": "libcurl-minimal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346218002",
+      "Version": "636",
+      "Name": "libcurl-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346218003",
+      "Version": "636",
+      "Name": "curl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346218004",
+      "Version": "636",
+      "Name": "curl-minimal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202346218005",
+      "Version": "636",
+      "Name": "libcurl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202346233002",
@@ -8769,31 +8794,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20225244002",
       "Version": "635",
       "Name": "expat-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225245001",
-      "Version": "636",
-      "Name": "curl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225245002",
-      "Version": "636",
-      "Name": "curl-minimal"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225245003",
-      "Version": "636",
-      "Name": "libcurl"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225245004",
-      "Version": "636",
-      "Name": "libcurl-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225245005",
-      "Version": "636",
-      "Name": "libcurl-minimal"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20225251001",
