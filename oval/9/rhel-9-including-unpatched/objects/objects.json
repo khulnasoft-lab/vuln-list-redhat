@@ -7318,12 +7318,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202330571002",
       "Version": "636",
-      "Name": "bsdtar"
+      "Name": "libarchive"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202330571003",
       "Version": "636",
-      "Name": "libarchive"
+      "Name": "bsdtar"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202331122001",
