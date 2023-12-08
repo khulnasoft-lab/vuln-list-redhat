@@ -13323,12 +13323,12 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:20223787002",
       "Version": "635",
-      "Name": "device-mapper-multipath-libs"
+      "Name": "kpartx"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20223787003",
       "Version": "635",
-      "Name": "kpartx"
+      "Name": "device-mapper-multipath-libs"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202239046003",

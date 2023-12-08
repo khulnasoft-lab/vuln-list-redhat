@@ -15013,7 +15013,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202322745001",
       "Version": "636",
-      "Name": "tpm2-tss-devel"
+      "Name": "tpm2-tss-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202322745002",
@@ -15023,7 +15023,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202322745003",
       "Version": "636",
-      "Name": "tpm2-tss-utils"
+      "Name": "tpm2-tss-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202323934001",
@@ -20906,24 +20906,24 @@
       "Name": "networkd-dispatcher"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20223787001",
-      "Version": "635",
-      "Name": "kpartx"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:20223787002",
-      "Version": "635",
-      "Name": "device-mapper-multipath-sysvinit"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20223787003",
       "Version": "635",
       "Name": "libdmmp-devel"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20223787005",
+      "ID": "oval:com.redhat.unaffected:obj:20223787003",
       "Version": "635",
       "Name": "device-mapper-multipath-libs"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20223787004",
+      "Version": "635",
+      "Name": "device-mapper-multipath-sysvinit"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20223787005",
+      "Version": "635",
+      "Name": "kpartx"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20223787006",
