@@ -4818,7 +4818,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202018770001",
       "Version": "636",
-      "Name": "zziplib"
+      "Name": "zziplib-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202018770002",
@@ -4828,7 +4828,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202018770003",
       "Version": "636",
-      "Name": "zziplib-utils"
+      "Name": "zziplib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202018771001",
