@@ -117807,12 +117807,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ghostscript-tools-printing is not installed",
+      "Comment": "libgs is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202027792002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059001"
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059002"
       },
       "State": {}
     },
@@ -117829,34 +117829,34 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ghostscript-doc is not installed",
+      "Comment": "ghostscript-tools-fonts is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202027792006",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059007"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ghostscript is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792008",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059003"
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059008"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "libgs-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792010",
+      "ID": "oval:com.redhat.unaffected:tst:202027792008",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:201925059005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ghostscript-tools-printing is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202027792010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059001"
       },
       "State": {}
     },
@@ -117873,23 +117873,23 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ghostscript-tools-fonts is not installed",
+      "Comment": "ghostscript is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202027792014",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059008"
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059003"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "libgs is not installed",
+      "Comment": "ghostscript-doc is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202027792016",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059002"
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059007"
       },
       "State": {}
     },
@@ -134055,43 +134055,43 @@
     },
     {
       "Check": "at least one",
-      "Comment": "rhc is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rhc is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325006",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "rhc-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325019",
+      "ID": "oval:com.redhat.unaffected:tst:202339325013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325010"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325007"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "rhc-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325020",
+      "ID": "oval:com.redhat.unaffected:tst:202339325014",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325010"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rhc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202339325043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rhc is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202339325044",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325022"
       },
       "State": {}
     },
