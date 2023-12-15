@@ -122155,6 +122155,28 @@
     },
     {
       "Check": "at least one",
+      "Comment": "libperf is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202120268016",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202010135058"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rv is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202120268066",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202010135050"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "kexec-tools is installed",
       "ID": "oval:com.redhat.unaffected:tst:202120269001",
       "Version": "635",
@@ -124512,28 +124534,6 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.unaffected:obj:202129425001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libperf is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202130002044",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202010135058"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rv is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202130002140",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202010135050"
       },
       "State": {}
     },

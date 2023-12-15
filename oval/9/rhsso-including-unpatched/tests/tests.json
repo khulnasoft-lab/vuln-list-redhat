@@ -750,28 +750,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "keyccloak is installed",
-      "ID": "oval:com.redhat.cve:tst:20236291001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20236291001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "keyccloak is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20236291002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20236291001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201712161001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "logback is installed",
       "ID": "oval:com.redhat.cve:tst:20236378001",
       "Version": "636",
@@ -1090,6 +1068,30 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20237484001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-sso7-keycloak is earlier than 0:18.0.11-2.redhat_00003.1.el9sso",
+      "ID": "oval:com.redhat.rhsa:tst:20237855001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227411001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20237855001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-sso7-keycloak-server is earlier than 0:18.0.11-2.redhat_00003.1.el9sso",
+      "ID": "oval:com.redhat.rhsa:tst:20237855003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201712161001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20237855001"
       }
     },
     {
