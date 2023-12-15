@@ -7403,12 +7403,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202337328002",
       "Version": "636",
-      "Name": "gstreamer1-plugins-base-tools"
+      "Name": "gstreamer1-plugins-base"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202337328003",
       "Version": "636",
-      "Name": "gstreamer1-plugins-base"
+      "Name": "gstreamer1-plugins-base-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202337329001",
