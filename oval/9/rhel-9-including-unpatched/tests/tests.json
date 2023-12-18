@@ -32606,7 +32606,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free-devel is installed",
+      "Comment": "gstreamer1-plugins-bad-free is installed",
       "ID": "oval:com.redhat.cve:tst:202337329001",
       "Version": "636",
       "Object": {
@@ -32616,7 +32616,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free-devel is signed with Red Hat redhatrelease2 key",
+      "Comment": "gstreamer1-plugins-bad-free is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202337329002",
       "Version": "636",
       "Object": {
@@ -32628,7 +32628,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free is installed",
+      "Comment": "gstreamer1-plugins-bad-free-devel is installed",
       "ID": "oval:com.redhat.cve:tst:202337329003",
       "Version": "636",
       "Object": {
@@ -32638,7 +32638,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free is signed with Red Hat redhatrelease2 key",
+      "Comment": "gstreamer1-plugins-bad-free-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202337329004",
       "Version": "636",
       "Object": {
@@ -37681,6 +37681,72 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:20234874001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libssh-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202348795011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libssh-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202348795012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libssh-config is installed",
+      "ID": "oval:com.redhat.cve:tst:202348795021",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libssh-config is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202348795022",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libssh is installed",
+      "ID": "oval:com.redhat.cve:tst:202348795031",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libssh is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202348795032",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795016"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -97323,22 +97389,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20236643001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236643001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libssh is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20236643002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -97347,22 +97401,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20236643003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236643003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libssh-config is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20236643004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -97371,22 +97413,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20236643005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236643001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libssh-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20236643006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -101246,7 +101276,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20237791001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202337329002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202337329001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20237791001"
@@ -101258,7 +101288,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20237791003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202337329001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202337329002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20237791001"
@@ -127241,32 +127271,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libssh-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20213634001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "libssh-devel is not installed",
       "ID": "oval:com.redhat.unaffected:tst:20213634002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libssh is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20213634003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795006"
       },
       "State": {}
     },
@@ -127277,17 +127287,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libssh-config is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20213634005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795016"
       },
       "State": {}
     },
@@ -127298,7 +127298,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20236643002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795011"
       },
       "State": {}
     },

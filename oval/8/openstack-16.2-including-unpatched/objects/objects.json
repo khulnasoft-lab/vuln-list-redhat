@@ -451,6 +451,11 @@
       "Name": "rabbitmq-server"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202348795002",
+      "Version": "636",
+      "Name": "python3-networking-vmware-nsx"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202349921001",
       "Version": "636",
       "Name": "openstack-panko-api"
