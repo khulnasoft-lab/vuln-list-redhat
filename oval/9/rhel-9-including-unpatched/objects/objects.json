@@ -8568,12 +8568,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202349990001",
       "Version": "636",
-      "Name": "espeak-ng-devel"
+      "Name": "espeak-ng"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202349990002",
       "Version": "636",
-      "Name": "espeak-ng"
+      "Name": "espeak-ng-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202350781001",
