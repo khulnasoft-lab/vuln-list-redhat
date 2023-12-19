@@ -32562,7 +32562,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-base is installed",
+      "Comment": "gstreamer1-plugins-base-tools is installed",
       "ID": "oval:com.redhat.cve:tst:202337328003",
       "Version": "636",
       "Object": {
@@ -32572,7 +32572,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-base is signed with Red Hat redhatrelease2 key",
+      "Comment": "gstreamer1-plugins-base-tools is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202337328004",
       "Version": "636",
       "Object": {
@@ -32584,7 +32584,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-base-tools is installed",
+      "Comment": "gstreamer1-plugins-base is installed",
       "ID": "oval:com.redhat.cve:tst:202337328005",
       "Version": "636",
       "Object": {
@@ -32594,7 +32594,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-base-tools is signed with Red Hat redhatrelease2 key",
+      "Comment": "gstreamer1-plugins-base is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202337328006",
       "Version": "636",
       "Object": {
@@ -32606,7 +32606,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free is installed",
+      "Comment": "gstreamer1-plugins-bad-free-devel is installed",
       "ID": "oval:com.redhat.cve:tst:202337329001",
       "Version": "636",
       "Object": {
@@ -32616,7 +32616,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free is signed with Red Hat redhatrelease2 key",
+      "Comment": "gstreamer1-plugins-bad-free-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202337329002",
       "Version": "636",
       "Object": {
@@ -32628,7 +32628,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free-devel is installed",
+      "Comment": "gstreamer1-plugins-bad-free is installed",
       "ID": "oval:com.redhat.cve:tst:202337329003",
       "Version": "636",
       "Object": {
@@ -32638,7 +32638,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gstreamer1-plugins-bad-free-devel is signed with Red Hat redhatrelease2 key",
+      "Comment": "gstreamer1-plugins-bad-free is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202337329004",
       "Version": "636",
       "Object": {
@@ -101276,7 +101276,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20237791001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202337329001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202337329002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20237791001"
@@ -101288,7 +101288,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20237791003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202337329002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202337329001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20237791001"
@@ -118535,19 +118535,8 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ghostscript-tools-printing is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "libgs is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792004",
+      "ID": "oval:com.redhat.unaffected:tst:202027792002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -118557,19 +118546,8 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ghostscript is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792006",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "ghostscript-x11 is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792008",
+      "ID": "oval:com.redhat.unaffected:tst:202027792004",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -118579,30 +118557,8 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ghostscript-tools-dvipdf is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792010",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ghostscript-doc is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792012",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925059007"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "ghostscript-tools-fonts is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792014",
+      "ID": "oval:com.redhat.unaffected:tst:202027792006",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -118613,11 +118569,55 @@
     {
       "Check": "at least one",
       "Comment": "libgs-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202027792016",
+      "ID": "oval:com.redhat.unaffected:tst:202027792008",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:201925059005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ghostscript-tools-printing is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202027792010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ghostscript-tools-dvipdf is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202027792012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ghostscript is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202027792014",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ghostscript-doc is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202027792016",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925059007"
       },
       "State": {}
     },
