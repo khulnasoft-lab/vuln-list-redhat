@@ -8561,17 +8561,17 @@
       "Name": "mutt"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795005",
-      "Version": "636",
-      "Name": "libssh-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202348795012",
+      "ID": "oval:com.redhat.cve:obj:202348795002",
       "Version": "636",
       "Name": "libssh"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795013",
+      "ID": "oval:com.redhat.cve:obj:202348795009",
+      "Version": "636",
+      "Name": "libssh-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348795017",
       "Version": "636",
       "Name": "libssh-config"
     },
@@ -14571,14 +14571,14 @@
       "Name": "openssl-pkcs11"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202339325003",
-      "Version": "635",
-      "Name": "rhc"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202339325010",
+      "ID": "oval:com.redhat.unaffected:obj:202339325001",
       "Version": "635",
       "Name": "rhc-devel"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202339325005",
+      "Version": "635",
+      "Name": "rhc"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202340857001",

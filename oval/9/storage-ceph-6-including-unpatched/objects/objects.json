@@ -156,6 +156,11 @@
       "Name": "cephadm-ansible"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:202336665001",
+      "Version": "635",
+      "Name": "grafana"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202344487001",
       "Version": "635",
       "Name": "haproxy"

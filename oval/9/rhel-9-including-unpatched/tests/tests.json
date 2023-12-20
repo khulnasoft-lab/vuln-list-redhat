@@ -37666,21 +37666,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libssh-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202348795009",
+      "Comment": "libssh is installed",
+      "ID": "oval:com.redhat.cve:tst:202348795003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795002"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "libssh-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202348795010",
+      "Comment": "libssh is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202348795004",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -37688,21 +37688,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libssh is installed",
-      "ID": "oval:com.redhat.cve:tst:202348795023",
+      "Comment": "libssh-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202348795017",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795009"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "libssh is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202348795024",
+      "Comment": "libssh-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202348795018",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795009"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -37711,20 +37711,20 @@
     {
       "Check": "at least one",
       "Comment": "libssh-config is installed",
-      "ID": "oval:com.redhat.cve:tst:202348795025",
+      "ID": "oval:com.redhat.cve:tst:202348795033",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795017"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "libssh-config is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202348795026",
+      "ID": "oval:com.redhat.cve:tst:202348795034",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795017"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -97379,7 +97379,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236643001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236643001"
@@ -97391,7 +97391,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236643003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236643003"
@@ -97403,7 +97403,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236643005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236643001"
@@ -127278,7 +127278,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795009"
       },
       "State": {}
     },
@@ -127289,7 +127289,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795002"
       },
       "State": {}
     },
@@ -127300,7 +127300,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202348795013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202348795017"
       },
       "State": {}
     },
@@ -134754,43 +134754,43 @@
     },
     {
       "Check": "at least one",
-      "Comment": "rhc is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rhc is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325006",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "rhc-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325019",
+      "ID": "oval:com.redhat.unaffected:tst:202339325001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325010"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "rhc-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325020",
+      "ID": "oval:com.redhat.unaffected:tst:202339325002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325010"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rhc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202339325009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rhc is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202339325010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202339325005"
       },
       "State": {}
     },

@@ -1622,6 +1622,27 @@
     },
     {
       "Check": "at least one",
+      "Comment": "grafana is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202336665001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202336665001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "grafana is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202336665002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202336665001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "haproxy is installed",
       "ID": "oval:com.redhat.unaffected:tst:202344487001",
       "Version": "635",

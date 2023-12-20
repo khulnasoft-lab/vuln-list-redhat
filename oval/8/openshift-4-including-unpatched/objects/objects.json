@@ -241,7 +241,7 @@
       "Name": "python-gevent"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202345287012",
+      "ID": "oval:com.redhat.cve:obj:202345287004",
       "Version": "636",
       "Name": "conmon"
     },
