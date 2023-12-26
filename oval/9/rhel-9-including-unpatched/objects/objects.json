@@ -8561,19 +8561,19 @@
       "Name": "mutt"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795005",
+      "ID": "oval:com.redhat.cve:obj:202348795001",
       "Version": "636",
-      "Name": "libssh-devel"
+      "Name": "libssh"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795013",
+      "ID": "oval:com.redhat.cve:obj:202348795006",
       "Version": "636",
       "Name": "libssh-config"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795014",
+      "ID": "oval:com.redhat.cve:obj:202348795018",
       "Version": "636",
-      "Name": "libssh"
+      "Name": "libssh-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202349083001",
@@ -8623,12 +8623,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202351764003",
       "Version": "636",
-      "Name": "postfix-sqlite"
+      "Name": "postfix-pcre"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764004",
       "Version": "636",
-      "Name": "postfix-pcre"
+      "Name": "postfix-sqlite"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764005",
