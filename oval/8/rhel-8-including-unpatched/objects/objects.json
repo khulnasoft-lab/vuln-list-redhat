@@ -20841,19 +20841,19 @@
       "Name": "perl-encoding"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20213826007",
+      "ID": "oval:com.redhat.unaffected:obj:20213826002",
+      "Version": "635",
+      "Name": "gcc-toolset-10-gdb"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20213826008",
       "Version": "635",
       "Name": "gcc-toolset-10-gdb-gdbserver"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20213826039",
+      "ID": "oval:com.redhat.unaffected:obj:20213826041",
       "Version": "635",
       "Name": "gcc-toolset-10-gdb-doc"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20213826043",
-      "Version": "635",
-      "Name": "gcc-toolset-10-gdb"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202142523001",

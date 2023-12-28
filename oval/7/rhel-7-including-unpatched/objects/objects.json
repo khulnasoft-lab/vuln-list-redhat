@@ -14763,27 +14763,27 @@
     {
       "ID": "oval:com.redhat.cve:obj:202228737001",
       "Version": "636",
-      "Name": "shim"
+      "Name": "shim-unsigned-ia32"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202228737002",
       "Version": "636",
-      "Name": "shim-unsigned"
+      "Name": "shim"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202228737003",
       "Version": "636",
-      "Name": "mokutil"
+      "Name": "shim-unsigned"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202228737004",
       "Version": "636",
-      "Name": "shim-unsigned-x64"
+      "Name": "mokutil"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202228737005",
       "Version": "636",
-      "Name": "shim-unsigned-ia32"
+      "Name": "shim-unsigned-x64"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202229162001",
