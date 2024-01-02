@@ -8561,17 +8561,17 @@
       "Name": "mutt"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795001",
-      "Version": "636",
-      "Name": "libssh-config"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202348795009",
       "Version": "636",
       "Name": "libssh"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795013",
+      "ID": "oval:com.redhat.cve:obj:202348795014",
+      "Version": "636",
+      "Name": "libssh-config"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348795016",
       "Version": "636",
       "Name": "libssh-devel"
     },
@@ -8613,37 +8613,37 @@
     {
       "ID": "oval:com.redhat.cve:obj:202351764001",
       "Version": "636",
-      "Name": "postfix-pcre"
+      "Name": "postfix-cdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764002",
       "Version": "636",
-      "Name": "postfix-perl-scripts"
+      "Name": "postfix-pgsql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764003",
       "Version": "636",
-      "Name": "postfix"
+      "Name": "postfix-sqlite"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764004",
       "Version": "636",
-      "Name": "postfix-sqlite"
+      "Name": "postfix-pcre"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764005",
       "Version": "636",
-      "Name": "postfix-lmdb"
+      "Name": "postfix"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764006",
       "Version": "636",
-      "Name": "postfix-mysql"
+      "Name": "postfix-lmdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764007",
       "Version": "636",
-      "Name": "postfix-pgsql"
+      "Name": "postfix-mysql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764008",
@@ -8653,7 +8653,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202351764009",
       "Version": "636",
-      "Name": "postfix-cdb"
+      "Name": "postfix-perl-scripts"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215001",
