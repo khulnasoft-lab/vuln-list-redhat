@@ -7498,12 +7498,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20234156001",
       "Version": "636",
-      "Name": "gawk"
+      "Name": "gawk-all-langpacks"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234156002",
       "Version": "636",
-      "Name": "gawk-all-langpacks"
+      "Name": "gawk"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202341915001",
@@ -8561,17 +8561,17 @@
       "Name": "mutt"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795009",
+      "ID": "oval:com.redhat.cve:obj:202348795001",
       "Version": "636",
       "Name": "libssh"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795014",
+      "ID": "oval:com.redhat.cve:obj:202348795006",
       "Version": "636",
       "Name": "libssh-config"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795016",
+      "ID": "oval:com.redhat.cve:obj:202348795018",
       "Version": "636",
       "Name": "libssh-devel"
     },
@@ -8613,17 +8613,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202351764001",
       "Version": "636",
-      "Name": "postfix-cdb"
+      "Name": "postfix-pgsql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764002",
       "Version": "636",
-      "Name": "postfix-pgsql"
+      "Name": "postfix-perl-scripts"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764003",
       "Version": "636",
-      "Name": "postfix-sqlite"
+      "Name": "postfix-mysql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764004",
@@ -8633,27 +8633,27 @@
     {
       "ID": "oval:com.redhat.cve:obj:202351764005",
       "Version": "636",
-      "Name": "postfix"
+      "Name": "postfix-cdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764006",
       "Version": "636",
-      "Name": "postfix-lmdb"
+      "Name": "postfix-sqlite"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764007",
       "Version": "636",
-      "Name": "postfix-mysql"
+      "Name": "postfix-lmdb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764008",
       "Version": "636",
-      "Name": "postfix-ldap"
+      "Name": "postfix"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764009",
       "Version": "636",
-      "Name": "postfix-perl-scripts"
+      "Name": "postfix-ldap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235215001",
