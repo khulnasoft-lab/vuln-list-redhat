@@ -5233,47 +5233,47 @@
     {
       "ID": "oval:com.redhat.cve:obj:202021469001",
       "Version": "636",
-      "Name": "postgresql-test"
+      "Name": "postgresql-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469002",
       "Version": "636",
-      "Name": "pgaudit"
+      "Name": "postgresql-upgrade"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469003",
       "Version": "636",
-      "Name": "postgresql-upgrade"
+      "Name": "postgresql-contrib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469004",
       "Version": "636",
-      "Name": "postgresql-test-rpm-macros"
+      "Name": "postgresql-private-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469005",
       "Version": "636",
-      "Name": "postgresql-upgrade-devel"
+      "Name": "postgresql-plpython3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469006",
       "Version": "636",
-      "Name": "postgresql-private-devel"
+      "Name": "pg_repack"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469007",
       "Version": "636",
-      "Name": "postgresql-private-libs"
+      "Name": "postgresql-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469008",
       "Version": "636",
-      "Name": "postgres-decoderbufs"
+      "Name": "postgresql-private-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469009",
       "Version": "636",
-      "Name": "postgresql"
+      "Name": "postgresql-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469010",
@@ -5283,42 +5283,42 @@
     {
       "ID": "oval:com.redhat.cve:obj:202021469011",
       "Version": "636",
-      "Name": "postgresql-plperl"
+      "Name": "postgresql-upgrade-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469012",
       "Version": "636",
-      "Name": "pg_repack"
+      "Name": "postgresql-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469013",
       "Version": "636",
-      "Name": "postgresql-contrib"
+      "Name": "postgres-decoderbufs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469014",
       "Version": "636",
-      "Name": "postgresql-server"
+      "Name": "postgresql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469015",
       "Version": "636",
-      "Name": "postgresql-docs"
+      "Name": "pgaudit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469016",
       "Version": "636",
-      "Name": "postgresql-static"
+      "Name": "postgresql-pltcl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469017",
       "Version": "636",
-      "Name": "postgresql-pltcl"
+      "Name": "postgresql-test-rpm-macros"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202021469018",
       "Version": "636",
-      "Name": "postgresql-plpython3"
+      "Name": "postgresql-plperl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202023064001",
@@ -10538,97 +10538,97 @@
     {
       "ID": "oval:com.redhat.cve:obj:20234692001",
       "Version": "636",
-      "Name": "grub2-tools-efi"
+      "Name": "grub2-efi-x64-cdboot"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692002",
       "Version": "636",
-      "Name": "grub2-efi-aa64-cdboot"
+      "Name": "grub2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692003",
       "Version": "636",
-      "Name": "grub2-efi-x64-modules"
+      "Name": "grub2-efi-aa64"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692004",
       "Version": "636",
-      "Name": "grub2-ppc64le-modules"
+      "Name": "grub2-efi-aa64-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692005",
       "Version": "636",
-      "Name": "grub2-common"
+      "Name": "grub2-ppc64le"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692006",
       "Version": "636",
-      "Name": "grub2-efi-x64-cdboot"
+      "Name": "grub2-efi-x64"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692007",
       "Version": "636",
-      "Name": "grub2"
+      "Name": "grub2-tools-extra"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692008",
       "Version": "636",
-      "Name": "grub2-pc"
+      "Name": "grub2-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692009",
       "Version": "636",
-      "Name": "grub2-efi-x64"
+      "Name": "grub2-efi-ia32"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692010",
       "Version": "636",
-      "Name": "grub2-efi-ia32-cdboot"
+      "Name": "grub2-efi-aa64-cdboot"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692011",
       "Version": "636",
-      "Name": "grub2-tools-minimal"
+      "Name": "grub2-efi-ia32-cdboot"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692012",
       "Version": "636",
-      "Name": "grub2-tools-extra"
+      "Name": "grub2-tools-efi"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692013",
       "Version": "636",
-      "Name": "grub2-ppc64le"
+      "Name": "grub2-pc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692014",
       "Version": "636",
-      "Name": "grub2-efi-aa64"
+      "Name": "grub2-efi-x64-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692015",
       "Version": "636",
-      "Name": "grub2-efi-aa64-modules"
+      "Name": "grub2-efi-ia32-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692016",
       "Version": "636",
-      "Name": "grub2-efi-ia32-modules"
+      "Name": "grub2-ppc64le-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692017",
       "Version": "636",
-      "Name": "grub2-tools"
+      "Name": "grub2-tools-minimal"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692018",
       "Version": "636",
-      "Name": "grub2-pc-modules"
+      "Name": "grub2-common"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234692019",
       "Version": "636",
-      "Name": "grub2-efi-ia32"
+      "Name": "grub2-pc-modules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202348161004",
