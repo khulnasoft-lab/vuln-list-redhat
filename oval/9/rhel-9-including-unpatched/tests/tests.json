@@ -24752,7 +24752,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yajl is installed",
+      "Comment": "yajl-devel is installed",
       "ID": "oval:com.redhat.cve:tst:202224795001",
       "Version": "636",
       "Object": {
@@ -24762,7 +24762,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yajl is signed with Red Hat redhatrelease2 key",
+      "Comment": "yajl-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202224795002",
       "Version": "636",
       "Object": {
@@ -24774,7 +24774,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yajl-devel is installed",
+      "Comment": "yajl is installed",
       "ID": "oval:com.redhat.cve:tst:202224795003",
       "Version": "636",
       "Object": {
@@ -24784,7 +24784,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yajl-devel is signed with Red Hat redhatrelease2 key",
+      "Comment": "yajl is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202224795004",
       "Version": "636",
       "Object": {
@@ -52362,7 +52362,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20228252001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202224795001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202224795002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20228252001"
@@ -52374,7 +52374,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20228252003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202224795002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202224795001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20228252001"
@@ -96947,7 +96947,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236551001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202224795001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202224795002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236551001"
@@ -96959,7 +96959,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236551003",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202224795002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202224795001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236551001"
