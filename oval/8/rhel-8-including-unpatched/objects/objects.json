@@ -10361,12 +10361,12 @@
       "Name": "yasm"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202337920019",
+      "ID": "oval:com.redhat.cve:obj:202337920001",
       "Version": "636",
       "Name": "fence-agents-openstack"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202337920049",
+      "ID": "oval:com.redhat.cve:obj:202337920023",
       "Version": "636",
       "Name": "ca-certificates"
     },
@@ -10386,12 +10386,12 @@
       "Name": "librsvg2-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339318043",
+      "ID": "oval:com.redhat.cve:obj:202339318037",
       "Version": "636",
       "Name": "go-toolset"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339318045",
+      "ID": "oval:com.redhat.cve:obj:202339318043",
       "Version": "636",
       "Name": "delve"
     },
@@ -10471,12 +10471,12 @@
       "Name": "libXpm-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804022",
+      "ID": "oval:com.redhat.cve:obj:202343804011",
       "Version": "636",
       "Name": "python3-urllib3"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202343804038",
+      "ID": "oval:com.redhat.cve:obj:202343804034",
       "Version": "636",
       "Name": "python3.11-urllib3"
     },
@@ -10748,15 +10748,15 @@
     {
       "ID": "oval:com.redhat.cve:obj:202348795001",
       "Version": "636",
-      "Name": "libssh-config"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202348795006",
-      "Version": "636",
       "Name": "libssh"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795010",
+      "ID": "oval:com.redhat.cve:obj:202348795003",
+      "Version": "636",
+      "Name": "libssh-config"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348795011",
       "Version": "636",
       "Name": "libssh-devel"
     },
@@ -10853,42 +10853,42 @@
     {
       "ID": "oval:com.redhat.cve:obj:20235367001",
       "Version": "636",
-      "Name": "tigervnc-server-applet"
+      "Name": "tigervnc"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367004",
-      "Version": "636",
-      "Name": "tigervnc-selinux"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20235367006",
+      "ID": "oval:com.redhat.cve:obj:20235367002",
       "Version": "636",
       "Name": "tigervnc-license"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367009",
+      "ID": "oval:com.redhat.cve:obj:20235367006",
+      "Version": "636",
+      "Name": "tigervnc-icons"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235367008",
       "Version": "636",
       "Name": "tigervnc-server-module"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20235367010",
+      "ID": "oval:com.redhat.cve:obj:20235367011",
+      "Version": "636",
+      "Name": "tigervnc-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20235367012",
       "Version": "636",
       "Name": "tigervnc-server-minimal"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235367014",
       "Version": "636",
-      "Name": "tigervnc-server"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20235367015",
-      "Version": "636",
-      "Name": "tigervnc"
+      "Name": "tigervnc-server-applet"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235367017",
       "Version": "636",
-      "Name": "tigervnc-icons"
+      "Name": "tigervnc-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240056002",
