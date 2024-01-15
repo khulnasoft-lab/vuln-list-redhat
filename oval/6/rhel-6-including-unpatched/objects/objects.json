@@ -10343,22 +10343,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:202224795001",
       "Version": "636",
-      "Name": "yajl-devel"
+      "Name": "yajl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202224795002",
       "Version": "636",
-      "Name": "yajl"
+      "Name": "yajl-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202237434001",
       "Version": "636",
-      "Name": "minizip"
+      "Name": "zlib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202237434002",
       "Version": "636",
-      "Name": "zlib-devel"
+      "Name": "minizip-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202237434003",
@@ -10368,12 +10368,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202237434004",
       "Version": "636",
-      "Name": "minizip-devel"
+      "Name": "minizip"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202237434005",
       "Version": "636",
-      "Name": "zlib"
+      "Name": "zlib-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202239348001",
