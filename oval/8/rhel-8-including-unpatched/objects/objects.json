@@ -8,7 +8,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20074559001",
       "Version": "636",
-      "Name": "python2-devel"
+      "Name": "python2-debug"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20074559002",
@@ -18,27 +18,27 @@
     {
       "ID": "oval:com.redhat.cve:obj:20074559003",
       "Version": "636",
-      "Name": "python2-debug"
+      "Name": "python2-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20074559004",
       "Version": "636",
-      "Name": "python2-tkinter"
+      "Name": "python2-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20074559005",
       "Version": "636",
-      "Name": "python2-libs"
+      "Name": "python2-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20074559006",
       "Version": "636",
-      "Name": "python2-tools"
+      "Name": "python2-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20074559007",
       "Version": "636",
-      "Name": "python2-test"
+      "Name": "python2-tkinter"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20091143001",
@@ -10441,6 +10441,11 @@
       "Name": "libxml2-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202345803047",
+      "Version": "636",
+      "Name": "fence-agents"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202346233005",
       "Version": "636",
       "Name": "dotnet-templates-7.0"
@@ -10706,19 +10711,19 @@
       "Name": "java-21-openjdk-headless"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795001",
-      "Version": "636",
-      "Name": "libssh"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202348795006",
+      "ID": "oval:com.redhat.cve:obj:202348795007",
       "Version": "636",
       "Name": "libssh-config"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202348795008",
+      "ID": "oval:com.redhat.cve:obj:202348795009",
       "Version": "636",
       "Name": "libssh-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202348795011",
+      "Version": "636",
+      "Name": "libssh"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202349083002",
@@ -20566,11 +20571,6 @@
       "Name": "dotnet3.0"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202010370007",
-      "Version": "635",
-      "Name": "bluez-debugsource"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:202014354007",
       "Version": "635",
       "Name": "c-ares-debugsource"
@@ -20904,6 +20904,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202142523004",
       "Version": "635",
       "Name": "colord-libs"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202143400006",
+      "Version": "635",
+      "Name": "bluez-debugsource"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202143877014",
