@@ -28184,7 +28184,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-tools is installed",
+      "Comment": "edk2 is installed",
       "ID": "oval:com.redhat.cve:tst:202236763001",
       "Version": "636",
       "Object": {
@@ -28194,7 +28194,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-tools is signed with Red Hat redhatrelease2 key",
+      "Comment": "edk2 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202236763002",
       "Version": "636",
       "Object": {
@@ -28206,7 +28206,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-aarch64 is installed",
+      "Comment": "edk2-tools-doc is installed",
       "ID": "oval:com.redhat.cve:tst:202236763003",
       "Version": "636",
       "Object": {
@@ -28216,7 +28216,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-aarch64 is signed with Red Hat redhatrelease2 key",
+      "Comment": "edk2-tools-doc is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202236763004",
       "Version": "636",
       "Object": {
@@ -28250,7 +28250,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-tools-doc is installed",
+      "Comment": "edk2-tools is installed",
       "ID": "oval:com.redhat.cve:tst:202236763007",
       "Version": "636",
       "Object": {
@@ -28260,7 +28260,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2-tools-doc is signed with Red Hat redhatrelease2 key",
+      "Comment": "edk2-tools is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202236763008",
       "Version": "636",
       "Object": {
@@ -28272,7 +28272,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2 is installed",
+      "Comment": "edk2-aarch64 is installed",
       "ID": "oval:com.redhat.cve:tst:202236763009",
       "Version": "636",
       "Object": {
@@ -28282,7 +28282,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "edk2 is signed with Red Hat redhatrelease2 key",
+      "Comment": "edk2-aarch64 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202236763010",
       "Version": "636",
       "Object": {
@@ -66108,7 +66108,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20232165001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232165001"
@@ -66132,7 +66132,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20232165005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232165003"
@@ -66144,7 +66144,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20232165007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232165001"
@@ -92649,7 +92649,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236330001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236330001"
@@ -92673,7 +92673,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236330005",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236330003"
@@ -92685,7 +92685,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20236330007",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20236330001"
@@ -111143,7 +111143,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763004"
       },
       "State": {}
     },
@@ -111154,7 +111154,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763002"
       },
       "State": {}
     },
@@ -111165,7 +111165,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763001"
       },
       "State": {}
     },
@@ -111176,7 +111176,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202236763002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202236763005"
       },
       "State": {}
     },
@@ -117709,50 +117709,8 @@
     },
     {
       "Check": "at least one",
-      "Comment": "samba-usershares is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519028"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "samba-usershares is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519028"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python3-samba-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049007",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python3-samba-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049008",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "samba-dc-libs is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049009",
+      "ID": "oval:com.redhat.unaffected:tst:202017049005",
       "Version": "635",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20232519018"
@@ -117762,11 +117720,32 @@
     {
       "Check": "at least one",
       "Comment": "samba-dc-libs is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049010",
+      "ID": "oval:com.redhat.unaffected:tst:202017049006",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20232519018"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnetapi is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnetapi is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519002"
       },
       "State": {}
     },
@@ -117793,92 +117772,29 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libnetapi-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049019",
+      "Comment": "samba-usershares is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519028"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "libnetapi-devel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049020",
+      "Comment": "samba-usershares is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049026",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "samba-ldb-ldap-modules is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049047",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519022"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "samba-ldb-ldap-modules is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049048",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519022"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libnetapi is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049049",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libnetapi is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049050",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "samba-dcerpc is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049051",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519019"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "samba-dcerpc is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049052",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519019"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519028"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "samba-tools is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049053",
+      "ID": "oval:com.redhat.unaffected:tst:202017049027",
       "Version": "635",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20232519027"
@@ -117888,7 +117804,7 @@
     {
       "Check": "at least one",
       "Comment": "samba-tools is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049054",
+      "ID": "oval:com.redhat.unaffected:tst:202017049028",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -117898,8 +117814,29 @@
     },
     {
       "Check": "at least one",
+      "Comment": "libnetapi-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libnetapi-devel is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049038",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "python3-samba-test is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049055",
+      "ID": "oval:com.redhat.unaffected:tst:202017049041",
       "Version": "635",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20232519011"
@@ -117909,11 +117846,74 @@
     {
       "Check": "at least one",
       "Comment": "python3-samba-test is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202017049056",
+      "ID": "oval:com.redhat.unaffected:tst:202017049042",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20232519011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-ldb-ldap-modules is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-ldb-ldap-modules is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049044",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-dcerpc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049057",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-dcerpc is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049058",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-samba-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049067",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-samba-devel is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202017049068",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20232519010"
       },
       "State": {}
     },
@@ -137039,21 +137039,21 @@
     {
       "Check": "at least one",
       "Comment": "cockpit-ostree is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20240567015",
+      "ID": "oval:com.redhat.unaffected:tst:20240567001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20240567008"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20240567001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "cockpit-ostree is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:20240567016",
+      "ID": "oval:com.redhat.unaffected:tst:20240567002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20240567008"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20240567001"
       },
       "State": {}
     },

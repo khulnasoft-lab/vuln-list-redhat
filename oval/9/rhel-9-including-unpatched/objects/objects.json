@@ -6408,12 +6408,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202236763001",
       "Version": "636",
-      "Name": "edk2-tools"
+      "Name": "edk2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202236763002",
       "Version": "636",
-      "Name": "edk2-aarch64"
+      "Name": "edk2-tools-doc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202236763003",
@@ -6423,12 +6423,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202236763004",
       "Version": "636",
-      "Name": "edk2-tools-doc"
+      "Name": "edk2-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202236763005",
       "Version": "636",
-      "Name": "edk2"
+      "Name": "edk2-aarch64"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202237290001",
@@ -14631,7 +14631,7 @@
       "Name": "gpsd-minimal-clients"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20240567008",
+      "ID": "oval:com.redhat.unaffected:obj:20240567001",
       "Version": "635",
       "Name": "cockpit-ostree"
     },
