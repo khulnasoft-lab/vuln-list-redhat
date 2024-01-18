@@ -8836,6 +8836,16 @@
       "Name": "mod_proxy_cluster"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20240690001",
+      "Version": "636",
+      "Name": "ansible-core"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20240690002",
+      "Version": "636",
+      "Name": "ansible-test"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202422195018",
       "Version": "636",
       "Name": "python3-jinja2"
@@ -14634,6 +14644,21 @@
       "ID": "oval:com.redhat.unaffected:obj:20240567001",
       "Version": "635",
       "Name": "cockpit-ostree"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20240684001",
+      "Version": "635",
+      "Name": "coreutils"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20240684002",
+      "Version": "635",
+      "Name": "coreutils-common"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20240684003",
+      "Version": "635",
+      "Name": "coreutils-single"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202422195001",
