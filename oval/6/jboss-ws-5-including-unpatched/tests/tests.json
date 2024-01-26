@@ -2167,7 +2167,7 @@
     {
       "Check": "at least one",
       "Comment": "jws5-tomcat-lib is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733004",
+      "ID": "oval:com.redhat.unaffected:tst:202421733006",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -2178,7 +2178,7 @@
     {
       "Check": "at least one",
       "Comment": "jws5-tomcat-el-3.0-api is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733006",
+      "ID": "oval:com.redhat.unaffected:tst:202421733008",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -2188,63 +2188,8 @@
     },
     {
       "Check": "at least one",
-      "Comment": "jws5-tomcat-servlet-4.0-api is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733008",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202143980011"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "jws5-tomcat-admin-webapps is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733010",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202143980010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "jws5-tomcat-docs-webapp is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733012",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202143980001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "jws5-tomcat-jsp-2.3-api is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733014",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202143980002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "jws5-tomcat-jsvc is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733016",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202143980008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "jws5-tomcat-selinux is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733020",
+      "ID": "oval:com.redhat.unaffected:tst:202421733010",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -2254,12 +2199,67 @@
     },
     {
       "Check": "at least one",
+      "Comment": "jws5-tomcat-servlet-4.0-api is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202421733012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202143980011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jws5-tomcat-docs-webapp is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202421733014",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202143980001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jws5-tomcat-admin-webapps is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202421733016",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202143980010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jws5-tomcat-jsp-2.3-api is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202421733018",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202143980002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "jws5-tomcat-javadoc is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202421733022",
+      "ID": "oval:com.redhat.unaffected:tst:202421733020",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202143980004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "jws5-tomcat-jsvc is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202421733022",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202143980008"
       },
       "State": {}
     }

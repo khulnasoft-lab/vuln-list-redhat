@@ -598,17 +598,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202241717001",
       "Version": "636",
-      "Name": "foreman_ygg_worker"
+      "Name": "yggdrasil"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241717002",
       "Version": "636",
-      "Name": "yggdrasil"
+      "Name": "yggdrasil-worker-forwarder"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241717003",
       "Version": "636",
-      "Name": "yggdrasil-worker-forwarder"
+      "Name": "foreman_ygg_worker"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244566001",
@@ -676,12 +676,12 @@
       "Name": "tfm-rubygem-activesupport"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339325002",
+      "ID": "oval:com.redhat.cve:obj:202339325001",
       "Version": "636",
       "Name": "satellite_client_6/foreman_ygg_worker"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202339325005",
+      "ID": "oval:com.redhat.cve:obj:202339325004",
       "Version": "636",
       "Name": "satellite_client_6/yggdrasil"
     },
@@ -706,19 +706,14 @@
       "Name": "rubygem-grpc"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202350447001",
-      "Version": "636",
-      "Name": "python-pillow"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202350782001",
       "Version": "636",
-      "Name": "python3-cryptography"
+      "Name": "python-cryptography"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202350782002",
       "Version": "636",
-      "Name": "python-cryptography"
+      "Name": "python3-cryptography"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20235189001",
@@ -731,8 +726,13 @@
       "Name": "rubygem-audited"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20214702003",
-      "Version": "640",
+      "ID": "oval:com.redhat.cve:obj:202423342001",
+      "Version": "636",
+      "Name": "python-ecdsa"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202423342002",
+      "Version": "636",
       "Name": "python3-ecdsa"
     },
     {
