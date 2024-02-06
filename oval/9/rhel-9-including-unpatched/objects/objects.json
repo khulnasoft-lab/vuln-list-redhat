@@ -4178,22 +4178,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:202126291001",
       "Version": "636",
-      "Name": "maven-openjdk8"
+      "Name": "maven-openjdk17"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202126291002",
       "Version": "636",
-      "Name": "maven"
+      "Name": "maven-lib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202126291003",
       "Version": "636",
-      "Name": "maven-lib"
+      "Name": "maven-openjdk8"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202126291004",
       "Version": "636",
-      "Name": "maven-openjdk17"
+      "Name": "maven"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202126291005",
@@ -4593,17 +4593,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202136373001",
       "Version": "636",
-      "Name": "ant-apache-oro"
+      "Name": "ant-apache-xalan2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373002",
       "Version": "636",
-      "Name": "ant-commons-logging"
+      "Name": "ant-xz"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373003",
       "Version": "636",
-      "Name": "ant-apache-bcel"
+      "Name": "ant-javamail"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373004",
@@ -4613,82 +4613,82 @@
     {
       "ID": "oval:com.redhat.cve:obj:202136373005",
       "Version": "636",
-      "Name": "ant-apache-resolver"
+      "Name": "ant-apache-bcel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373006",
       "Version": "636",
-      "Name": "ant-jdepend"
+      "Name": "ant-apache-resolver"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373007",
       "Version": "636",
-      "Name": "ant-jsch"
+      "Name": "ant-lib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373008",
       "Version": "636",
-      "Name": "ant-commons-net"
+      "Name": "ant-jmf"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373009",
       "Version": "636",
-      "Name": "ant-javamail"
+      "Name": "ant-commons-logging"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373010",
       "Version": "636",
-      "Name": "ant-apache-xalan2"
+      "Name": "ant-junit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373011",
       "Version": "636",
-      "Name": "ant-apache-regexp"
+      "Name": "ant-testutil"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373012",
       "Version": "636",
-      "Name": "ant-apache-bsf"
+      "Name": "ant-apache-oro"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373013",
       "Version": "636",
-      "Name": "ant-junit"
+      "Name": "ant-junit5"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373014",
       "Version": "636",
-      "Name": "ant-jmf"
+      "Name": "ant-apache-regexp"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373015",
       "Version": "636",
-      "Name": "ant-testutil"
+      "Name": "ant-antlr"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373016",
       "Version": "636",
-      "Name": "ant-junit5"
+      "Name": "ant-jdepend"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373017",
       "Version": "636",
-      "Name": "ant-antlr"
+      "Name": "ant-jsch"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373018",
       "Version": "636",
-      "Name": "ant-lib"
+      "Name": "ant"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373019",
       "Version": "636",
-      "Name": "ant-xz"
+      "Name": "ant-commons-net"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202136373020",
       "Version": "636",
-      "Name": "ant"
+      "Name": "ant-apache-bsf"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202137519001",
@@ -6558,12 +6558,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202242003001",
       "Version": "636",
-      "Name": "jackson-databind"
+      "Name": "pki-jackson-databind"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202242003002",
       "Version": "636",
-      "Name": "pki-jackson-databind"
+      "Name": "jackson-databind"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202242252001",
@@ -7016,7 +7016,7 @@
       "Name": "thunderbird-flatpak-container"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20230482002",
+      "ID": "oval:com.redhat.cve:obj:20230482004",
       "Version": "636",
       "Name": "pki-resteasy"
     },
@@ -14371,6 +14371,11 @@
       "Name": "cyrus-sasl-md5"
     },
     {
+      "ID": "oval:com.redhat.unaffected:obj:202224785012",
+      "Version": "635",
+      "Name": "cockpit-ostree"
+    },
+    {
       "ID": "oval:com.redhat.unaffected:obj:202224834001",
       "Version": "635",
       "Name": "redis-6-container"
@@ -14421,14 +14426,14 @@
       "Name": "networkd-dispatcher"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:202231129001",
-      "Version": "635",
-      "Name": "rhsm-icons"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202231129002",
+      "ID": "oval:com.redhat.unaffected:obj:202231129008",
       "Version": "635",
       "Name": "subscription-manager-cockpit"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202231129012",
+      "Version": "635",
+      "Name": "rhsm-icons"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202231144003",
@@ -14709,11 +14714,6 @@
       "ID": "oval:com.redhat.unaffected:obj:202345139002",
       "Version": "635",
       "Name": "google-noto-emoji-color-fonts"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20240567005",
-      "Version": "635",
-      "Name": "cockpit-ostree"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20240684001",
