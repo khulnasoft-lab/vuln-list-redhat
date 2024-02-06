@@ -7503,12 +7503,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202344441001",
       "Version": "636",
-      "Name": "gimp"
+      "Name": "gimp-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344441002",
       "Version": "636",
-      "Name": "gimp-libs"
+      "Name": "gimp"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202344487001",
