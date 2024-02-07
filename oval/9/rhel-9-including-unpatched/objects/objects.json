@@ -8816,81 +8816,6 @@
       "Name": "opencryptoki-icatok"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20241271001",
-      "Version": "636",
-      "Name": "python3-ipalib"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271002",
-      "Version": "636",
-      "Name": "ipa-client"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271003",
-      "Version": "636",
-      "Name": "python3-ipaclient"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271004",
-      "Version": "636",
-      "Name": "python3-ipatests"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271005",
-      "Version": "636",
-      "Name": "ipa-client-common"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271006",
-      "Version": "636",
-      "Name": "ipa"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271007",
-      "Version": "636",
-      "Name": "python3-ipaserver"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271008",
-      "Version": "636",
-      "Name": "ipa-server-dns"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271009",
-      "Version": "636",
-      "Name": "ipa-client-samba"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271010",
-      "Version": "636",
-      "Name": "ipa-selinux"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271011",
-      "Version": "636",
-      "Name": "ipa-server"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271012",
-      "Version": "636",
-      "Name": "ipa-client-epn"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271013",
-      "Version": "636",
-      "Name": "ipa-common"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271014",
-      "Version": "636",
-      "Name": "ipa-server-trust-ad"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20241271015",
-      "Version": "636",
-      "Name": "ipa-server-common"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202422195015",
       "Version": "636",
       "Name": "python3-jinja2"
@@ -8914,6 +8839,81 @@
       "ID": "oval:com.redhat.cve:obj:202423301001",
       "Version": "636",
       "Name": "rear"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575001",
+      "Version": "636",
+      "Name": "rust-analyzer"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575002",
+      "Version": "636",
+      "Name": "cargo"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575003",
+      "Version": "636",
+      "Name": "rust-debugger-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575004",
+      "Version": "636",
+      "Name": "rust-std-static"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575005",
+      "Version": "636",
+      "Name": "rust-std-static-wasm32-wasi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575006",
+      "Version": "636",
+      "Name": "rust-gdb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575007",
+      "Version": "636",
+      "Name": "rustfmt"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575008",
+      "Version": "636",
+      "Name": "rust-src"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575009",
+      "Version": "636",
+      "Name": "clippy"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575010",
+      "Version": "636",
+      "Name": "rust-analysis"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575011",
+      "Version": "636",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575012",
+      "Version": "636",
+      "Name": "rust-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575013",
+      "Version": "636",
+      "Name": "rust-lldb"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575014",
+      "Version": "636",
+      "Name": "rust-std-static-wasm32-unknown-unknown"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424575015",
+      "Version": "636",
+      "Name": "rust-toolset"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20228256001",
@@ -10444,81 +10444,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20234571001",
       "Version": "635",
       "Name": "iperf3"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634001",
-      "Version": "635",
-      "Name": "cargo"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634002",
-      "Version": "635",
-      "Name": "clippy"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634003",
-      "Version": "635",
-      "Name": "rust"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634004",
-      "Version": "635",
-      "Name": "rust-analysis"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634005",
-      "Version": "635",
-      "Name": "rust-analyzer"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634006",
-      "Version": "635",
-      "Name": "rust-debugger-common"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634007",
-      "Version": "635",
-      "Name": "rust-doc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634008",
-      "Version": "635",
-      "Name": "rust-gdb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634009",
-      "Version": "635",
-      "Name": "rust-lldb"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634010",
-      "Version": "635",
-      "Name": "rust-src"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634011",
-      "Version": "635",
-      "Name": "rust-std-static"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634012",
-      "Version": "635",
-      "Name": "rust-std-static-wasm32-unknown-unknown"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634013",
-      "Version": "635",
-      "Name": "rust-std-static-wasm32-wasi"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634014",
-      "Version": "635",
-      "Name": "rust-toolset"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20234634015",
-      "Version": "635",
-      "Name": "rustfmt"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20234708001",
@@ -12064,6 +11989,76 @@
       "ID": "oval:com.redhat.rhsa:obj:20237754002",
       "Version": "635",
       "Name": "pixman-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141001",
+      "Version": "635",
+      "Name": "ipa-client"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141002",
+      "Version": "635",
+      "Name": "ipa-client-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141003",
+      "Version": "635",
+      "Name": "ipa-client-epn"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141004",
+      "Version": "635",
+      "Name": "ipa-client-samba"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141005",
+      "Version": "635",
+      "Name": "ipa-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141006",
+      "Version": "635",
+      "Name": "ipa-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141007",
+      "Version": "635",
+      "Name": "ipa-server"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141008",
+      "Version": "635",
+      "Name": "ipa-server-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141009",
+      "Version": "635",
+      "Name": "ipa-server-dns"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141010",
+      "Version": "635",
+      "Name": "ipa-server-trust-ad"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141011",
+      "Version": "635",
+      "Name": "python3-ipaclient"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141012",
+      "Version": "635",
+      "Name": "python3-ipalib"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141013",
+      "Version": "635",
+      "Name": "python3-ipaserver"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20240141014",
+      "Version": "635",
+      "Name": "python3-ipatests"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20240340006",
