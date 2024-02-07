@@ -20791,7 +20791,7 @@
       "Name": "apache-commons-io-javadoc"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20213114005",
+      "ID": "oval:com.redhat.unaffected:obj:20213114013",
       "Version": "635",
       "Name": "compat-sap-c++-9"
     },
