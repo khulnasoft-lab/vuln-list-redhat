@@ -6493,12 +6493,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202240896001",
       "Version": "636",
-      "Name": "python3.11-pip"
+      "Name": "python3.11-pip-wheel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240896002",
       "Version": "636",
-      "Name": "python3.11-pip-wheel"
+      "Name": "python3.11-pip"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241317001",
@@ -12663,12 +12663,12 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:202028241001",
       "Version": "635",
-      "Name": "libmaxminddb"
+      "Name": "libmaxminddb-devel"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202028241002",
       "Version": "635",
-      "Name": "libmaxminddb-devel"
+      "Name": "libmaxminddb"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202028476001",

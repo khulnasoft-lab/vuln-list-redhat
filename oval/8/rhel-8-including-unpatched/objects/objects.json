@@ -5578,12 +5578,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202028241001",
       "Version": "636",
-      "Name": "libmaxminddb"
+      "Name": "libmaxminddb-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202028241002",
       "Version": "636",
-      "Name": "libmaxminddb-devel"
+      "Name": "libmaxminddb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202028362001",
@@ -9436,17 +9436,17 @@
       "Name": "resource-agents-gcp"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202240896001",
+      "Version": "636",
+      "Name": "python3.11-pip"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202240896003",
       "Version": "636",
       "Name": "python3.11-pip-wheel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202240896006",
-      "Version": "636",
-      "Name": "python3.11-pip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202240896007",
+      "ID": "oval:com.redhat.cve:obj:202240896009",
       "Version": "636",
       "Name": "python2-pygments"
     },
