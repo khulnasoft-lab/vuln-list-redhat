@@ -8491,12 +8491,12 @@
       "Name": "espeak-ng-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202350387005",
+      "ID": "oval:com.redhat.cve:obj:202350387004",
       "Version": "636",
       "Name": "dnsmasq"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202350387012",
+      "ID": "oval:com.redhat.cve:obj:202350387010",
       "Version": "636",
       "Name": "dnsmasq-utils"
     },
