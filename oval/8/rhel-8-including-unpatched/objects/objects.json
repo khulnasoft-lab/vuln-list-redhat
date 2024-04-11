@@ -10543,17 +10543,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202350967001",
       "Version": "636",
-      "Name": "jose"
+      "Name": "libjose"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202350967002",
       "Version": "636",
-      "Name": "libjose"
+      "Name": "libjose-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202350967003",
       "Version": "636",
-      "Name": "libjose-devel"
+      "Name": "jose"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202351764001",
@@ -11608,17 +11608,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202427316001",
       "Version": "636",
-      "Name": "libnghttp2-devel"
+      "Name": "nghttp2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202427316002",
       "Version": "636",
-      "Name": "libnghttp2"
+      "Name": "libnghttp2-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202427316003",
       "Version": "636",
-      "Name": "nghttp2"
+      "Name": "libnghttp2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852001",
@@ -11658,7 +11658,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20243205001",
       "Version": "636",
-      "Name": "libyaml"
+      "Name": "perl-YAML-LibYAML"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20243205002",
@@ -11668,7 +11668,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20243205003",
       "Version": "636",
-      "Name": "perl-YAML-LibYAML"
+      "Name": "libyaml"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20191992001",
