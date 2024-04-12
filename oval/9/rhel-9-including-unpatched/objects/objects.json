@@ -7473,77 +7473,77 @@
     {
       "ID": "oval:com.redhat.cve:obj:20234408001",
       "Version": "636",
-      "Name": "dhcp-server"
+      "Name": "bind-doc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408002",
       "Version": "636",
-      "Name": "bind-dnssec-utils"
+      "Name": "bind-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408003",
       "Version": "636",
-      "Name": "bind"
+      "Name": "bind-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408004",
       "Version": "636",
-      "Name": "bind-dnssec-doc"
+      "Name": "dhcp-client"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408005",
       "Version": "636",
-      "Name": "bind-chroot"
+      "Name": "bind-dnssec-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408006",
       "Version": "636",
-      "Name": "bind-libs"
+      "Name": "bind-license"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408007",
       "Version": "636",
-      "Name": "bind-devel"
+      "Name": "bind-dnssec-doc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408008",
       "Version": "636",
-      "Name": "bind-doc"
+      "Name": "bind"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408009",
       "Version": "636",
-      "Name": "dhcp-client"
+      "Name": "bind-chroot"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408010",
       "Version": "636",
-      "Name": "bind-utils"
+      "Name": "python3-bind"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408011",
       "Version": "636",
-      "Name": "dhcp-common"
+      "Name": "dhcp"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408012",
       "Version": "636",
-      "Name": "python3-bind"
+      "Name": "dhcp-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408013",
       "Version": "636",
-      "Name": "bind-license"
+      "Name": "bind-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408014",
       "Version": "636",
-      "Name": "dhcp-relay"
+      "Name": "dhcp-common"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20234408015",
       "Version": "636",
-      "Name": "dhcp"
+      "Name": "dhcp-relay"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202345322001",
@@ -9783,17 +9783,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202427316001",
       "Version": "636",
-      "Name": "nghttp2"
+      "Name": "libnghttp2-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202427316003",
+      "ID": "oval:com.redhat.cve:obj:202427316002",
       "Version": "636",
-      "Name": "libnghttp2-devel"
+      "Name": "libnghttp2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202427316004",
       "Version": "636",
-      "Name": "libnghttp2"
+      "Name": "nghttp2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202428834001",
@@ -9883,57 +9883,57 @@
     {
       "ID": "oval:com.redhat.cve:obj:202431852001",
       "Version": "636",
-      "Name": "clang-devel"
+      "Name": "llvm-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852002",
       "Version": "636",
-      "Name": "llvm-test"
+      "Name": "llvm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852003",
       "Version": "636",
-      "Name": "llvm-devel"
+      "Name": "llvm-toolset"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852004",
       "Version": "636",
-      "Name": "llvm-googletest"
+      "Name": "lldb"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852005",
       "Version": "636",
-      "Name": "llvm-static"
+      "Name": "clang-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852006",
       "Version": "636",
-      "Name": "lldb"
+      "Name": "lldb-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852007",
       "Version": "636",
-      "Name": "clang"
+      "Name": "llvm-googletest"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852008",
       "Version": "636",
-      "Name": "llvm-libs"
+      "Name": "llvm-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852009",
       "Version": "636",
-      "Name": "llvm-toolset"
+      "Name": "llvm-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852010",
       "Version": "636",
-      "Name": "llvm-doc"
+      "Name": "llvm-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852011",
       "Version": "636",
-      "Name": "llvm"
+      "Name": "llvm-doc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202431852012",
@@ -9943,7 +9943,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:202431852013",
       "Version": "636",
-      "Name": "lldb-devel"
+      "Name": "clang"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20243205001",
@@ -13019,6 +13019,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20241576016",
       "Version": "634",
       "Name": "rubygem-pg-doc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20241789011",
+      "Version": "637",
+      "Name": "bind-dyndb-ldap"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20020059002",
