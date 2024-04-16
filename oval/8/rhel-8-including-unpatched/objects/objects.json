@@ -10018,12 +10018,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202329483001",
       "Version": "636",
-      "Name": "python-dns"
+      "Name": "python2-dns"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202329483002",
       "Version": "636",
-      "Name": "python2-dns"
+      "Name": "python-dns"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202329499001",
