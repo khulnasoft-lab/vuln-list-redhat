@@ -9711,17 +9711,17 @@
       "Name": "krb5-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202427316002",
+      "ID": "oval:com.redhat.cve:obj:202427316009",
       "Version": "636",
       "Name": "libnghttp2-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202427316003",
+      "ID": "oval:com.redhat.cve:obj:202427316010",
       "Version": "636",
       "Name": "libnghttp2"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202427316015",
+      "ID": "oval:com.redhat.cve:obj:202427316012",
       "Version": "636",
       "Name": "nghttp2"
     },
