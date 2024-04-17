@@ -696,6 +696,16 @@
       "Name": "python3-pycryptodomex"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20241135001",
+      "Version": "636",
+      "Name": "python-gunicorn"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20241135002",
+      "Version": "636",
+      "Name": "python3-gunicorn"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202421490001",
       "Version": "636",
       "Name": "nodejs-angular"
@@ -768,7 +778,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20243651001",
       "Version": "636",
-      "Name": "python-idna-ssl"
+      "Name": "python3-idna-ssl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20243651002",
@@ -783,7 +793,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20243651004",
       "Version": "636",
-      "Name": "python3-idna-ssl"
+      "Name": "python-idna-ssl"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20214702004",
