@@ -11703,12 +11703,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202427316002",
       "Version": "636",
-      "Name": "libnghttp2-devel"
+      "Name": "libnghttp2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202427316003",
       "Version": "636",
-      "Name": "libnghttp2"
+      "Name": "libnghttp2-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20242961001",
