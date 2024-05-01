@@ -7931,6 +7931,11 @@
       "Name": "nghttp2"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202429038001",
+      "Version": "636",
+      "Name": "tpm2-tools"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20242905001",
       "Version": "636",
       "Name": "rpm-ostree"
@@ -14019,11 +14024,6 @@
       "ID": "oval:com.redhat.unaffected:obj:202135515001",
       "Version": "635",
       "Name": "apache-commons-compress"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20213565001",
-      "Version": "635",
-      "Name": "tpm2-tools"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20213570001",
