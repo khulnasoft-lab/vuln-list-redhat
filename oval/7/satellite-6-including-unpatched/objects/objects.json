@@ -811,12 +811,12 @@
       "Name": "python-idna-ssl"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20244068001",
+      "ID": "oval:com.redhat.cve:obj:20244067001",
       "Version": "636",
       "Name": "nodejs-webpack"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20244068002",
+      "ID": "oval:com.redhat.cve:obj:20244067002",
       "Version": "636",
       "Name": "rubygem-rabl"
     },
