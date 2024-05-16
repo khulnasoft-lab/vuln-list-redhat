@@ -9883,17 +9883,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202325193001",
       "Version": "636",
-      "Name": "harfbuzz-icu"
+      "Name": "harfbuzz"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325193002",
       "Version": "636",
-      "Name": "harfbuzz"
+      "Name": "harfbuzz-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325193003",
       "Version": "636",
-      "Name": "harfbuzz-devel"
+      "Name": "harfbuzz-icu"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325399001",
@@ -11718,17 +11718,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20243205001",
       "Version": "636",
-      "Name": "libyaml-devel"
+      "Name": "perl-YAML-LibYAML"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20243205002",
       "Version": "636",
-      "Name": "perl-YAML-LibYAML"
+      "Name": "libyaml"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20243205003",
       "Version": "636",
-      "Name": "libyaml"
+      "Name": "libyaml-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202432462001",
