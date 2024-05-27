@@ -22434,6 +22434,11 @@
       "ID": "oval:com.redhat.unaffected:obj:20243205002",
       "Version": "635",
       "Name": "libyaml-devel"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20243205003",
+      "Version": "635",
+      "Name": "perl-YAML-LibYAML"
     }
   ],
   "RpmverifyfileObjects": [
