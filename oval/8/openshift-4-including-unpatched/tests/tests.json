@@ -1279,20 +1279,20 @@
     {
       "Check": "at least one",
       "Comment": "conmon is installed",
-      "ID": "oval:com.redhat.cve:tst:20243727003",
+      "ID": "oval:com.redhat.cve:tst:20243727011",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20243727002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20243727006"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "conmon is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20243727004",
+      "ID": "oval:com.redhat.cve:tst:20243727012",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20243727002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20243727006"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1301,20 +1301,20 @@
     {
       "Check": "at least one",
       "Comment": "containers-common is installed",
-      "ID": "oval:com.redhat.cve:tst:20243727007",
+      "ID": "oval:com.redhat.cve:tst:20243727013",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20243727004"
+        "ObjectRef": "oval:com.redhat.cve:obj:20243727007"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "containers-common is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20243727008",
+      "ID": "oval:com.redhat.cve:tst:20243727014",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20243727004"
+        "ObjectRef": "oval:com.redhat.cve:obj:20243727007"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1886,7 +1886,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20243727002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20243727006"
       },
       "State": {}
     },
