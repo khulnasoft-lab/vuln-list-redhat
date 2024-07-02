@@ -26,64 +26,64 @@
       "Name": "lua"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202438477001",
-      "Version": "636",
-      "Name": "jbcs-httpd24-mod_md"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477002",
-      "Version": "636",
-      "Name": "jbcs-httpd24-httpd-tools"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477003",
-      "Version": "636",
-      "Name": "jbcs-httpd24-httpd-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477004",
-      "Version": "636",
-      "Name": "jbcs-httpd24-mod_session"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477005",
-      "Version": "636",
-      "Name": "jbcs-httpd24-httpd-zip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477006",
-      "Version": "636",
-      "Name": "jbcs-httpd24-httpd-manual"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477007",
-      "Version": "636",
-      "Name": "jbcs-httpd24-mod_ssl"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477008",
-      "Version": "636",
-      "Name": "jbcs-httpd24-httpd-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477009",
-      "Version": "636",
-      "Name": "jbcs-httpd24-mod_proxy_html"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477010",
-      "Version": "636",
-      "Name": "jbcs-httpd24-httpd-src-zip"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202438477012",
+      "ID": "oval:com.redhat.cve:obj:202436387001",
       "Version": "636",
       "Name": "jbcs-httpd24-httpd-selinux"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202438477013",
+      "ID": "oval:com.redhat.cve:obj:202436387002",
+      "Version": "636",
+      "Name": "jbcs-httpd24-httpd-zip"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387003",
+      "Version": "636",
+      "Name": "jbcs-httpd24-httpd-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387004",
+      "Version": "636",
+      "Name": "jbcs-httpd24-mod_session"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387005",
+      "Version": "636",
+      "Name": "jbcs-httpd24-httpd-tools"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387006",
       "Version": "636",
       "Name": "jbcs-httpd24-mod_ldap"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387007",
+      "Version": "636",
+      "Name": "jbcs-httpd24-mod_ssl"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387008",
+      "Version": "636",
+      "Name": "jbcs-httpd24-mod_md"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387009",
+      "Version": "636",
+      "Name": "jbcs-httpd24-httpd-src-zip"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387010",
+      "Version": "636",
+      "Name": "jbcs-httpd24-httpd-libs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387011",
+      "Version": "636",
+      "Name": "jbcs-httpd24-mod_proxy_html"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202436387013",
+      "Version": "636",
+      "Name": "jbcs-httpd24-httpd-manual"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20170194001",
