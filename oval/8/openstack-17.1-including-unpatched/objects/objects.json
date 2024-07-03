@@ -473,22 +473,22 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:202348795014",
       "Version": "635",
-      "Name": "erlang-erts"
+      "Name": "erlang-tools"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202348795015",
       "Version": "635",
-      "Name": "erlang-tools"
+      "Name": "erlang-erts"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202348795016",
       "Version": "635",
-      "Name": "erlang-parsetools"
+      "Name": "erlang-ssl"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202348795017",
       "Version": "635",
-      "Name": "erlang-ssl"
+      "Name": "erlang-parsetools"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202348795018",
