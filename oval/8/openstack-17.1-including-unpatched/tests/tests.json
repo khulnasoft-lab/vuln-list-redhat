@@ -2290,7 +2290,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-erts is installed",
+      "Comment": "erlang-tools is installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795027",
       "Version": "635",
       "Object": {
@@ -2300,7 +2300,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-erts is not installed",
+      "Comment": "erlang-tools is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795028",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -2311,7 +2311,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-tools is installed",
+      "Comment": "erlang-erts is installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795029",
       "Version": "635",
       "Object": {
@@ -2321,7 +2321,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-tools is not installed",
+      "Comment": "erlang-erts is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795030",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -2332,7 +2332,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-parsetools is installed",
+      "Comment": "erlang-ssl is installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795031",
       "Version": "635",
       "Object": {
@@ -2342,7 +2342,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-parsetools is not installed",
+      "Comment": "erlang-ssl is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795032",
       "Version": "635",
       "CheckExistence": "none_exist",
@@ -2353,7 +2353,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-ssl is installed",
+      "Comment": "erlang-parsetools is installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795033",
       "Version": "635",
       "Object": {
@@ -2363,7 +2363,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "erlang-ssl is not installed",
+      "Comment": "erlang-parsetools is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202348795034",
       "Version": "635",
       "CheckExistence": "none_exist",
