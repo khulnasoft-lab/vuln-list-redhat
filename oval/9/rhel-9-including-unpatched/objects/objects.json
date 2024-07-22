@@ -8403,12 +8403,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202437891001",
       "Version": "636",
-      "Name": "python3-urllib3"
+      "Name": "python-urllib3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202437891002",
       "Version": "636",
-      "Name": "python-urllib3"
+      "Name": "python3-urllib3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202438394001",
@@ -8696,59 +8696,59 @@
       "Name": "cockpit-packagekit"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20246345001",
-      "Version": "636",
-      "Name": "python3.11-setuptools-wheel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345008",
+      "ID": "oval:com.redhat.cve:obj:20246345017",
       "Version": "636",
       "Name": "python3-setuptools-wheel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20246345009",
-      "Version": "636",
-      "Name": "python3.11-setuptools-rust"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345018",
-      "Version": "636",
-      "Name": "python3-setuptools"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345024",
-      "Version": "636",
-      "Name": "python3.12-setuptools-wheel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345025",
-      "Version": "636",
-      "Name": "python3-setuptools_scm+toml"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345033",
-      "Version": "636",
-      "Name": "python3-setuptools_scm"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345034",
-      "Version": "636",
-      "Name": "python3.12-setuptools-rust"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246345035",
+      "ID": "oval:com.redhat.cve:obj:20246345021",
       "Version": "636",
       "Name": "python-setuptools"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20246345045",
+      "ID": "oval:com.redhat.cve:obj:20246345024",
       "Version": "636",
       "Name": "python3.12-setuptools"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20246345050",
+      "ID": "oval:com.redhat.cve:obj:20246345027",
+      "Version": "636",
+      "Name": "python3.11-setuptools-rust"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345028",
+      "Version": "636",
+      "Name": "python3.12-setuptools-rust"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345038",
+      "Version": "636",
+      "Name": "python3.11-setuptools-wheel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345044",
+      "Version": "636",
+      "Name": "python3.12-setuptools-wheel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345045",
+      "Version": "636",
+      "Name": "python3-setuptools_scm+toml"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345052",
       "Version": "636",
       "Name": "python3.11-setuptools"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345056",
+      "Version": "636",
+      "Name": "python3-setuptools"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20246345064",
+      "Version": "636",
+      "Name": "python3-setuptools_scm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655001",
