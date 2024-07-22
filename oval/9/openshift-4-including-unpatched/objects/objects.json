@@ -341,44 +341,49 @@
       "Name": "python-gunicorn"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424788001",
-      "Version": "636",
-      "Name": "ose-aws-ecr-image-credential-provider"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202424788003",
-      "Version": "636",
-      "Name": "ose-gcp-gcr-image-credential-provider"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202424788004",
       "Version": "636",
       "Name": "ose-azure-acr-image-credential-provider"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424789005",
+      "ID": "oval:com.redhat.cve:obj:202424788005",
+      "Version": "636",
+      "Name": "ose-gcp-gcr-image-credential-provider"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424788006",
+      "Version": "636",
+      "Name": "ose-aws-ecr-image-credential-provider"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424788008",
+      "Version": "636",
+      "Name": "skopeo-tests"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424789003",
       "Version": "636",
       "Name": "openshift-prometheus-promu"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424789006",
-      "Version": "636",
-      "Name": "podman-docker"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202424789008",
+      "ID": "oval:com.redhat.cve:obj:202424789004",
       "Version": "636",
       "Name": "podman-tests"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424789014",
+      "ID": "oval:com.redhat.cve:obj:202424789008",
       "Version": "636",
-      "Name": "podman-remote"
+      "Name": "podman-plugins"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202424789016",
       "Version": "636",
-      "Name": "podman-plugins"
+      "Name": "podman-docker"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424789021",
+      "Version": "636",
+      "Name": "podman-remote"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202426602001",
@@ -399,11 +404,6 @@
       "ID": "oval:com.redhat.cve:obj:20245569001",
       "Version": "636",
       "Name": "python-zipp"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246104002",
-      "Version": "636",
-      "Name": "skopeo-tests"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20240045004",

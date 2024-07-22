@@ -271,24 +271,29 @@
       "Name": "python-gunicorn"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424788001",
-      "Version": "636",
-      "Name": "ose-aws-ecr-image-credential-provider"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202424788003",
-      "Version": "636",
-      "Name": "ose-gcp-gcr-image-credential-provider"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202424788004",
       "Version": "636",
       "Name": "ose-azure-acr-image-credential-provider"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424789003",
+      "ID": "oval:com.redhat.cve:obj:202424788005",
       "Version": "636",
-      "Name": "podman-gvproxy"
+      "Name": "ose-gcp-gcr-image-credential-provider"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424788006",
+      "Version": "636",
+      "Name": "ose-aws-ecr-image-credential-provider"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424788008",
+      "Version": "636",
+      "Name": "skopeo-tests"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424789002",
+      "Version": "636",
+      "Name": "podman-remote"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202424789004",
@@ -296,19 +301,19 @@
       "Name": "podman-docker"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424789005",
-      "Version": "636",
-      "Name": "podman-catatonit"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202424789008",
+      "ID": "oval:com.redhat.cve:obj:202424789009",
       "Version": "636",
       "Name": "podman-tests"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202424789010",
+      "Version": "636",
+      "Name": "podman-catatonit"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202424789014",
       "Version": "636",
-      "Name": "podman-remote"
+      "Name": "podman-gvproxy"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202424789015",
@@ -334,11 +339,6 @@
       "ID": "oval:com.redhat.cve:obj:20245569001",
       "Version": "636",
       "Name": "python-zipp"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246104002",
-      "Version": "636",
-      "Name": "skopeo-tests"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20240045013",
