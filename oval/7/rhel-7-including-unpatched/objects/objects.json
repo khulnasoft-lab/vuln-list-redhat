@@ -15501,7 +15501,7 @@
       "Name": "libyaml-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202435195007",
+      "ID": "oval:com.redhat.cve:obj:202435195002",
       "Version": "636",
       "Name": "pykickstart"
     },

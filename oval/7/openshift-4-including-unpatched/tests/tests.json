@@ -2297,6 +2297,17 @@
     },
     {
       "Check": "at least one",
+      "Comment": "rhcos is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20240760002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20241394003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "openshift4-aws-iso is installed",
       "ID": "oval:com.redhat.unaffected:tst:202422195001",
       "Version": "635",
@@ -2345,17 +2356,6 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.unaffected:obj:20243727001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "rhcos is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202439894002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20241394003"
       },
       "State": {}
     }

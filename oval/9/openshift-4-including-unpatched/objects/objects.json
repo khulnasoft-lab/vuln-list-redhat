@@ -346,22 +346,27 @@
       "Name": "python-gunicorn"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424788003",
+      "ID": "oval:com.redhat.cve:obj:20241737001",
       "Version": "636",
-      "Name": "ose-azure-acr-image-credential-provider"
+      "Name": "rhcos"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424788005",
+      "ID": "oval:com.redhat.cve:obj:202424788001",
       "Version": "636",
       "Name": "ose-gcp-gcr-image-credential-provider"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202424788006",
       "Version": "636",
+      "Name": "ose-azure-acr-image-credential-provider"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202424788012",
+      "Version": "636",
       "Name": "ose-aws-ecr-image-credential-provider"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202424788008",
+      "ID": "oval:com.redhat.cve:obj:202424788013",
       "Version": "636",
       "Name": "skopeo-tests"
     },
@@ -389,11 +394,6 @@
       "ID": "oval:com.redhat.cve:obj:202424789021",
       "Version": "636",
       "Name": "podman-remote"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202426602001",
-      "Version": "636",
-      "Name": "rhcos"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20242905001",
