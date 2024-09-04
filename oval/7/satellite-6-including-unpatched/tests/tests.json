@@ -3720,50 +3720,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "python3-zipp is installed",
-      "ID": "oval:com.redhat.cve:tst:20245569001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20245569001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python3-zipp is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20245569002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20245569001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-zipp is installed",
-      "ID": "oval:com.redhat.cve:tst:20245569003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20245569002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-zipp is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20245569004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20245569002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "python-grpcio is installed",
       "ID": "oval:com.redhat.cve:tst:20247246001",
       "Version": "636",
@@ -6395,28 +6351,6 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202428863001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "foreman-proxy-journald is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202441123002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202439908001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "foreman-proxy is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202441123016",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202439908006"
       },
       "State": {}
     },
