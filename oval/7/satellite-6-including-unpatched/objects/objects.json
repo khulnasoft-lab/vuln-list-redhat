@@ -856,9 +856,19 @@
       "Name": "python-zipp"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20247012001",
+      "Version": "636",
+      "Name": "puppet-foreman"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20247246001",
       "Version": "636",
       "Name": "python-grpcio"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20247923001",
+      "Version": "636",
+      "Name": "puppet-pulpcore"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20214702004",
