@@ -11416,16 +11416,6 @@
       "Name": "gtk2-immodule-xim"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20248006001",
-      "Version": "636",
-      "Name": "libpcap"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20248006002",
-      "Version": "636",
-      "Name": "libpcap-devel"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20248418001",
       "Version": "636",
       "Name": "aardvark-dns"
@@ -15534,6 +15524,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20204545003",
       "Version": "635",
       "Name": "libssh-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20204547001",
+      "Version": "638",
+      "Name": "libpcap"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20204547002",
+      "Version": "638",
+      "Name": "libpcap-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20204568001",

@@ -8306,31 +8306,6 @@
       "Name": "rhel9/bootc-image-builder"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202442472001",
-      "Version": "636",
-      "Name": "flatpak-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202442472002",
-      "Version": "636",
-      "Name": "flatpak"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202442472003",
-      "Version": "636",
-      "Name": "flatpak-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202442472004",
-      "Version": "636",
-      "Name": "flatpak-selinux"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202442472005",
-      "Version": "636",
-      "Name": "flatpak-session-helper"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202442934001",
       "Version": "636",
       "Name": "OpenIPMI-devel"
@@ -8614,16 +8589,6 @@
       "ID": "oval:com.redhat.cve:obj:20247383007",
       "Version": "636",
       "Name": "libnbd-bash-completion"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20248006001",
-      "Version": "636",
-      "Name": "libpcap"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20248006002",
-      "Version": "636",
-      "Name": "libpcap-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20248235001",
@@ -11631,6 +11596,31 @@
       "Name": "tang"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20236518001",
+      "Version": "636",
+      "Name": "flatpak"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20236518002",
+      "Version": "636",
+      "Name": "flatpak-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20236518003",
+      "Version": "636",
+      "Name": "flatpak-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20236518004",
+      "Version": "636",
+      "Name": "flatpak-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20236518005",
+      "Version": "636",
+      "Name": "flatpak-session-helper"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20236523001",
       "Version": "637",
       "Name": "python3-tornado"
@@ -13429,6 +13419,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20246242006",
       "Version": "635",
       "Name": "kpatch-patch-5_14_0-427_31_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20246356001",
+      "Version": "636",
+      "Name": "bubblewrap"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20020059002",
@@ -15284,6 +15279,16 @@
       "ID": "oval:com.redhat.unaffected:obj:20242312005",
       "Version": "635",
       "Name": "grub2"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20242397001",
+      "Version": "635",
+      "Name": "libpcap"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20242397002",
+      "Version": "635",
+      "Name": "libpcap-devel"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202429041002",
