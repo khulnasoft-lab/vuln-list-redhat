@@ -11151,16 +11151,6 @@
       "Name": "libcdio-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202436600003",
-      "Version": "636",
-      "Name": "libcdio-paranoia-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202436600004",
-      "Version": "636",
-      "Name": "libcdio-paranoia"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202437535001",
       "Version": "636",
       "Name": "vte291-devel"

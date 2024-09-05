@@ -8141,16 +8141,6 @@
       "Name": "libcdio-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202436600003",
-      "Version": "636",
-      "Name": "libcdio-paranoia-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202436600004",
-      "Version": "636",
-      "Name": "libcdio-paranoia"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202437535001",
       "Version": "636",
       "Name": "vte291-devel"
@@ -8326,12 +8316,12 @@
       "Name": "OpenIPMI-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202445490001",
+      "ID": "oval:com.redhat.cve:obj:202445490004",
       "Version": "636",
       "Name": "expat-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202445490002",
+      "ID": "oval:com.redhat.cve:obj:202445490005",
       "Version": "636",
       "Name": "expat"
     },
