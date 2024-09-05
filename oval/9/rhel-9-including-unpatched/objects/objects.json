@@ -8341,16 +8341,6 @@
       "Name": "nano"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20246119008",
-      "Version": "636",
-      "Name": "shim-unsigned-aarch64"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20246119009",
-      "Version": "636",
-      "Name": "shim-unsigned-x64"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20246126001",
       "Version": "636",
       "Name": "cockpit-bridge"
@@ -8999,6 +8989,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20225099015",
       "Version": "637",
       "Name": "grub2-tools-minimal"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225099016",
+      "Version": "637",
+      "Name": "shim-unsigned-x64"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20225214002",
@@ -15309,6 +15304,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202435195009",
       "Version": "635",
       "Name": "python3.12-pip"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20244603010",
+      "Version": "635",
+      "Name": "shim-unsigned-aarch64"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20245148001",
