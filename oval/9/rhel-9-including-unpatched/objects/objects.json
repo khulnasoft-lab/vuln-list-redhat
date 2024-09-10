@@ -7663,12 +7663,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20237256001",
       "Version": "636",
-      "Name": "libcap"
+      "Name": "libcap-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20237256002",
       "Version": "636",
-      "Name": "libcap-devel"
+      "Name": "libcap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240397005",
@@ -8463,17 +8463,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20246655001",
       "Version": "636",
-      "Name": "gtk2"
+      "Name": "gtk3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655002",
       "Version": "636",
-      "Name": "gtk2-devel-docs"
+      "Name": "gtk-update-icon-cache"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655003",
       "Version": "636",
-      "Name": "gtk-update-icon-cache"
+      "Name": "gtk2"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655004",
@@ -8483,32 +8483,32 @@
     {
       "ID": "oval:com.redhat.cve:obj:20246655005",
       "Version": "636",
-      "Name": "gtk3-immodule-xim"
+      "Name": "gtk2-immodules"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655006",
       "Version": "636",
-      "Name": "gtk2-immodules"
+      "Name": "gtk2-devel-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655007",
       "Version": "636",
-      "Name": "gtk2-devel"
+      "Name": "gtk3-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655008",
       "Version": "636",
-      "Name": "gtk3"
+      "Name": "gtk3-devel-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655009",
       "Version": "636",
-      "Name": "gtk3-devel-docs"
+      "Name": "gtk3-immodule-xim"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20246655010",
       "Version": "636",
-      "Name": "gtk3-devel"
+      "Name": "gtk2-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20247264001",
@@ -15318,22 +15318,32 @@
     {
       "ID": "oval:com.redhat.unaffected:obj:20246345001",
       "Version": "635",
-      "Name": "python3-setuptools_scm"
+      "Name": "python3-setuptools_scm+toml"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20246345002",
       "Version": "635",
-      "Name": "python3-setuptools_scm+toml"
+      "Name": "python3.11-setuptools-rust"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20246345003",
       "Version": "635",
-      "Name": "python3.11-setuptools-rust"
+      "Name": "python3-setuptools_scm"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20246345004",
       "Version": "635",
       "Name": "python3.12-setuptools-rust"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20246655001",
+      "Version": "635",
+      "Name": "gtk4-devel"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20246655002",
+      "Version": "635",
+      "Name": "gtk4"
     }
   ],
   "RpmverifyfileObjects": [

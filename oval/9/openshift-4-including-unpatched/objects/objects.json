@@ -296,19 +296,19 @@
       "Name": "python-zipp"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20248421003",
-      "Version": "636",
-      "Name": "ose-aws-ecr-image-credential-provider"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20248421004",
+      "ID": "oval:com.redhat.cve:obj:20248421002",
       "Version": "636",
       "Name": "ignition"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20248421005",
+      "ID": "oval:com.redhat.cve:obj:20248421004",
       "Version": "636",
-      "Name": "conmon"
+      "Name": "ose-gcp-gcr-image-credential-provider"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20248421006",
+      "Version": "636",
+      "Name": "ose-aws-ecr-image-credential-provider"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20248421007",
@@ -318,7 +318,7 @@
     {
       "ID": "oval:com.redhat.cve:obj:20248421008",
       "Version": "636",
-      "Name": "ose-gcp-gcr-image-credential-provider"
+      "Name": "conmon"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20191010083001",
