@@ -10758,12 +10758,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20237256001",
       "Version": "636",
-      "Name": "libcap-devel"
+      "Name": "libpcap-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20237256002",
       "Version": "636",
-      "Name": "libcap"
+      "Name": "libpcap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240397003",
@@ -15501,16 +15501,6 @@
       "Name": "libssh-devel"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20204547001",
-      "Version": "638",
-      "Name": "libpcap"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20204547002",
-      "Version": "638",
-      "Name": "libpcap-devel"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20204568001",
       "Version": "637",
       "Name": "ldb-tools"
@@ -19004,6 +18994,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20233949003",
       "Version": "637",
       "Name": "open-vm-tools-salt-minion"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234524001",
+      "Version": "635",
+      "Name": "libcap"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20234524002",
+      "Version": "635",
+      "Name": "libcap-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20234531006",

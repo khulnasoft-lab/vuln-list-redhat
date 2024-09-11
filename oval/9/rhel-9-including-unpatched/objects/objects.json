@@ -7663,12 +7663,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:20237256001",
       "Version": "636",
-      "Name": "libcap-devel"
+      "Name": "libpcap-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20237256002",
       "Version": "636",
-      "Name": "libcap"
+      "Name": "libpcap"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20240397005",
@@ -8314,6 +8314,16 @@
       "ID": "oval:com.redhat.cve:obj:202442934004",
       "Version": "636",
       "Name": "OpenIPMI-libs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202443796005",
+      "Version": "636",
+      "Name": "cldr-emoji-annotation"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202443796006",
+      "Version": "636",
+      "Name": "cldr-emoji-annotation-dtd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202445490004",
@@ -10359,6 +10369,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20235061001",
       "Version": "635",
       "Name": "dmidecode"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20235071001",
+      "Version": "636",
+      "Name": "libcap"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20235071002",
+      "Version": "636",
+      "Name": "libcap-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20235081001",
@@ -15264,26 +15284,6 @@
       "ID": "oval:com.redhat.unaffected:obj:20242312005",
       "Version": "635",
       "Name": "grub2"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20242397001",
-      "Version": "635",
-      "Name": "libpcap"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20242397002",
-      "Version": "635",
-      "Name": "libpcap-devel"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202429041002",
-      "Version": "635",
-      "Name": "cldr-emoji-annotation"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:202429041008",
-      "Version": "635",
-      "Name": "cldr-emoji-annotation-dtd"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202435195003",
