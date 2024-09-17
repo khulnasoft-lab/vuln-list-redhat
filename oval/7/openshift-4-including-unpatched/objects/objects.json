@@ -311,11 +311,6 @@
       "Name": "operator-certification-operator"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202345288002",
-      "Version": "636",
-      "Name": "ibm-powervs-block-csi-driver"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202345289002",
       "Version": "636",
       "Name": "ose-azure-acr-image-credential-provider"
@@ -434,6 +429,11 @@
       "ID": "oval:com.redhat.unaffected:obj:20234016001",
       "Version": "635",
       "Name": "procps-ng"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202345288001",
+      "Version": "635",
+      "Name": "ibm-powervs-block-csi-driver"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202352323001",
