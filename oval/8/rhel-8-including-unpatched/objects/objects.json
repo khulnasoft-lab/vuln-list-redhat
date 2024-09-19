@@ -11376,6 +11376,36 @@
       "Name": "gtk2-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20247254001",
+      "Version": "636",
+      "Name": "python3-protobuf"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20247254002",
+      "Version": "636",
+      "Name": "protobuf-lite-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20247254003",
+      "Version": "636",
+      "Name": "protobuf"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20247254004",
+      "Version": "636",
+      "Name": "protobuf-compiler"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20247254005",
+      "Version": "636",
+      "Name": "protobuf-lite"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20247254006",
+      "Version": "636",
+      "Name": "protobuf-devel"
+    },
+    {
       "ID": "oval:com.redhat.rhba:obj:20191992001",
       "Version": "635",
       "Name": "cloud-init"
@@ -16969,36 +16999,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20227458001",
       "Version": "636",
       "Name": "flatpak-builder"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227464001",
-      "Version": "637",
-      "Name": "protobuf"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227464002",
-      "Version": "637",
-      "Name": "protobuf-compiler"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227464003",
-      "Version": "637",
-      "Name": "protobuf-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227464004",
-      "Version": "637",
-      "Name": "protobuf-lite"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227464005",
-      "Version": "637",
-      "Name": "protobuf-lite-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20227464006",
-      "Version": "637",
-      "Name": "python3-protobuf"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20227639001",

@@ -112,7 +112,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openvswitch2.13 is installed",
+      "Comment": "openvswitch2.16 is installed",
       "ID": "oval:com.redhat.cve:tst:201925076001",
       "Version": "636",
       "Object": {
@@ -122,7 +122,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openvswitch2.13 is signed with Red Hat redhatrelease2 key",
+      "Comment": "openvswitch2.16 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:201925076002",
       "Version": "636",
       "Object": {
@@ -178,7 +178,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openvswitch2.16 is installed",
+      "Comment": "openvswitch2.13 is installed",
       "ID": "oval:com.redhat.cve:tst:201925076007",
       "Version": "636",
       "Object": {
@@ -188,7 +188,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openvswitch2.16 is signed with Red Hat redhatrelease2 key",
+      "Comment": "openvswitch2.13 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:201925076008",
       "Version": "636",
       "Object": {
@@ -333,20 +333,20 @@
     {
       "Check": "at least one",
       "Comment": "containernetworking-plugins is installed",
-      "ID": "oval:com.redhat.cve:tst:202120206003",
+      "ID": "oval:com.redhat.cve:tst:202120206005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202120206003"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "containernetworking-plugins is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202120206004",
+      "ID": "oval:com.redhat.cve:tst:202120206006",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202120206003"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -443,20 +443,20 @@
     {
       "Check": "at least one",
       "Comment": "cri-o is installed",
-      "ID": "oval:com.redhat.cve:tst:202127918005",
+      "ID": "oval:com.redhat.cve:tst:202127918007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918004"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "cri-o is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202127918006",
+      "ID": "oval:com.redhat.cve:tst:202127918008",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918004"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -465,20 +465,20 @@
     {
       "Check": "at least one",
       "Comment": "skopeo is installed",
-      "ID": "oval:com.redhat.cve:tst:202129482001",
+      "ID": "oval:com.redhat.cve:tst:202129482005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202129482003"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "skopeo is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202129482002",
+      "ID": "oval:com.redhat.cve:tst:202129482006",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202129482003"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -509,6 +509,28 @@
     {
       "Check": "at least one",
       "Comment": "atomic-enterprise-service-catalog is installed",
+      "ID": "oval:com.redhat.cve:tst:20221996001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20221996001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "atomic-enterprise-service-catalog is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20221996002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20221996001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201714623001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "machine-config-daemon is installed",
       "ID": "oval:com.redhat.cve:tst:20221996003",
       "Version": "636",
       "Object": {
@@ -518,7 +540,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "atomic-enterprise-service-catalog is signed with Red Hat redhatrelease2 key",
+      "Comment": "machine-config-daemon is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20221996004",
       "Version": "636",
       "Object": {
@@ -531,28 +553,6 @@
     {
       "Check": "at least one",
       "Comment": "atomic-openshift-service-idler is installed",
-      "ID": "oval:com.redhat.cve:tst:20221996005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221996003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "atomic-openshift-service-idler is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20221996006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221996003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "machine-config-daemon is installed",
       "ID": "oval:com.redhat.cve:tst:20221996009",
       "Version": "636",
       "Object": {
@@ -562,33 +562,11 @@
     },
     {
       "Check": "at least one",
-      "Comment": "machine-config-daemon is signed with Red Hat redhatrelease2 key",
+      "Comment": "atomic-openshift-service-idler is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20221996010",
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:20221996005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "linux-firmware is installed",
-      "ID": "oval:com.redhat.cve:tst:202227635001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202227635001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "linux-firmware is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202227635002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202227635001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -618,7 +596,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "golang-github-prometheus-promu is installed",
+      "Comment": "butane is installed",
       "ID": "oval:com.redhat.cve:tst:20223064001",
       "Version": "636",
       "Object": {
@@ -628,7 +606,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "golang-github-prometheus-promu is signed with Red Hat redhatrelease2 key",
+      "Comment": "butane is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20223064002",
       "Version": "636",
       "Object": {
@@ -640,7 +618,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "butane is installed",
+      "Comment": "golang-github-prometheus-promu is installed",
       "ID": "oval:com.redhat.cve:tst:20223064003",
       "Version": "636",
       "Object": {
@@ -650,7 +628,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "butane is signed with Red Hat redhatrelease2 key",
+      "Comment": "golang-github-prometheus-promu is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:20223064004",
       "Version": "636",
       "Object": {
@@ -662,21 +640,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "microshift is installed",
-      "ID": "oval:com.redhat.cve:tst:20223294003",
+      "Comment": "python-mistune is installed",
+      "ID": "oval:com.redhat.cve:tst:202234749001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223294002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202234749001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "microshift is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20223294004",
+      "Comment": "python-mistune is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202234749002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223294002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202234749001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -721,6 +699,28 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202240899001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201714623001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ostree is installed",
+      "ID": "oval:com.redhat.cve:tst:202247085001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202247085001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ostree is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202247085002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202247085001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -839,6 +839,28 @@
     {
       "Check": "at least one",
       "Comment": "runc is installed",
+      "ID": "oval:com.redhat.cve:tst:202325809001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202325809001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "runc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202325809002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202325809001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201714623001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "microshift is installed",
       "ID": "oval:com.redhat.cve:tst:202325809005",
       "Version": "636",
       "Object": {
@@ -848,11 +870,33 @@
     },
     {
       "Check": "at least one",
-      "Comment": "runc is signed with Red Hat redhatrelease2 key",
+      "Comment": "microshift is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202325809006",
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202325809003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201714623001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "hadoop-yarn-server-nodemanager is installed",
+      "ID": "oval:com.redhat.cve:tst:202326031001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202326031001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "hadoop-yarn-server-nodemanager is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202326031002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202326031001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -882,248 +926,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-hyperkube is installed",
-      "ID": "oval:com.redhat.cve:tst:202328642003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-hyperkube is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202328642004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients-redistributable is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients-redistributable is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406008",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406010",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406012",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo-tests is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406019",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo-tests is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406020",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406021",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406022",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "buildah-tests is installed",
-      "ID": "oval:com.redhat.cve:tst:202329406027",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406014"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "buildah-tests is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329406028",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406014"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "conmon is installed",
-      "ID": "oval:com.redhat.cve:tst:202329409015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "conmon is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202329409016",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "python-sqlparse is installed",
       "ID": "oval:com.redhat.cve:tst:202330608001",
       "Version": "636",
@@ -1139,28 +941,6 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202330608001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "httpd is installed",
-      "ID": "oval:com.redhat.cve:tst:202331122001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202331122001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "httpd is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202331122002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202331122001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1234,28 +1014,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "gcc is installed",
-      "ID": "oval:com.redhat.cve:tst:20234039001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20234039001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "gcc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20234039002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20234039001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "python-gevent is installed",
       "ID": "oval:com.redhat.cve:tst:202341419001",
       "Version": "636",
@@ -1278,21 +1036,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openvswitch3.0 is installed",
-      "ID": "oval:com.redhat.cve:tst:20235366005",
+      "Comment": "openshift-hyperkube is installed",
+      "ID": "oval:com.redhat.cve:tst:202345142001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235366003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "openvswitch3.0 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20235366006",
+      "Comment": "openshift-hyperkube is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202345142002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20235366003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1300,23 +1058,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "container-selinux is earlier than 3:2.221.0-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009001",
-      "Version": "644",
+      "Comment": "openshift-kube-controller-manager is installed",
+      "ID": "oval:com.redhat.cve:tst:202345142003",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142002"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009001"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "container-selinux is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009002",
-      "Version": "644",
+      "Comment": "openshift-kube-controller-manager is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202345142004",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1324,23 +1080,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "coreos-installer is earlier than 0:0.17.0-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009003",
-      "Version": "644",
+      "Comment": "openshift-kube-scheduler is installed",
+      "ID": "oval:com.redhat.cve:tst:202345142005",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142003"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009003"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "coreos-installer is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009004",
-      "Version": "644",
+      "Comment": "openshift-kube-scheduler is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202345142006",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142003"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1348,23 +1102,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "coreos-installer-bootinfra is earlier than 0:0.17.0-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009005",
-      "Version": "644",
+      "Comment": "openshift-kubelet is installed",
+      "ID": "oval:com.redhat.cve:tst:202345142007",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142004"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009003"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "coreos-installer-bootinfra is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009006",
-      "Version": "644",
+      "Comment": "openshift-kubelet is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202345142008",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142004"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1372,23 +1124,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "coreos-installer-dracut is earlier than 0:0.17.0-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009007",
-      "Version": "644",
+      "Comment": "openshift-kube-apiserver is installed",
+      "ID": "oval:com.redhat.cve:tst:202345142011",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142006"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009003"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "coreos-installer-dracut is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009008",
-      "Version": "644",
+      "Comment": "openshift-kube-apiserver is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202345142012",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142006"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1396,23 +1146,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "crun-wasm is earlier than 0:0.0-3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009009",
-      "Version": "644",
+      "Comment": "rhcos is installed",
+      "ID": "oval:com.redhat.cve:tst:202345918001",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345918001"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009004"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "crun-wasm is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009010",
-      "Version": "644",
+      "Comment": "rhcos is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202345918002",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345918001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1420,23 +1168,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "haproxy26 is earlier than 0:2.6.13-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009011",
-      "Version": "644",
+      "Comment": "openshift-clients-redistributable is installed",
+      "ID": "oval:com.redhat.cve:tst:202349568003",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202349568002"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009005"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "haproxy26 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009012",
-      "Version": "644",
+      "Comment": "openshift-clients-redistributable is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202349568004",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202349568002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1444,23 +1190,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate is earlier than 0:2.2.12-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009013",
-      "Version": "644",
+      "Comment": "python-gunicorn is installed",
+      "ID": "oval:com.redhat.cve:tst:20241135001",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20241135001"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009006"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009014",
-      "Version": "644",
+      "Comment": "python-gunicorn is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20241135002",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009007"
+        "ObjectRef": "oval:com.redhat.cve:obj:20241135001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1468,23 +1212,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate-devel is earlier than 0:2.2.12-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009015",
-      "Version": "644",
+      "Comment": "podman-plugins is installed",
+      "ID": "oval:com.redhat.cve:tst:202424789001",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789001"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009006"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009016",
-      "Version": "644",
+      "Comment": "podman-plugins is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424789002",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1492,23 +1234,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate-libs is earlier than 0:2.2.12-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009017",
-      "Version": "644",
+      "Comment": "podman-docker is installed",
+      "ID": "oval:com.redhat.cve:tst:202424789009",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009009"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789005"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009006"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate-libs is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009018",
-      "Version": "644",
+      "Comment": "podman-docker is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424789010",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009009"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789005"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1516,23 +1256,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate-static is earlier than 0:2.2.12-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009019",
-      "Version": "644",
+      "Comment": "podman-remote is installed",
+      "ID": "oval:com.redhat.cve:tst:202424789011",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009010"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789006"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009006"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "nmstate-static is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009020",
-      "Version": "644",
+      "Comment": "podman-remote is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424789012",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009010"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789006"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1540,23 +1278,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "python3-libnmstate is earlier than 0:2.2.12-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009021",
-      "Version": "644",
+      "Comment": "podman-catatonit is installed",
+      "ID": "oval:com.redhat.cve:tst:202424789015",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009011"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789008"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009006"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "python3-libnmstate is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009022",
-      "Version": "644",
+      "Comment": "podman-catatonit is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424789016",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009011"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789008"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1564,35 +1300,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "crun is earlier than 0:1.9.2-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009023",
-      "Version": "644",
+      "Comment": "podman-tests is installed",
+      "ID": "oval:com.redhat.cve:tst:202424789017",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202227650001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789009"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009007"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-kuryr-cni is earlier than 0:4.14.0-202309272140.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009025",
-      "Version": "644",
+      "Comment": "podman-tests is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424789018",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009013"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009008"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-kuryr-cni is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009026",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789009"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1600,23 +1322,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-kuryr-common is earlier than 0:4.14.0-202309272140.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009027",
-      "Version": "644",
+      "Comment": "podman-gvproxy is installed",
+      "ID": "oval:com.redhat.cve:tst:202424789027",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009014"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789014"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009008"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-kuryr-common is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009028",
-      "Version": "644",
+      "Comment": "podman-gvproxy is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424789028",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009014"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789014"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1624,23 +1344,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-kuryr-controller is earlier than 0:4.14.0-202309272140.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009029",
-      "Version": "644",
+      "Comment": "ose-aws-ecr-image-credential-provider is installed",
+      "ID": "oval:com.redhat.cve:tst:202424790001",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009015"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424790001"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009008"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-kuryr-controller is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009030",
-      "Version": "644",
+      "Comment": "ose-aws-ecr-image-credential-provider is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202424790002",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009015"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424790001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1648,23 +1366,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "python3-kuryr-kubernetes is earlier than 0:4.14.0-202309272140.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009031",
-      "Version": "644",
+      "Comment": "rpm-ostree is installed",
+      "ID": "oval:com.redhat.cve:tst:20242905001",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009016"
+        "ObjectRef": "oval:com.redhat.cve:obj:20242905001"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009008"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "python3-kuryr-kubernetes is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009032",
-      "Version": "644",
+      "Comment": "rpm-ostree is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20242905002",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009016"
+        "ObjectRef": "oval:com.redhat.cve:obj:20242905001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1672,23 +1388,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift4-aws-iso is earlier than 0:4.14.0-202309272140.p0.gd2acdd5.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009033",
-      "Version": "644",
+      "Comment": "python-zipp is installed",
+      "ID": "oval:com.redhat.cve:tst:20245569001",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009017"
+        "ObjectRef": "oval:com.redhat.cve:obj:20245569001"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009009"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "openshift4-aws-iso is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009034",
-      "Version": "644",
+      "Comment": "python-zipp is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20245569002",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009017"
+        "ObjectRef": "oval:com.redhat.cve:obj:20245569001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1696,23 +1410,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-ansible is earlier than 0:4.14.0-202310062327.p0.gf781421.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009035",
-      "Version": "644",
+      "Comment": "skopeo-tests is installed",
+      "ID": "oval:com.redhat.cve:tst:20246104009",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009018"
+        "ObjectRef": "oval:com.redhat.cve:obj:20246104005"
       },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009010"
-      }
+      "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-ansible is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009036",
-      "Version": "644",
+      "Comment": "skopeo-tests is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20246104010",
+      "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009018"
+        "ObjectRef": "oval:com.redhat.cve:obj:20246104005"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1720,23 +1432,35 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-ansible-test is earlier than 0:4.14.0-202310062327.p0.gf781421.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009037",
-      "Version": "644",
+      "Comment": "cri-tools is earlier than 0:1.29.0-3.1.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045001",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009019"
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009010"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-ansible-test is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009038",
-      "Version": "644",
+      "Comment": "ose-azure-acr-image-credential-provider is earlier than 0:4.16.0-202404301345.p0.g0e95532.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045003",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009019"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ose-azure-acr-image-credential-provider is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20240045004",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045002"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1744,23 +1468,23 @@
     },
     {
       "Check": "at least one",
-      "Comment": "containers-common is earlier than 2:1-51.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009039",
-      "Version": "644",
+      "Comment": "ose-gcp-gcr-image-credential-provider is earlier than 0:4.16.0-202404181812.p0.g26b43df.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045005",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045003"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009011"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045004"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "containers-common is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009040",
-      "Version": "644",
+      "Comment": "ose-gcp-gcr-image-credential-provider is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20240045006",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045003"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1768,59 +1492,131 @@
     },
     {
       "Check": "at least one",
-      "Comment": "buildah is earlier than 1:1.29.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009041",
-      "Version": "644",
+      "Comment": "runc is earlier than 4:1.1.12-3.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045007",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202325809001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009012"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045005"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "buildah-tests is earlier than 1:1.29.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009043",
-      "Version": "644",
+      "Comment": "podman is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045009",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406014"
+        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009012"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045006"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "butane is earlier than 0:0.19.0-1.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009045",
-      "Version": "644",
+      "Comment": "podman-catatonit is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045011",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223064002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789008"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009013"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045006"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "butane-redistributable is earlier than 0:0.19.0-1.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009047",
-      "Version": "644",
+      "Comment": "podman-docker is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045013",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009024"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789005"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009014"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-gvproxy is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045015",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-plugins is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045017",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-remote is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045019",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-tests is earlier than 4:4.9.4-5.1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045021",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "butane is earlier than 0:0.21.0-1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045023",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223064001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045008"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "butane-redistributable is earlier than 0:0.21.0-1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045025",
+      "Version": "639",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045009"
       }
     },
     {
       "Check": "at least one",
       "Comment": "butane-redistributable is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009048",
-      "Version": "644",
+      "ID": "oval:com.redhat.rhsa:tst:20240045026",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009024"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045013"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:201714623001"
@@ -1828,1442 +1624,290 @@
     },
     {
       "Check": "at least one",
-      "Comment": "conmon is earlier than 3:2.1.7-3.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009049",
-      "Version": "644",
+      "Comment": "cri-o is earlier than 0:1.29.5-5.rhaos4.16.git7032128.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045027",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918004"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009015"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045010"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "containernetworking-plugins is earlier than 0:1.0.1-11.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009051",
-      "Version": "644",
+      "Comment": "ose-aws-ecr-image-credential-provider is earlier than 0:4.16.0-202405311136.p0.ga53e9de.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045029",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424790001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009016"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045011"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.1-8.1.rhaos4.14.git3fecb83.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009053",
-      "Version": "644",
+      "Comment": "skopeo is earlier than 2:1.14.4-1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045031",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202129482003"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009017"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045012"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "cri-tools is earlier than 0:1.27.0-2.1.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009055",
-      "Version": "644",
+      "Comment": "skopeo-tests is earlier than 2:1.14.4-1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045033",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20246104005"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009018"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045012"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "golang-github-prometheus-promu is earlier than 0:0.15.0-15.1.gitd5383c5.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009057",
-      "Version": "644",
+      "Comment": "openshift-hyperkube is earlier than 0:4.16.0-202406170957.p0.g29c95f3.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045035",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223064001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009019"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045013"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-prometheus-promu is earlier than 0:0.15.0-15.1.gitd5383c5.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009059",
-      "Version": "644",
+      "Comment": "openshift-kube-apiserver is earlier than 0:4.16.0-202406170957.p0.g29c95f3.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045037",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009030"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142006"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009019"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045013"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-prometheus-promu is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20235009060",
-      "Version": "644",
+      "Comment": "openshift-kube-controller-manager is earlier than 0:4.16.0-202406170957.p0.g29c95f3.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045039",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009030"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045013"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-hyperkube is earlier than 0:4.14.0-202310210404.p0.gf67aeb3.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009061",
-      "Version": "644",
+      "Comment": "openshift-kube-scheduler is earlier than 0:4.16.0-202406170957.p0.g29c95f3.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045041",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142003"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009020"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045013"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-clients is earlier than 0:4.14.0-202310191146.p0.g0c63f9d.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009063",
-      "Version": "644",
+      "Comment": "openshift-kubelet is earlier than 0:4.16.0-202406170957.p0.g29c95f3.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20240045043",
+      "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201714623001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142004"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009021"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045013"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-clients-redistributable is earlier than 0:4.14.0-202310191146.p0.g0c63f9d.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009065",
-      "Version": "644",
+      "Comment": "cri-o is earlier than 0:1.29.5-7.rhaos4.16.git7db4ada.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244159001",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918004"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009022"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244159001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009067",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009023"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009069",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009023"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009071",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009024"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009073",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009023"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009075",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009023"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009077",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009023"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009079",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009023"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "runc is earlier than 4:1.1.9-2.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009081",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202325809003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009025"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo is earlier than 2:1.11.2-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009083",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009026"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo-tests is earlier than 2:1.11.2-10.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20235009085",
-      "Version": "644",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009026"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.1-13.1.rhaos4.14.git956c5f7.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20236840001",
-      "Version": "640",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20236840001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients is earlier than 0:4.14.0-202311031050.p0.g9b1e0d2.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20236840003",
-      "Version": "640",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201714623001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20236840003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients-redistributable is earlier than 0:4.14.0-202311031050.p0.g9b1e0d2.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20236840005",
-      "Version": "640",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20236840004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "haproxy26 is earlier than 0:2.6.13-2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20237473001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20237473001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.2-7.rhaos4.14.git1cc7a64.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240207001",
-      "Version": "640",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240207001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-hyperkube is earlier than 0:4.14.0-202401121302.p0.ge36e183.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240293001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240293001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "runc is earlier than 4:1.1.12-1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240645001",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202325809003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240645001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-11.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20240944013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20240944001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.4-5.rhaos4.14.git8d40fed.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241461001",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241461001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "butane is earlier than 0:0.19.0-1.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223064002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "butane-redistributable is earlier than 0:0.19.0-1.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009024"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "containernetworking-plugins is earlier than 1:1.4.0-1.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.4-6.1.rhaos4.14.gitd09e4c0.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-tools is earlier than 0:1.27.0-3.1.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567006"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients is earlier than 0:4.14.0-202403261640.p0.gf7b14a9.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567011",
+      "Comment": "openshift-clients is earlier than 0:4.16.0-202407111006.p0.gfa84651.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616001",
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:201714623001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567007"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-clients-redistributable is earlier than 0:4.14.0-202403261640.p0.gf7b14a9.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567013",
+      "Comment": "openshift-clients-redistributable is earlier than 0:4.16.0-202407111006.p0.gfa84651.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202349568002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567008"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616003"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "ose-aws-ecr-image-credential-provider is earlier than 0:4.14.0-202403251040.p0.g607e2dd.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567015",
+      "Comment": "ose-aws-ecr-image-credential-provider is earlier than 0:4.16.0-202407120242.p0.ga53e9de.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616005",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20241567008"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424790001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567009"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616004"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "ose-aws-ecr-image-credential-provider is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20241567016",
+      "Comment": "ose-azure-acr-image-credential-provider is earlier than 0:4.16.0-202407120242.p0.g0e95532.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616007",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20241567008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616005"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567017",
+      "Comment": "ose-gcp-gcr-image-credential-provider is earlier than 0:4.16.0-202407120242.p0.g26b43df.assembly.stream.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616009",
       "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616006"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "skopeo is earlier than 2:1.14.5-1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202129482003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "skopeo-tests is earlier than 2:1.14.5-1.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244616013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20246104005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20244616007"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858001",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567010"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567019",
-      "Version": "636",
+      "Comment": "podman-catatonit is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858003",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789008"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567010"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567021",
-      "Version": "636",
+      "Comment": "podman-docker is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858005",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789005"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567011"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858003"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567023",
-      "Version": "636",
+      "Comment": "podman-gvproxy is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858007",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789014"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567010"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567025",
-      "Version": "636",
+      "Comment": "podman-plugins is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858009",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567010"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567027",
-      "Version": "636",
+      "Comment": "podman-remote is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858011",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789006"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567010"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858001"
       }
     },
     {
       "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-11.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567029",
-      "Version": "636",
+      "Comment": "podman-tests is earlier than 4:4.9.4-8.rhaos4.16.el8",
+      "ID": "oval:com.redhat.rhsa:tst:20244858013",
+      "Version": "638",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789009"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567010"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo is earlier than 2:1.11.2-10.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567031",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567012"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo-tests is earlier than 2:1.11.2-10.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241567033",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241567012"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "buildah is earlier than 1:1.29.1-10.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897001",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "buildah-tests is earlier than 1:1.29.1-10.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897003",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406014"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "butane is earlier than 0:0.19.0-1.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897005",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223064002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "butane-redistributable is earlier than 0:0.19.0-1.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897007",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009024"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "conmon is earlier than 3:2.1.7-3.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897009",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "containernetworking-plugins is earlier than 1:1.4.0-1.3.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897011",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897006"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.4-7.2.rhaos4.14.git082c52f.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897013",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897007"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-tools is earlier than 0:1.27.0-3.2.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897015",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897008"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-hyperkube is earlier than 0:4.14.0-202404160939.p0.g7bee54d.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897017",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897009"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-ansible is earlier than 0:4.14.0-202404151639.p0.g81558cc.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897019",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009018"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897010"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-ansible-test is earlier than 0:4.14.0-202404151639.p0.g81558cc.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897021",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009019"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897010"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients is earlier than 0:4.14.0-202404151639.p0.gf7b14a9.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897023",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201714623001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897011"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-clients-redistributable is earlier than 0:4.14.0-202404151639.p0.gf7b14a9.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897025",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897012"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-kuryr-cni is earlier than 0:4.14.0-202404151639.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897027",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009013"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897013"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-kuryr-common is earlier than 0:4.14.0-202404151639.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897029",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009014"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897013"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-kuryr-controller is earlier than 0:4.14.0-202404151639.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897031",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009015"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897013"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python3-kuryr-kubernetes is earlier than 0:4.14.0-202404151639.p0.g8926a29.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897033",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009016"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897013"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift4-aws-iso is earlier than 0:4.14.0-202404151639.p0.gd2acdd5.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897035",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009017"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897014"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ose-aws-ecr-image-credential-provider is earlier than 0:4.14.0-202404151639.p0.g607e2dd.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897037",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20241567008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897015"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897039",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897016"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897041",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897016"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897043",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897017"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897045",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897016"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897047",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897016"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897049",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897016"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-11.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897051",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897016"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "runc is earlier than 4:1.1.12-1.2.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897053",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202325809003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897018"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo is earlier than 2:1.11.2-10.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897055",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897019"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo-tests is earlier than 2:1.11.2-10.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20241897057",
-      "Version": "637",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20241897019"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo is earlier than 2:1.11.3-0.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242054001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242054001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "skopeo-tests is earlier than 2:1.11.3-0.1.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242054003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242054001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.6-2.rhaos4.14.gitb3bd0bf.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-hyperkube is earlier than 0:4.14.0-202404301807.p0.gfd36fb9.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-13.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20242672017",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20242672004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.7-3.rhaos4.14.git674563e.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243700001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243700001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-14.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20243918013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20243918001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963001",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963003",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963005",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963007",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963009",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963011",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-16.4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20244963013",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20244963001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-o is earlier than 0:1.27.8-5.rhaos4.14.git107168f.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-hyperkube is earlier than 0:4.14.0-202408071611.p0.ge826056.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ose-aws-ecr-image-credential-provider is earlier than 0:4.14.0-202408072340.p0.g471f069.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20241567008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436004"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201918466001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-catatonit is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436006"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-gvproxy is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436017",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-tests is earlier than 3:4.4.1-18.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20245436019",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20245436005"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "haproxy26 is earlier than 0:2.6.13-4.rhaos4.14.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20246412001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20246412001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-hyperkube is earlier than 0:4.14.0-202409041843.p0.g03a907c.assembly.stream.el8",
-      "ID": "oval:com.redhat.rhsa:tst:20246412003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202328642002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20246412003"
+        "StateRef": "oval:com.redhat.rhsa:ste:20244858001"
       }
     },
     {
@@ -3284,7 +1928,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
       },
       "State": {}
     },
@@ -3328,7 +1972,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918004"
       },
       "State": {}
     },
@@ -3350,7 +1994,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223294002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202325809003"
       },
       "State": {}
     },
@@ -3463,7 +2107,7 @@
     {
       "Check": "at least one",
       "Comment": "openshift-clients is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:201917596006",
+      "ID": "oval:com.redhat.unaffected:tst:201917596004",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -3478,7 +2122,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202325809003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202325809001"
       },
       "State": {}
     },
@@ -3526,51 +2170,104 @@
     },
     {
       "Check": "at least one",
-      "Comment": "golang-github-prometheus-promu is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223064001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cri-tools is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553004",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202127918001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "kubefed-client is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553005",
+      "ID": "oval:com.redhat.unaffected:tst:202024553001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553003"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "kubefed-client is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "buildah is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202024553006",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202120206001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ignition is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ignition is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-github-prometheus-promu is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223064002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-eventrouter is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-eventrouter is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553014",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553007"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "atomic-enterprise-service-catalog is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553008",
+      "ID": "oval:com.redhat.unaffected:tst:202024553016",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20221996001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "machine-config-daemon is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553018",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
@@ -3581,85 +2278,43 @@
     {
       "Check": "at least one",
       "Comment": "skopeo is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553010",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202129482001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ignition is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553011",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "ignition is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553012",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-eventrouter is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553015",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-eventrouter is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553016",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "faq is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553017",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553009"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "faq is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553018",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553009"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "machine-config-daemon is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202024553020",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221996005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202129482003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "apb is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "apb is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553022",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cri-tools is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553024",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202127918001"
       },
       "State": {}
     },
@@ -3670,71 +2325,60 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20221996003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "buildah is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553032",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "apb is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553033",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553017"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "apb is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553034",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553017"
+        "ObjectRef": "oval:com.redhat.cve:obj:20221996005"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "pivot is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553035",
+      "ID": "oval:com.redhat.unaffected:tst:202024553027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553018"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553014"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "pivot is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202024553036",
+      "ID": "oval:com.redhat.unaffected:tst:202024553028",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553018"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553014"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "containernetworking-plugins is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553030",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202120206003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "faq is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202024553037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "faq is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202024553038",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202120206002"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202024553019"
       },
       "State": {}
     },
@@ -3837,6 +2481,27 @@
     },
     {
       "Check": "at least one",
+      "Comment": "conmon is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20221705001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20221705001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "conmon is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20221705002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20221705001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "kata-containers is installed",
       "ID": "oval:com.redhat.unaffected:tst:202221658001",
       "Version": "635",
@@ -3858,23 +2523,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "conmon is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202224921002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329409008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "butane is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202228948014",
+      "ID": "oval:com.redhat.unaffected:tst:202228948002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20223064002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223064001"
       },
       "State": {}
     },
@@ -3885,7 +2539,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
       },
       "State": {}
     },
@@ -3902,22 +2556,22 @@
     },
     {
       "Check": "at least one",
-      "Comment": "butane-redistributable is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202241717001",
+      "Comment": "conmon-rs is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202241722015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009024"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202241722008"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "butane-redistributable is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202241717002",
+      "Comment": "conmon-rs is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202241722016",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009024"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202241722008"
       },
       "State": {}
     },
@@ -3965,162 +2619,78 @@
     },
     {
       "Check": "at least one",
-      "Comment": "openshift-pipelines-triggers-controller-rhel-8-container-source is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202337264001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202337264001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-pipelines-triggers-controller-rhel-8-container-source is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202337264002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202337264001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-pipelines-triggers-eventlistenersink-rhel-8-container-source is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202337264003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202337264002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-pipelines-triggers-eventlistenersink-rhel-8-container-source is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202337264004",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202337264002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-pipelines-triggers-webhook-rhel-8-container-source is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202337264005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202337264003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-pipelines-triggers-webhook-rhel-8-container-source is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202337264006",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202337264003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-plugins is not installed",
+      "Comment": "podman-remote is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202339325002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789006"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "podman-catatonit is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325006",
+      "ID": "oval:com.redhat.unaffected:tst:202339325008",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-docker is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325010",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "podman-remote is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325012",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406011"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789008"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "podman-tests is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325014",
+      "ID": "oval:com.redhat.unaffected:tst:202339325010",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789009"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "skopeo-tests is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202339325012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20246104005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-plugins is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202339325014",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-docker is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202339325018",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-prometheus-promu is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325021",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009030"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openshift-prometheus-promu is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325022",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009030"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789005"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "podman-gvproxy is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202339325024",
+      "ID": "oval:com.redhat.unaffected:tst:202339325020",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202424789014"
       },
       "State": {}
     },
@@ -4147,33 +2717,215 @@
     },
     {
       "Check": "at least one",
-      "Comment": "haproxy26 is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202344487001",
+      "Comment": "buildah-tests is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202344487003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "haproxy26 is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202344487002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20235009006"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202344487002"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "buildah-tests is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202344487032",
+      "ID": "oval:com.redhat.unaffected:tst:202344487004",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202329406014"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202344487002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-kube-scheduler is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108004",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-kube-controller-manager is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ose-aws-ecr-image-credential-provider is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108008",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202424790001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ose-azure-acr-image-credential-provider is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ose-azure-acr-image-credential-provider is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20240045002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-kubelet is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-kube-apiserver is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108014",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-hyperkube is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202347108018",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202345142001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pysnmp is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202352323001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202352323001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pysnmp is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202352323002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202352323001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rhcos is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20240760002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202345918001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift4-aws-iso is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202422195001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202422195001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift4-aws-iso is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202422195002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202422195001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-jinja2 is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202422195003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202422195002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-jinja2 is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202422195004",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202422195002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openshift-clients-redistributable is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202428176006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202349568002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "containers-common is installed",
+      "ID": "oval:com.redhat.unaffected:tst:20243727001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20243727001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "containers-common is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20243727002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:20243727001"
       },
       "State": {}
     }
@@ -4206,13 +2958,13 @@
     {
       "Check": "at least one",
       "Comment": "Red Hat CoreOS 4 is installed",
-      "ID": "oval:com.redhat.rhsa:tst:20235009088",
-      "Version": "644",
+      "ID": "oval:com.redhat.rhsa:tst:20240045046",
+      "Version": "639",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:201714623002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.rhsa:ste:20235009028"
+        "StateRef": "oval:com.redhat.rhsa:ste:20240045015"
       }
     }
   ]
