@@ -11246,17 +11246,17 @@
       "Name": "OpenIPMI-libs"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202447175003",
+      "ID": "oval:com.redhat.cve:obj:202447076001",
       "Version": "636",
       "Name": "cups-filters"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202447175006",
+      "ID": "oval:com.redhat.cve:obj:202447076002",
       "Version": "636",
       "Name": "cups-filters-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202447175009",
+      "ID": "oval:com.redhat.cve:obj:202447076003",
       "Version": "636",
       "Name": "cups-filters-libs"
     },
