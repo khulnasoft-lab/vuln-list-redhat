@@ -186,6 +186,11 @@
       "Name": "org.keycloak/keycloak-quarkus-server"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202412798001",
+      "Version": "636",
+      "Name": "ch.qos.logback/logback-core"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202421538001",
       "Version": "636",
       "Name": "cross-spawn"
@@ -249,11 +254,6 @@
       "ID": "oval:com.redhat.cve:obj:202447561001",
       "Version": "636",
       "Name": "org.apache.avro/avro"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202451127001",
-      "Version": "636",
-      "Name": "org.hornetq/hornetq-core-client"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20245203001",
@@ -614,6 +614,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202447535001",
       "Version": "635",
       "Name": "io.netty/netty"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202451127001",
+      "Version": "635",
+      "Name": "org.hornetq/hornetq-core-client"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:202453677001",
