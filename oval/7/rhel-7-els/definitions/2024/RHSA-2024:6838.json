@@ -63,12 +63,12 @@
     "Advisory": {
       "From": "secalert@redhat.com",
       "Severity": "Important",
-      "Rights": "Copyright 2024 Red Hat, Inc.",
+      "Rights": "Copyright 2025 Red Hat, Inc.",
       "Issued": {
         "Date": "2024-09-19"
       },
       "Updated": {
-        "Date": "2024-09-19"
+        "Date": "2025-01-09"
       },
       "Cves": [
         {
@@ -81,7 +81,7 @@
         },
         {
           "CveID": "CVE-2024-8381",
-          "Cvss3": "7.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+          "Cvss3": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
           "Cwe": "CWE-704",
           "Impact": "important",
           "Href": "https://access.redhat.com/security/cve/CVE-2024-8381",
