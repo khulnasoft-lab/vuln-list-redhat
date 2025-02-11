@@ -121451,7 +121451,7 @@
       "Check": "at least one",
       "Comment": "rsync is earlier than 0:3.2.3-19.el9_2.1",
       "ID": "oval:com.redhat.rhsa:tst:20250774001",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20224592001"
       },
@@ -121463,7 +121463,7 @@
       "Check": "at least one",
       "Comment": "rsync-daemon is earlier than 0:3.2.3-19.el9_2.1",
       "ID": "oval:com.redhat.rhsa:tst:20250774003",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20224592002"
       },
@@ -122453,6 +122453,102 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20251269001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "buildah is earlier than 1:1.29.5-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251295001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228008001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251295001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "buildah-tests is earlier than 1:1.29.5-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251295003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20228008002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251295001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman is earlier than 2:4.4.1-22.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251296001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227954001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251296001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-docker is earlier than 2:4.4.1-22.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251296003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227954002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251296003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-gvproxy is earlier than 2:4.4.1-22.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251296005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227954003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251296001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-plugins is earlier than 2:4.4.1-22.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251296007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227954004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251296001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-remote is earlier than 2:4.4.1-22.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251296009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227954005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251296001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "podman-tests is earlier than 2:4.4.1-22.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20251296011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20227954006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20251296001"
       }
     }
   ],

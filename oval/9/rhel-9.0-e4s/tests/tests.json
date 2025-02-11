@@ -78394,7 +78394,7 @@
       "Check": "at least one",
       "Comment": "rsync is earlier than 0:3.2.3-9.el9_0.3",
       "ID": "oval:com.redhat.rhsa:tst:20250688001",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20224592001"
       },
@@ -78406,7 +78406,7 @@
       "Check": "at least one",
       "Comment": "rsync-daemon is earlier than 0:3.2.3-9.el9_0.3",
       "ID": "oval:com.redhat.rhsa:tst:20250688003",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20224592002"
       },

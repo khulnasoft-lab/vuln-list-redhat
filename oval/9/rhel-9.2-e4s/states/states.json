@@ -21767,7 +21767,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20250774001",
-      "Version": "635",
+      "Version": "636",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -21782,7 +21782,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20250774003",
-      "Version": "635",
+      "Version": "636",
       "Arch": {},
       "Evr": {
         "Text": "0:3.2.3-19.el9_2.1",
@@ -21988,6 +21988,47 @@
       },
       "Evr": {
         "Text": "0:5.14.0-284.103.1.rt14.388.el9_2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20251295001",
+      "Version": "637",
+      "Arch": {
+        "Text": "aarch64|ppc64le|s390x|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "1:1.29.5-1.el9_2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20251296001",
+      "Version": "637",
+      "Arch": {
+        "Text": "aarch64|ppc64le|s390x|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "2:4.4.1-22.el9_2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20251296003",
+      "Version": "637",
+      "Arch": {},
+      "Evr": {
+        "Text": "2:4.4.1-22.el9_2",
         "Datatype": "evr_string",
         "Operation": "less than"
       },
