@@ -9047,7 +9047,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553001",
-      "Version": "640",
+      "Version": "641",
       "Arch": {},
       "Evr": {
         "Text": "0:1.17-1.el8",
@@ -9058,7 +9058,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553003",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9073,7 +9073,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553004",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9088,7 +9088,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553005",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9103,7 +9103,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553006",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9118,7 +9118,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553007",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9133,7 +9133,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553008",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9148,7 +9148,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553009",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9163,7 +9163,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553010",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9178,7 +9178,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553011",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9193,7 +9193,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553012",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9208,7 +9208,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553013",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9223,7 +9223,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553014",
-      "Version": "640",
+      "Version": "641",
       "Arch": {},
       "Evr": {
         "Text": "0:3.28.1-6.el8",
@@ -9234,7 +9234,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553015",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9249,7 +9249,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553016",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9264,7 +9264,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553017",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9279,7 +9279,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553018",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9294,7 +9294,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553019",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9309,7 +9309,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553020",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9324,7 +9324,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553021",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9339,7 +9339,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553022",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9354,7 +9354,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553023",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9369,7 +9369,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553024",
-      "Version": "640",
+      "Version": "641",
       "Arch": {},
       "Evr": {
         "Text": "0:3.32.1-10.el8",
@@ -9380,7 +9380,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553025",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9395,7 +9395,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553026",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9410,7 +9410,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553027",
-      "Version": "640",
+      "Version": "641",
       "Arch": {},
       "Evr": {
         "Text": "0:3.28.2-5.el8",
@@ -9421,7 +9421,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553028",
-      "Version": "640",
+      "Version": "641",
       "Arch": {},
       "Evr": {
         "Text": "0:8-20190805.el8",
@@ -9432,7 +9432,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553029",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9447,7 +9447,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553030",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9462,7 +9462,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553031",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9477,7 +9477,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553032",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -9492,7 +9492,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553033",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9507,7 +9507,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553034",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9522,7 +9522,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553035",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "i686|ppc64le|x86_64",
         "Datatype": "string",
@@ -9537,7 +9537,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553036",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9552,7 +9552,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553037",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9567,7 +9567,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553038",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9582,7 +9582,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553039",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9597,7 +9597,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553040",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -9612,7 +9612,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20193553041",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -12919,7 +12919,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201577001",
-      "Version": "637",
+      "Version": "638",
       "Arch": {
         "Text": "ppc64le|x86_64",
         "Datatype": "string",
@@ -12934,7 +12934,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201577003",
-      "Version": "637",
+      "Version": "638",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -12949,7 +12949,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201577004",
-      "Version": "637",
+      "Version": "638",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -12964,7 +12964,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201577005",
-      "Version": "637",
+      "Version": "638",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -12979,7 +12979,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201577006",
-      "Version": "637",
+      "Version": "638",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -12994,7 +12994,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201577007",
-      "Version": "637",
+      "Version": "638",
       "Arch": {},
       "Evr": {
         "Text": "0:0.27.2-5.el8",
@@ -14899,7 +14899,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201797001",
-      "Version": "639",
+      "Version": "640",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -14914,7 +14914,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20201797003",
-      "Version": "639",
+      "Version": "640",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -25528,7 +25528,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20211586001",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -25543,7 +25543,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20211586003",
-      "Version": "640",
+      "Version": "641",
       "Arch": {},
       "Evr": {
         "Text": "0:2.56.4-9.el8",
@@ -25554,7 +25554,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20211586004",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -25569,7 +25569,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20211586005",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -25584,7 +25584,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20211586006",
-      "Version": "640",
+      "Version": "641",
       "Arch": {
         "Text": "aarch64|i686|ppc64le|s390x|x86_64",
         "Datatype": "string",
@@ -69768,6 +69768,32 @@
       },
       "Evr": {
         "Text": "0:4.18.0-477.93.1.el8_8",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20252862001",
+      "Version": "638",
+      "Arch": {
+        "Text": "aarch64|ppc64le|s390x|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "0:1.12.0-15.el8_8.12",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20252862003",
+      "Version": "638",
+      "Arch": {},
+      "Evr": {
+        "Text": "0:1.12.0-15.el8_8.12",
         "Datatype": "evr_string",
         "Operation": "less than"
       },

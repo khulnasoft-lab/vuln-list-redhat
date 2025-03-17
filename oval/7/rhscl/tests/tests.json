@@ -36832,7 +36832,7 @@
       "Check": "at least one",
       "Comment": "rh-maven35-jackson-databind is earlier than 0:2.7.6-2.8.el7",
       "ID": "oval:com.redhat.rhsa:tst:20194192001",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20180342001"
       },
@@ -36844,7 +36844,7 @@
       "Check": "at least one",
       "Comment": "rh-maven35-jackson-databind-javadoc is earlier than 0:2.7.6-2.8.el7",
       "ID": "oval:com.redhat.rhsa:tst:20194192003",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20180342002"
       },

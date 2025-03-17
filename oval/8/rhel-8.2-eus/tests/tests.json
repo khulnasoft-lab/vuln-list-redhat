@@ -34912,7 +34912,7 @@
       "Check": "at least one",
       "Comment": "wayland-protocols-devel is earlier than 0:1.17-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553001",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553001"
       },
@@ -34924,7 +34924,7 @@
       "Check": "at least one",
       "Comment": "wayland-protocols-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553002",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553001"
       },
@@ -34936,7 +34936,7 @@
       "Check": "at least one",
       "Comment": "SDL is earlier than 0:1.2.15-35.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553003",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553002"
       },
@@ -34948,7 +34948,7 @@
       "Check": "at least one",
       "Comment": "SDL is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553004",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553002"
       },
@@ -34960,7 +34960,7 @@
       "Check": "at least one",
       "Comment": "SDL-devel is earlier than 0:1.2.15-35.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553005",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553003"
       },
@@ -34972,7 +34972,7 @@
       "Check": "at least one",
       "Comment": "SDL-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553006",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553003"
       },
@@ -34984,7 +34984,7 @@
       "Check": "at least one",
       "Comment": "gnome-remote-desktop is earlier than 0:0.1.6-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553007",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553004"
       },
@@ -34996,7 +34996,7 @@
       "Check": "at least one",
       "Comment": "gnome-remote-desktop is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553008",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553004"
       },
@@ -35008,7 +35008,7 @@
       "Check": "at least one",
       "Comment": "file-roller is earlier than 0:3.28.1-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553009",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553005"
       },
@@ -35020,7 +35020,7 @@
       "Check": "at least one",
       "Comment": "file-roller is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553010",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553005"
       },
@@ -35032,7 +35032,7 @@
       "Check": "at least one",
       "Comment": "libpurple is earlier than 0:2.13.0-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553011",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553006"
       },
@@ -35044,7 +35044,7 @@
       "Check": "at least one",
       "Comment": "libpurple is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553012",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553006"
       },
@@ -35056,7 +35056,7 @@
       "Check": "at least one",
       "Comment": "libpurple-devel is earlier than 0:2.13.0-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553013",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553007"
       },
@@ -35068,7 +35068,7 @@
       "Check": "at least one",
       "Comment": "libpurple-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553014",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553007"
       },
@@ -35080,7 +35080,7 @@
       "Check": "at least one",
       "Comment": "pidgin is earlier than 0:2.13.0-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553015",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553008"
       },
@@ -35092,7 +35092,7 @@
       "Check": "at least one",
       "Comment": "pidgin is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553016",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553008"
       },
@@ -35104,7 +35104,7 @@
       "Check": "at least one",
       "Comment": "pidgin-devel is earlier than 0:2.13.0-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553017",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553009"
       },
@@ -35116,7 +35116,7 @@
       "Check": "at least one",
       "Comment": "pidgin-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553018",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553009"
       },
@@ -35128,7 +35128,7 @@
       "Check": "at least one",
       "Comment": "gnome-desktop3 is earlier than 0:3.32.2-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553019",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553010"
       },
@@ -35140,7 +35140,7 @@
       "Check": "at least one",
       "Comment": "gnome-desktop3 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553020",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553010"
       },
@@ -35152,7 +35152,7 @@
       "Check": "at least one",
       "Comment": "gnome-desktop3-devel is earlier than 0:3.32.2-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553021",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553011"
       },
@@ -35164,7 +35164,7 @@
       "Check": "at least one",
       "Comment": "gnome-desktop3-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553022",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553011"
       },
@@ -35176,7 +35176,7 @@
       "Check": "at least one",
       "Comment": "evince is earlier than 0:3.28.4-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553023",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553012"
       },
@@ -35188,7 +35188,7 @@
       "Check": "at least one",
       "Comment": "evince is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553024",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553012"
       },
@@ -35200,7 +35200,7 @@
       "Check": "at least one",
       "Comment": "evince-browser-plugin is earlier than 0:3.28.4-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553025",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553013"
       },
@@ -35212,7 +35212,7 @@
       "Check": "at least one",
       "Comment": "evince-browser-plugin is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553026",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553013"
       },
@@ -35224,7 +35224,7 @@
       "Check": "at least one",
       "Comment": "evince-libs is earlier than 0:3.28.4-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553027",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553014"
       },
@@ -35236,7 +35236,7 @@
       "Check": "at least one",
       "Comment": "evince-libs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553028",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553014"
       },
@@ -35248,7 +35248,7 @@
       "Check": "at least one",
       "Comment": "evince-nautilus is earlier than 0:3.28.4-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553029",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553015"
       },
@@ -35260,7 +35260,7 @@
       "Check": "at least one",
       "Comment": "evince-nautilus is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553030",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553015"
       },
@@ -35272,7 +35272,7 @@
       "Check": "at least one",
       "Comment": "accountsservice is earlier than 0:0.6.50-7.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553031",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553016"
       },
@@ -35284,7 +35284,7 @@
       "Check": "at least one",
       "Comment": "accountsservice is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553032",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553016"
       },
@@ -35296,7 +35296,7 @@
       "Check": "at least one",
       "Comment": "accountsservice-devel is earlier than 0:0.6.50-7.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553033",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553017"
       },
@@ -35308,7 +35308,7 @@
       "Check": "at least one",
       "Comment": "accountsservice-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553034",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553017"
       },
@@ -35320,7 +35320,7 @@
       "Check": "at least one",
       "Comment": "accountsservice-libs is earlier than 0:0.6.50-7.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553035",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553018"
       },
@@ -35332,7 +35332,7 @@
       "Check": "at least one",
       "Comment": "accountsservice-libs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553036",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553018"
       },
@@ -35344,7 +35344,7 @@
       "Check": "at least one",
       "Comment": "gnome-tweaks is earlier than 0:3.28.1-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553037",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553019"
       },
@@ -35356,7 +35356,7 @@
       "Check": "at least one",
       "Comment": "gnome-tweaks is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553038",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553019"
       },
@@ -35368,7 +35368,7 @@
       "Check": "at least one",
       "Comment": "nautilus is earlier than 0:3.28.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553039",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553020"
       },
@@ -35380,7 +35380,7 @@
       "Check": "at least one",
       "Comment": "nautilus is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553040",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553020"
       },
@@ -35392,7 +35392,7 @@
       "Check": "at least one",
       "Comment": "nautilus-devel is earlier than 0:3.28.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553041",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553021"
       },
@@ -35404,7 +35404,7 @@
       "Check": "at least one",
       "Comment": "nautilus-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553042",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553021"
       },
@@ -35416,7 +35416,7 @@
       "Check": "at least one",
       "Comment": "nautilus-extensions is earlier than 0:3.28.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553043",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553022"
       },
@@ -35428,7 +35428,7 @@
       "Check": "at least one",
       "Comment": "nautilus-extensions is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553044",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553022"
       },
@@ -35440,7 +35440,7 @@
       "Check": "at least one",
       "Comment": "baobab is earlier than 0:3.28.0-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553045",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553023"
       },
@@ -35452,7 +35452,7 @@
       "Check": "at least one",
       "Comment": "baobab is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553046",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553023"
       },
@@ -35464,7 +35464,7 @@
       "Check": "at least one",
       "Comment": "gnome-settings-daemon is earlier than 0:3.32.0-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553047",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553024"
       },
@@ -35476,7 +35476,7 @@
       "Check": "at least one",
       "Comment": "gnome-settings-daemon is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553048",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553024"
       },
@@ -35488,7 +35488,7 @@
       "Check": "at least one",
       "Comment": "webkit2gtk3 is earlier than 0:2.24.3-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553049",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhea:obj:20194262001"
       },
@@ -35500,7 +35500,7 @@
       "Check": "at least one",
       "Comment": "webkit2gtk3-devel is earlier than 0:2.24.3-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553051",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhea:obj:20194262002"
       },
@@ -35512,7 +35512,7 @@
       "Check": "at least one",
       "Comment": "webkit2gtk3-jsc is earlier than 0:2.24.3-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553053",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhea:obj:20194262003"
       },
@@ -35524,7 +35524,7 @@
       "Check": "at least one",
       "Comment": "webkit2gtk3-jsc-devel is earlier than 0:2.24.3-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553055",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhea:obj:20194262004"
       },
@@ -35536,7 +35536,7 @@
       "Check": "at least one",
       "Comment": "webkit2gtk3-plugin-process-gtk2 is earlier than 0:2.24.3-1.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553057",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhea:obj:20194262005"
       },
@@ -35548,7 +35548,7 @@
       "Check": "at least one",
       "Comment": "gnome-software is earlier than 0:3.30.6-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553059",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553030"
       },
@@ -35560,7 +35560,7 @@
       "Check": "at least one",
       "Comment": "gnome-software is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553060",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553030"
       },
@@ -35572,7 +35572,7 @@
       "Check": "at least one",
       "Comment": "gnome-software-editor is earlier than 0:3.30.6-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553061",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553031"
       },
@@ -35584,7 +35584,7 @@
       "Check": "at least one",
       "Comment": "gnome-software-editor is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553062",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553031"
       },
@@ -35596,7 +35596,7 @@
       "Check": "at least one",
       "Comment": "chrome-gnome-shell is earlier than 0:10.1-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553063",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553032"
       },
@@ -35608,7 +35608,7 @@
       "Check": "at least one",
       "Comment": "chrome-gnome-shell is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553064",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553032"
       },
@@ -35620,7 +35620,7 @@
       "Check": "at least one",
       "Comment": "gsettings-desktop-schemas is earlier than 0:3.32.0-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553065",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553033"
       },
@@ -35632,7 +35632,7 @@
       "Check": "at least one",
       "Comment": "gsettings-desktop-schemas is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553066",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553033"
       },
@@ -35644,7 +35644,7 @@
       "Check": "at least one",
       "Comment": "gsettings-desktop-schemas-devel is earlier than 0:3.32.0-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553067",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553034"
       },
@@ -35656,7 +35656,7 @@
       "Check": "at least one",
       "Comment": "gsettings-desktop-schemas-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553068",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553034"
       },
@@ -35668,7 +35668,7 @@
       "Check": "at least one",
       "Comment": "gnome-classic-session is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553069",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553035"
       },
@@ -35680,7 +35680,7 @@
       "Check": "at least one",
       "Comment": "gnome-classic-session is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553070",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553035"
       },
@@ -35692,7 +35692,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-apps-menu is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553071",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553036"
       },
@@ -35704,7 +35704,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-apps-menu is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553072",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553036"
       },
@@ -35716,7 +35716,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-auto-move-windows is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553073",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553037"
       },
@@ -35728,7 +35728,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-auto-move-windows is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553074",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553037"
       },
@@ -35740,7 +35740,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-common is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553075",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553038"
       },
@@ -35752,7 +35752,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-common is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553076",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553038"
       },
@@ -35764,7 +35764,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-dash-to-dock is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553077",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553039"
       },
@@ -35776,7 +35776,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-dash-to-dock is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553078",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553039"
       },
@@ -35788,7 +35788,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-desktop-icons is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553079",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553040"
       },
@@ -35800,7 +35800,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-desktop-icons is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553080",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553040"
       },
@@ -35812,7 +35812,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-disable-screenshield is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553081",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553041"
       },
@@ -35824,7 +35824,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-disable-screenshield is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553082",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553041"
       },
@@ -35836,7 +35836,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-drive-menu is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553083",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553042"
       },
@@ -35848,7 +35848,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-drive-menu is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553084",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553042"
       },
@@ -35860,7 +35860,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-horizontal-workspaces is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553085",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553043"
       },
@@ -35872,7 +35872,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-horizontal-workspaces is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553086",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553043"
       },
@@ -35884,7 +35884,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-launch-new-instance is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553087",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553044"
       },
@@ -35896,7 +35896,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-launch-new-instance is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553088",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553044"
       },
@@ -35908,7 +35908,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-native-window-placement is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553089",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553045"
       },
@@ -35920,7 +35920,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-native-window-placement is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553090",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553045"
       },
@@ -35932,7 +35932,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-no-hot-corner is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553091",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553046"
       },
@@ -35944,7 +35944,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-no-hot-corner is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553092",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553046"
       },
@@ -35956,7 +35956,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-panel-favorites is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553093",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553047"
       },
@@ -35968,7 +35968,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-panel-favorites is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553094",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553047"
       },
@@ -35980,7 +35980,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-places-menu is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553095",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553048"
       },
@@ -35992,7 +35992,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-places-menu is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553096",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553048"
       },
@@ -36004,7 +36004,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-screenshot-window-sizer is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553097",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553049"
       },
@@ -36016,7 +36016,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-screenshot-window-sizer is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553098",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553049"
       },
@@ -36028,7 +36028,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-systemMonitor is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553099",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553050"
       },
@@ -36040,7 +36040,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-systemMonitor is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553100",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553050"
       },
@@ -36052,7 +36052,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-top-icons is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553101",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553051"
       },
@@ -36064,7 +36064,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-top-icons is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553102",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553051"
       },
@@ -36076,7 +36076,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-updates-dialog is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553103",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553052"
       },
@@ -36088,7 +36088,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-updates-dialog is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553104",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553052"
       },
@@ -36100,7 +36100,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-user-theme is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553105",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553053"
       },
@@ -36112,7 +36112,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-user-theme is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553106",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553053"
       },
@@ -36124,7 +36124,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-window-grouper is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553107",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553054"
       },
@@ -36136,7 +36136,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-window-grouper is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553108",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553054"
       },
@@ -36148,7 +36148,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-window-list is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553109",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553055"
       },
@@ -36160,7 +36160,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-window-list is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553110",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553055"
       },
@@ -36172,7 +36172,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-windowsNavigator is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553111",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553056"
       },
@@ -36184,7 +36184,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-windowsNavigator is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553112",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553056"
       },
@@ -36196,7 +36196,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-workspace-indicator is earlier than 0:3.32.1-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553113",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553057"
       },
@@ -36208,7 +36208,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell-extension-workspace-indicator is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553114",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553057"
       },
@@ -36220,7 +36220,7 @@
       "Check": "at least one",
       "Comment": "gdm is earlier than 1:3.28.3-22.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553115",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553058"
       },
@@ -36232,7 +36232,7 @@
       "Check": "at least one",
       "Comment": "gdm is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553116",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553058"
       },
@@ -36244,7 +36244,7 @@
       "Check": "at least one",
       "Comment": "gnome-control-center is earlier than 0:3.28.2-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553117",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553059"
       },
@@ -36256,7 +36256,7 @@
       "Check": "at least one",
       "Comment": "gnome-control-center is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553118",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553059"
       },
@@ -36268,7 +36268,7 @@
       "Check": "at least one",
       "Comment": "gnome-control-center-filesystem is earlier than 0:3.28.2-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553119",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553060"
       },
@@ -36280,7 +36280,7 @@
       "Check": "at least one",
       "Comment": "gnome-control-center-filesystem is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553120",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553060"
       },
@@ -36292,7 +36292,7 @@
       "Check": "at least one",
       "Comment": "appstream-data is earlier than 0:8-20190805.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553121",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553061"
       },
@@ -36304,7 +36304,7 @@
       "Check": "at least one",
       "Comment": "appstream-data is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553122",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553061"
       },
@@ -36316,7 +36316,7 @@
       "Check": "at least one",
       "Comment": "gvfs is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553123",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517001"
       },
@@ -36328,7 +36328,7 @@
       "Check": "at least one",
       "Comment": "gvfs-afc is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553125",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517002"
       },
@@ -36340,7 +36340,7 @@
       "Check": "at least one",
       "Comment": "gvfs-afp is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553127",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517003"
       },
@@ -36352,7 +36352,7 @@
       "Check": "at least one",
       "Comment": "gvfs-archive is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553129",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517004"
       },
@@ -36364,7 +36364,7 @@
       "Check": "at least one",
       "Comment": "gvfs-client is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553131",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517005"
       },
@@ -36376,7 +36376,7 @@
       "Check": "at least one",
       "Comment": "gvfs-devel is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553133",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517006"
       },
@@ -36388,7 +36388,7 @@
       "Check": "at least one",
       "Comment": "gvfs-fuse is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553135",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517007"
       },
@@ -36400,7 +36400,7 @@
       "Check": "at least one",
       "Comment": "gvfs-goa is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553137",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517008"
       },
@@ -36412,7 +36412,7 @@
       "Check": "at least one",
       "Comment": "gvfs-gphoto2 is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553139",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517009"
       },
@@ -36424,7 +36424,7 @@
       "Check": "at least one",
       "Comment": "gvfs-mtp is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553141",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517010"
       },
@@ -36436,7 +36436,7 @@
       "Check": "at least one",
       "Comment": "gvfs-smb is earlier than 0:1.36.2-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553143",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191517011"
       },
@@ -36448,7 +36448,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell is earlier than 0:3.32.2-9.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553145",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553073"
       },
@@ -36460,7 +36460,7 @@
       "Check": "at least one",
       "Comment": "gnome-shell is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553146",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553073"
       },
@@ -36472,7 +36472,7 @@
       "Check": "at least one",
       "Comment": "gtk-update-icon-cache is earlier than 0:3.22.30-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553147",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553074"
       },
@@ -36484,7 +36484,7 @@
       "Check": "at least one",
       "Comment": "gtk-update-icon-cache is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553148",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553074"
       },
@@ -36496,7 +36496,7 @@
       "Check": "at least one",
       "Comment": "gtk3 is earlier than 0:3.22.30-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553149",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553075"
       },
@@ -36508,7 +36508,7 @@
       "Check": "at least one",
       "Comment": "gtk3 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553150",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553075"
       },
@@ -36520,7 +36520,7 @@
       "Check": "at least one",
       "Comment": "gtk3-devel is earlier than 0:3.22.30-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553151",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553076"
       },
@@ -36532,7 +36532,7 @@
       "Check": "at least one",
       "Comment": "gtk3-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553152",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553076"
       },
@@ -36544,7 +36544,7 @@
       "Check": "at least one",
       "Comment": "gtk3-immodule-xim is earlier than 0:3.22.30-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553153",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553077"
       },
@@ -36556,7 +36556,7 @@
       "Check": "at least one",
       "Comment": "gtk3-immodule-xim is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553154",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553077"
       },
@@ -36568,7 +36568,7 @@
       "Check": "at least one",
       "Comment": "mutter is earlier than 0:3.32.2-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553155",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553078"
       },
@@ -36580,7 +36580,7 @@
       "Check": "at least one",
       "Comment": "mutter is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553156",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553078"
       },
@@ -36592,7 +36592,7 @@
       "Check": "at least one",
       "Comment": "mutter-devel is earlier than 0:3.32.2-10.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553157",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553079"
       },
@@ -36604,7 +36604,7 @@
       "Check": "at least one",
       "Comment": "mutter-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553158",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553079"
       },
@@ -36616,7 +36616,7 @@
       "Check": "at least one",
       "Comment": "pango is earlier than 0:1.42.4-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553159",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192582001"
       },
@@ -36628,7 +36628,7 @@
       "Check": "at least one",
       "Comment": "pango-devel is earlier than 0:1.42.4-6.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553161",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192582002"
       },
@@ -36640,7 +36640,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2 is earlier than 0:2.36.12-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553163",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553082"
       },
@@ -36652,7 +36652,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553164",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553082"
       },
@@ -36664,7 +36664,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-devel is earlier than 0:2.36.12-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553165",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553083"
       },
@@ -36676,7 +36676,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553166",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553083"
       },
@@ -36688,7 +36688,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-modules is earlier than 0:2.36.12-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553167",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553084"
       },
@@ -36700,7 +36700,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-modules is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553168",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553084"
       },
@@ -36712,7 +36712,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-xlib is earlier than 0:2.36.12-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553169",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553085"
       },
@@ -36724,7 +36724,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-xlib is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553170",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553085"
       },
@@ -36736,7 +36736,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-xlib-devel is earlier than 0:2.36.12-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553171",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553086"
       },
@@ -36748,7 +36748,7 @@
       "Check": "at least one",
       "Comment": "gdk-pixbuf2-xlib-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553172",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553086"
       },
@@ -36760,7 +36760,7 @@
       "Check": "at least one",
       "Comment": "mozjs60 is earlier than 0:60.9.0-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553173",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553087"
       },
@@ -36772,7 +36772,7 @@
       "Check": "at least one",
       "Comment": "mozjs60 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553174",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553087"
       },
@@ -36784,7 +36784,7 @@
       "Check": "at least one",
       "Comment": "mozjs60-devel is earlier than 0:60.9.0-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553175",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553088"
       },
@@ -36796,7 +36796,7 @@
       "Check": "at least one",
       "Comment": "mozjs60-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553176",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553088"
       },
@@ -36808,7 +36808,7 @@
       "Check": "at least one",
       "Comment": "gjs is earlier than 0:1.56.2-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553177",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553089"
       },
@@ -36820,7 +36820,7 @@
       "Check": "at least one",
       "Comment": "gjs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553178",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553089"
       },
@@ -36832,7 +36832,7 @@
       "Check": "at least one",
       "Comment": "gjs-devel is earlier than 0:1.56.2-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553179",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553090"
       },
@@ -36844,7 +36844,7 @@
       "Check": "at least one",
       "Comment": "gjs-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553180",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553090"
       },
@@ -36856,7 +36856,7 @@
       "Check": "at least one",
       "Comment": "plymouth is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553181",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553091"
       },
@@ -36868,7 +36868,7 @@
       "Check": "at least one",
       "Comment": "plymouth is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553182",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553091"
       },
@@ -36880,7 +36880,7 @@
       "Check": "at least one",
       "Comment": "plymouth-core-libs is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553183",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553092"
       },
@@ -36892,7 +36892,7 @@
       "Check": "at least one",
       "Comment": "plymouth-core-libs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553184",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553092"
       },
@@ -36904,7 +36904,7 @@
       "Check": "at least one",
       "Comment": "plymouth-graphics-libs is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553185",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553093"
       },
@@ -36916,7 +36916,7 @@
       "Check": "at least one",
       "Comment": "plymouth-graphics-libs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553186",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553093"
       },
@@ -36928,7 +36928,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-fade-throbber is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553187",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553094"
       },
@@ -36940,7 +36940,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-fade-throbber is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553188",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553094"
       },
@@ -36952,7 +36952,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-label is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553189",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553095"
       },
@@ -36964,7 +36964,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-label is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553190",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553095"
       },
@@ -36976,7 +36976,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-script is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553191",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553096"
       },
@@ -36988,7 +36988,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-script is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553192",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553096"
       },
@@ -37000,7 +37000,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-space-flares is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553193",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553097"
       },
@@ -37012,7 +37012,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-space-flares is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553194",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553097"
       },
@@ -37024,7 +37024,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-throbgress is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553195",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553098"
       },
@@ -37036,7 +37036,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-throbgress is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553196",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553098"
       },
@@ -37048,7 +37048,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-two-step is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553197",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553099"
       },
@@ -37060,7 +37060,7 @@
       "Check": "at least one",
       "Comment": "plymouth-plugin-two-step is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553198",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553099"
       },
@@ -37072,7 +37072,7 @@
       "Check": "at least one",
       "Comment": "plymouth-scripts is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553199",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553100"
       },
@@ -37084,7 +37084,7 @@
       "Check": "at least one",
       "Comment": "plymouth-scripts is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553200",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553100"
       },
@@ -37096,7 +37096,7 @@
       "Check": "at least one",
       "Comment": "plymouth-system-theme is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553201",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553101"
       },
@@ -37108,7 +37108,7 @@
       "Check": "at least one",
       "Comment": "plymouth-system-theme is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553202",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553101"
       },
@@ -37120,7 +37120,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-charge is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553203",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553102"
       },
@@ -37132,7 +37132,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-charge is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553204",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553102"
       },
@@ -37144,7 +37144,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-fade-in is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553205",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553103"
       },
@@ -37156,7 +37156,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-fade-in is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553206",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553103"
       },
@@ -37168,7 +37168,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-script is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553207",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553104"
       },
@@ -37180,7 +37180,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-script is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553208",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553104"
       },
@@ -37192,7 +37192,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-solar is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553209",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553105"
       },
@@ -37204,7 +37204,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-solar is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553210",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553105"
       },
@@ -37216,7 +37216,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-spinfinity is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553211",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553106"
       },
@@ -37228,7 +37228,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-spinfinity is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553212",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553106"
       },
@@ -37240,7 +37240,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-spinner is earlier than 0:0.9.3-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193553213",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553107"
       },
@@ -37252,7 +37252,7 @@
       "Check": "at least one",
       "Comment": "plymouth-theme-spinner is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193553214",
-      "Version": "640",
+      "Version": "641",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193553107"
       },
@@ -50523,7 +50523,7 @@
       "Check": "at least one",
       "Comment": "gnome-color-manager is earlier than 0:3.28.0-3.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577001",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577001"
       },
@@ -50535,7 +50535,7 @@
       "Check": "at least one",
       "Comment": "gnome-color-manager is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577002",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577001"
       },
@@ -50547,7 +50547,7 @@
       "Check": "at least one",
       "Comment": "libgexiv2 is earlier than 0:0.10.8-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577003",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577002"
       },
@@ -50559,7 +50559,7 @@
       "Check": "at least one",
       "Comment": "libgexiv2 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577004",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577002"
       },
@@ -50571,7 +50571,7 @@
       "Check": "at least one",
       "Comment": "libgexiv2-devel is earlier than 0:0.10.8-4.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577005",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577003"
       },
@@ -50583,7 +50583,7 @@
       "Check": "at least one",
       "Comment": "libgexiv2-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577006",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577003"
       },
@@ -50595,7 +50595,7 @@
       "Check": "at least one",
       "Comment": "gegl is earlier than 0:0.2.0-39.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577007",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577004"
       },
@@ -50607,7 +50607,7 @@
       "Check": "at least one",
       "Comment": "gegl is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577008",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577004"
       },
@@ -50619,7 +50619,7 @@
       "Check": "at least one",
       "Comment": "exiv2 is earlier than 0:0.27.2-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577009",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577005"
       },
@@ -50631,7 +50631,7 @@
       "Check": "at least one",
       "Comment": "exiv2 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577010",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577005"
       },
@@ -50643,7 +50643,7 @@
       "Check": "at least one",
       "Comment": "exiv2-devel is earlier than 0:0.27.2-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577011",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577006"
       },
@@ -50655,7 +50655,7 @@
       "Check": "at least one",
       "Comment": "exiv2-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577012",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577006"
       },
@@ -50667,7 +50667,7 @@
       "Check": "at least one",
       "Comment": "exiv2-doc is earlier than 0:0.27.2-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577013",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577007"
       },
@@ -50679,7 +50679,7 @@
       "Check": "at least one",
       "Comment": "exiv2-doc is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577014",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577007"
       },
@@ -50691,7 +50691,7 @@
       "Check": "at least one",
       "Comment": "exiv2-libs is earlier than 0:0.27.2-5.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201577015",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577008"
       },
@@ -50703,7 +50703,7 @@
       "Check": "at least one",
       "Comment": "exiv2-libs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201577016",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201577008"
       },
@@ -61611,7 +61611,7 @@
       "Check": "at least one",
       "Comment": "binutils is earlier than 0:2.30-73.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201797001",
-      "Version": "639",
+      "Version": "640",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201797001"
       },
@@ -61623,7 +61623,7 @@
       "Check": "at least one",
       "Comment": "binutils is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201797002",
-      "Version": "639",
+      "Version": "640",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201797001"
       },
@@ -61635,7 +61635,7 @@
       "Check": "at least one",
       "Comment": "binutils-devel is earlier than 0:2.30-73.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201797003",
-      "Version": "639",
+      "Version": "640",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201797002"
       },
@@ -61647,7 +61647,7 @@
       "Check": "at least one",
       "Comment": "binutils-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201797004",
-      "Version": "639",
+      "Version": "640",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201797002"
       },

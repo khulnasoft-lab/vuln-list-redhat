@@ -8164,7 +8164,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20194192001",
-      "Version": "635",
+      "Version": "636",
       "Arch": {},
       "Evr": {
         "Text": "0:2.7.6-2.8.el7",
