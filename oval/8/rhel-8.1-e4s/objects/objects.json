@@ -2507,7 +2507,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20191529019",
-      "Version": "635",
+      "Version": "636",
       "Name": "pki-servlet-container"
     },
     {
@@ -2822,17 +2822,17 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722001",
-      "Version": "637",
+      "Version": "638",
       "Name": "libwmf"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722002",
-      "Version": "637",
+      "Version": "638",
       "Name": "libwmf-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722003",
-      "Version": "637",
+      "Version": "638",
       "Name": "libwmf-lite"
     },
     {
@@ -5362,22 +5362,22 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701001",
-      "Version": "636",
+      "Version": "637",
       "Name": "curl"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701002",
-      "Version": "636",
+      "Version": "637",
       "Name": "libcurl"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701003",
-      "Version": "636",
+      "Version": "637",
       "Name": "libcurl-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701004",
-      "Version": "636",
+      "Version": "637",
       "Name": "libcurl-minimal"
     },
     {
@@ -5422,17 +5422,17 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193703001",
-      "Version": "636",
+      "Version": "637",
       "Name": "libvorbis"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193703002",
-      "Version": "636",
+      "Version": "637",
       "Name": "libvorbis-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193703003",
-      "Version": "636",
+      "Version": "637",
       "Name": "libvorbis-devel-docs"
     },
     {

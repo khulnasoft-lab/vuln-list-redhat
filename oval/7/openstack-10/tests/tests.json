@@ -5476,7 +5476,7 @@
       "Check": "at least one",
       "Comment": "redis is earlier than 0:3.0.6-4.el7ost",
       "ID": "oval:com.redhat.rhsa:tst:20190052001",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20173226001"
       },

@@ -3597,7 +3597,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20191529019",
-      "Version": "635",
+      "Version": "636",
       "Name": "pki-servlet-container"
     },
     {
@@ -3862,17 +3862,17 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722001",
-      "Version": "637",
+      "Version": "638",
       "Name": "libwmf"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722002",
-      "Version": "637",
+      "Version": "638",
       "Name": "libwmf-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20192722003",
-      "Version": "637",
+      "Version": "638",
       "Name": "libwmf-lite"
     },
     {
@@ -6247,22 +6247,22 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701001",
-      "Version": "636",
+      "Version": "637",
       "Name": "curl"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701002",
-      "Version": "636",
+      "Version": "637",
       "Name": "libcurl"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701003",
-      "Version": "636",
+      "Version": "637",
       "Name": "libcurl-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193701004",
-      "Version": "636",
+      "Version": "637",
       "Name": "libcurl-minimal"
     },
     {
@@ -6307,17 +6307,17 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193703001",
-      "Version": "636",
+      "Version": "637",
       "Name": "libvorbis"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193703002",
-      "Version": "636",
+      "Version": "637",
       "Name": "libvorbis-devel"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20193703003",
-      "Version": "636",
+      "Version": "637",
       "Name": "libvorbis-devel-docs"
     },
     {
@@ -7082,12 +7082,12 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20201581001",
-      "Version": "636",
+      "Version": "637",
       "Name": "wavpack"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20201581002",
-      "Version": "636",
+      "Version": "637",
       "Name": "wavpack-devel"
     },
     {
@@ -8567,12 +8567,12 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20201708001",
-      "Version": "636",
+      "Version": "637",
       "Name": "liblouis"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20201708002",
-      "Version": "636",
+      "Version": "637",
       "Name": "python3-louis"
     },
     {
@@ -9922,12 +9922,12 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20204659001",
-      "Version": "635",
+      "Version": "636",
       "Name": "gd"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20204659002",
-      "Version": "635",
+      "Version": "636",
       "Name": "gd-devel"
     },
     {

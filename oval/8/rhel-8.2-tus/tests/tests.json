@@ -16936,7 +16936,7 @@
       "Check": "at least one",
       "Comment": "apache-commons-collections is earlier than 0:3.2.2-10.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529001",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416001"
       },
@@ -16948,7 +16948,7 @@
       "Check": "at least one",
       "Comment": "apache-commons-lang is earlier than 0:2.6-21.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529003",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416002"
       },
@@ -16960,7 +16960,7 @@
       "Check": "at least one",
       "Comment": "bea-stax-api is earlier than 0:1.2.0-16.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529005",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416003"
       },
@@ -16972,7 +16972,7 @@
       "Check": "at least one",
       "Comment": "glassfish-fastinfoset is earlier than 0:1.2.13-9.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529007",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416004"
       },
@@ -16984,7 +16984,7 @@
       "Check": "at least one",
       "Comment": "glassfish-jaxb-api is earlier than 0:2.2.12-8.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529009",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416005"
       },
@@ -16996,7 +16996,7 @@
       "Check": "at least one",
       "Comment": "glassfish-jaxb-core is earlier than 0:2.2.11-11.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529011",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416006"
       },
@@ -17008,7 +17008,7 @@
       "Check": "at least one",
       "Comment": "glassfish-jaxb-runtime is earlier than 0:2.2.11-11.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529013",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416007"
       },
@@ -17020,7 +17020,7 @@
       "Check": "at least one",
       "Comment": "glassfish-jaxb-txw2 is earlier than 0:2.2.11-11.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529015",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416008"
       },
@@ -17032,7 +17032,7 @@
       "Check": "at least one",
       "Comment": "jackson-annotations is earlier than 0:2.9.8-1.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529017",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416009"
       },
@@ -17044,7 +17044,7 @@
       "Check": "at least one",
       "Comment": "jackson-core is earlier than 0:2.9.8-1.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529019",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416010"
       },
@@ -17056,7 +17056,7 @@
       "Check": "at least one",
       "Comment": "jackson-databind is earlier than 0:2.9.8-1.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529021",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416011"
       },
@@ -17068,7 +17068,7 @@
       "Check": "at least one",
       "Comment": "jackson-jaxrs-json-provider is earlier than 0:2.9.8-1.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529023",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416012"
       },
@@ -17080,7 +17080,7 @@
       "Check": "at least one",
       "Comment": "jackson-jaxrs-providers is earlier than 0:2.9.8-1.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529025",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416013"
       },
@@ -17092,7 +17092,7 @@
       "Check": "at least one",
       "Comment": "jackson-module-jaxb-annotations is earlier than 0:2.7.6-4.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529027",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416014"
       },
@@ -17104,7 +17104,7 @@
       "Check": "at least one",
       "Comment": "jakarta-commons-httpclient is earlier than 1:3.1-28.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529029",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416015"
       },
@@ -17116,7 +17116,7 @@
       "Check": "at least one",
       "Comment": "javassist is earlier than 0:3.18.1-8.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529031",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416016"
       },
@@ -17128,7 +17128,7 @@
       "Check": "at least one",
       "Comment": "javassist-javadoc is earlier than 0:3.18.1-8.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529033",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416017"
       },
@@ -17140,7 +17140,7 @@
       "Check": "at least one",
       "Comment": "pki-servlet-4.0-api is earlier than 1:9.0.7-14.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529035",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416018"
       },
@@ -17152,7 +17152,7 @@
       "Check": "at least one",
       "Comment": "pki-servlet-container is earlier than 1:9.0.7-14.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529037",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191529019"
       },
@@ -17164,7 +17164,7 @@
       "Check": "at least one",
       "Comment": "pki-servlet-container is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20191529038",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20191529019"
       },
@@ -17176,7 +17176,7 @@
       "Check": "at least one",
       "Comment": "python-nss-doc is earlier than 0:1.0.1-10.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529039",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416020"
       },
@@ -17188,7 +17188,7 @@
       "Check": "at least one",
       "Comment": "python3-nss is earlier than 0:1.0.1-10.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529041",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416021"
       },
@@ -17200,7 +17200,7 @@
       "Check": "at least one",
       "Comment": "relaxngDatatype is earlier than 0:2011.1-7.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529043",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416022"
       },
@@ -17212,7 +17212,7 @@
       "Check": "at least one",
       "Comment": "resteasy is earlier than 0:3.0.26-3.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529045",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416023"
       },
@@ -17224,7 +17224,7 @@
       "Check": "at least one",
       "Comment": "slf4j is earlier than 0:1.7.25-4.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529047",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416024"
       },
@@ -17236,7 +17236,7 @@
       "Check": "at least one",
       "Comment": "slf4j-jdk14 is earlier than 0:1.7.25-4.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529049",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416025"
       },
@@ -17248,7 +17248,7 @@
       "Check": "at least one",
       "Comment": "stax-ex is earlier than 0:1.7.7-8.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529051",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416026"
       },
@@ -17260,7 +17260,7 @@
       "Check": "at least one",
       "Comment": "velocity is earlier than 0:1.7-24.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529053",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416027"
       },
@@ -17272,7 +17272,7 @@
       "Check": "at least one",
       "Comment": "xalan-j2 is earlier than 0:2.7.1-38.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529055",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416028"
       },
@@ -17284,7 +17284,7 @@
       "Check": "at least one",
       "Comment": "xerces-j2 is earlier than 0:2.11.0-34.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529057",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416029"
       },
@@ -17296,7 +17296,7 @@
       "Check": "at least one",
       "Comment": "xml-commons-apis is earlier than 0:1.4.01-25.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529059",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416030"
       },
@@ -17308,7 +17308,7 @@
       "Check": "at least one",
       "Comment": "xml-commons-resolver is earlier than 0:1.2-26.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529061",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416031"
       },
@@ -17320,7 +17320,7 @@
       "Check": "at least one",
       "Comment": "xmlstreambuffer is earlier than 0:1.5.4-8.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529063",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416032"
       },
@@ -17332,7 +17332,7 @@
       "Check": "at least one",
       "Comment": "xsom is earlier than 0:0-19.20110809svn.module+el8.0.0+3248+9d514f3b",
       "ID": "oval:com.redhat.rhsa:tst:20191529065",
-      "Version": "635",
+      "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20193416033"
       },
@@ -22708,7 +22708,7 @@
       "Check": "at least one",
       "Comment": "libwmf is earlier than 0:0.2.9-8.el8_0",
       "ID": "oval:com.redhat.rhsa:tst:20192722001",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192722001"
       },
@@ -22720,7 +22720,7 @@
       "Check": "at least one",
       "Comment": "libwmf is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20192722002",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192722001"
       },
@@ -22732,7 +22732,7 @@
       "Check": "at least one",
       "Comment": "libwmf-devel is earlier than 0:0.2.9-8.el8_0",
       "ID": "oval:com.redhat.rhsa:tst:20192722003",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192722002"
       },
@@ -22744,7 +22744,7 @@
       "Check": "at least one",
       "Comment": "libwmf-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20192722004",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192722002"
       },
@@ -22756,7 +22756,7 @@
       "Check": "at least one",
       "Comment": "libwmf-lite is earlier than 0:0.2.9-8.el8_0",
       "ID": "oval:com.redhat.rhsa:tst:20192722005",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192722003"
       },
@@ -22768,7 +22768,7 @@
       "Check": "at least one",
       "Comment": "libwmf-lite is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20192722006",
-      "Version": "637",
+      "Version": "638",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20192722003"
       },
@@ -25228,7 +25228,7 @@
       "Check": "at least one",
       "Comment": "SLOF is earlier than 0:20171214-6.gitfa98132.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345001",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715001"
       },
@@ -25240,7 +25240,7 @@
       "Check": "at least one",
       "Comment": "hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345003",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715002"
       },
@@ -25252,7 +25252,7 @@
       "Check": "at least one",
       "Comment": "hivex-devel is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345005",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715003"
       },
@@ -25264,7 +25264,7 @@
       "Check": "at least one",
       "Comment": "libguestfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345007",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715004"
       },
@@ -25276,7 +25276,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-bash-completion is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345009",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715005"
       },
@@ -25288,7 +25288,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-benchmarking is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345011",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715006"
       },
@@ -25300,7 +25300,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-devel is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345013",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715007"
       },
@@ -25312,7 +25312,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-gfs2 is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345015",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715008"
       },
@@ -25324,7 +25324,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-gobject is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345017",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715009"
       },
@@ -25336,7 +25336,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-gobject-devel is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345019",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715010"
       },
@@ -25348,7 +25348,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-inspect-icons is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345021",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715011"
       },
@@ -25360,7 +25360,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-java is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345023",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715012"
       },
@@ -25372,7 +25372,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-java-devel is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345025",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715013"
       },
@@ -25384,7 +25384,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-javadoc is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345027",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715014"
       },
@@ -25396,7 +25396,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-man-pages-ja is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345029",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715015"
       },
@@ -25408,7 +25408,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-man-pages-uk is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345031",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715016"
       },
@@ -25420,7 +25420,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-rescue is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345033",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715017"
       },
@@ -25432,7 +25432,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-rsync is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345035",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715018"
       },
@@ -25444,7 +25444,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-tools is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345037",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715019"
       },
@@ -25456,7 +25456,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-tools-c is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345039",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715020"
       },
@@ -25468,7 +25468,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-winsupport is earlier than 0:8.0-4.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345041",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715021"
       },
@@ -25480,7 +25480,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-xfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345043",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715022"
       },
@@ -25492,7 +25492,7 @@
       "Check": "at least one",
       "Comment": "libiscsi is earlier than 0:1.18.0-8.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345045",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715023"
       },
@@ -25504,7 +25504,7 @@
       "Check": "at least one",
       "Comment": "libiscsi-devel is earlier than 0:1.18.0-8.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345047",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715024"
       },
@@ -25516,7 +25516,7 @@
       "Check": "at least one",
       "Comment": "libiscsi-utils is earlier than 0:1.18.0-8.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345049",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715025"
       },
@@ -25528,7 +25528,7 @@
       "Check": "at least one",
       "Comment": "libvirt is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345051",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715027"
       },
@@ -25540,7 +25540,7 @@
       "Check": "at least one",
       "Comment": "libvirt-admin is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345053",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715028"
       },
@@ -25552,7 +25552,7 @@
       "Check": "at least one",
       "Comment": "libvirt-bash-completion is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345055",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715029"
       },
@@ -25564,7 +25564,7 @@
       "Check": "at least one",
       "Comment": "libvirt-client is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345057",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715030"
       },
@@ -25576,7 +25576,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345059",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715031"
       },
@@ -25588,7 +25588,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-config-network is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345061",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715032"
       },
@@ -25600,7 +25600,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-config-nwfilter is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345063",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715033"
       },
@@ -25612,7 +25612,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-interface is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345065",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715034"
       },
@@ -25624,7 +25624,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-network is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345067",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715035"
       },
@@ -25636,7 +25636,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-nodedev is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345069",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715036"
       },
@@ -25648,7 +25648,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-nwfilter is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345071",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715037"
       },
@@ -25660,7 +25660,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-qemu is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345073",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715038"
       },
@@ -25672,7 +25672,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-secret is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345075",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715039"
       },
@@ -25684,7 +25684,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345077",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715040"
       },
@@ -25696,7 +25696,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-core is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345079",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715041"
       },
@@ -25708,7 +25708,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-disk is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345081",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715042"
       },
@@ -25720,7 +25720,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-gluster is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345083",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715043"
       },
@@ -25732,7 +25732,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-iscsi is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345085",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715044"
       },
@@ -25744,7 +25744,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-logical is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345087",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715045"
       },
@@ -25756,7 +25756,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-mpath is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345089",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715046"
       },
@@ -25768,7 +25768,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-rbd is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345091",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715047"
       },
@@ -25780,7 +25780,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-scsi is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345093",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715048"
       },
@@ -25792,7 +25792,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-kvm is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345095",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715049"
       },
@@ -25804,7 +25804,7 @@
       "Check": "at least one",
       "Comment": "libvirt-dbus is earlier than 0:1.2.0-3.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345097",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715050"
       },
@@ -25816,7 +25816,7 @@
       "Check": "at least one",
       "Comment": "libvirt-devel is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345099",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715051"
       },
@@ -25828,7 +25828,7 @@
       "Check": "at least one",
       "Comment": "libvirt-docs is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345101",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715052"
       },
@@ -25840,7 +25840,7 @@
       "Check": "at least one",
       "Comment": "libvirt-libs is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345103",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715053"
       },
@@ -25852,7 +25852,7 @@
       "Check": "at least one",
       "Comment": "libvirt-lock-sanlock is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345105",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715054"
       },
@@ -25864,7 +25864,7 @@
       "Check": "at least one",
       "Comment": "libvirt-nss is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345107",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715055"
       },
@@ -25876,7 +25876,7 @@
       "Check": "at least one",
       "Comment": "lua-guestfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345109",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715056"
       },
@@ -25888,7 +25888,7 @@
       "Check": "at least one",
       "Comment": "nbdkit is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345111",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715057"
       },
@@ -25900,7 +25900,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-bash-completion is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345113",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715058"
       },
@@ -25912,7 +25912,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-basic-plugins is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345115",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715059"
       },
@@ -25924,7 +25924,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-devel is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345117",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715060"
       },
@@ -25936,7 +25936,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-example-plugins is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345119",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715061"
       },
@@ -25948,7 +25948,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-plugin-gzip is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345121",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715062"
       },
@@ -25960,7 +25960,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-plugin-python-common is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345123",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715063"
       },
@@ -25972,7 +25972,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-plugin-python3 is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345125",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715064"
       },
@@ -25984,7 +25984,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-plugin-vddk is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345127",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715065"
       },
@@ -25996,7 +25996,7 @@
       "Check": "at least one",
       "Comment": "nbdkit-plugin-xz is earlier than 0:1.4.2-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345129",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715066"
       },
@@ -26008,7 +26008,7 @@
       "Check": "at least one",
       "Comment": "netcf is earlier than 0:0.2.8-12.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345131",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715067"
       },
@@ -26020,7 +26020,7 @@
       "Check": "at least one",
       "Comment": "netcf-devel is earlier than 0:0.2.8-12.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345133",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715068"
       },
@@ -26032,7 +26032,7 @@
       "Check": "at least one",
       "Comment": "netcf-libs is earlier than 0:0.2.8-12.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345135",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715069"
       },
@@ -26044,7 +26044,7 @@
       "Check": "at least one",
       "Comment": "perl-Sys-Guestfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345137",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715070"
       },
@@ -26056,7 +26056,7 @@
       "Check": "at least one",
       "Comment": "perl-Sys-Virt is earlier than 0:4.5.0-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345139",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715071"
       },
@@ -26068,7 +26068,7 @@
       "Check": "at least one",
       "Comment": "perl-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345141",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715072"
       },
@@ -26080,7 +26080,7 @@
       "Check": "at least one",
       "Comment": "python3-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345143",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715073"
       },
@@ -26092,7 +26092,7 @@
       "Check": "at least one",
       "Comment": "python3-libguestfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345145",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715074"
       },
@@ -26104,7 +26104,7 @@
       "Check": "at least one",
       "Comment": "python3-libvirt is earlier than 0:4.5.0-2.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345147",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715075"
       },
@@ -26116,7 +26116,7 @@
       "Check": "at least one",
       "Comment": "qemu-guest-agent is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345149",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715076"
       },
@@ -26128,7 +26128,7 @@
       "Check": "at least one",
       "Comment": "qemu-img is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345151",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715077"
       },
@@ -26140,7 +26140,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345153",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715078"
       },
@@ -26152,7 +26152,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-block-curl is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345155",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715079"
       },
@@ -26164,7 +26164,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-block-gluster is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345157",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715080"
       },
@@ -26176,7 +26176,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-block-iscsi is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345159",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715081"
       },
@@ -26188,7 +26188,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-block-rbd is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345161",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715082"
       },
@@ -26200,7 +26200,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-block-ssh is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345163",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715083"
       },
@@ -26212,7 +26212,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-common is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345165",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715084"
       },
@@ -26224,7 +26224,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-core is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345167",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715085"
       },
@@ -26236,7 +26236,7 @@
       "Check": "at least one",
       "Comment": "ruby-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345169",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715086"
       },
@@ -26248,7 +26248,7 @@
       "Check": "at least one",
       "Comment": "ruby-libguestfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345171",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715087"
       },
@@ -26260,7 +26260,7 @@
       "Check": "at least one",
       "Comment": "seabios is earlier than 0:1.11.1-4.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345173",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715088"
       },
@@ -26272,7 +26272,7 @@
       "Check": "at least one",
       "Comment": "seabios-bin is earlier than 0:1.11.1-4.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345175",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715089"
       },
@@ -26284,7 +26284,7 @@
       "Check": "at least one",
       "Comment": "seavgabios-bin is earlier than 0:1.11.1-4.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345177",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715090"
       },
@@ -26296,7 +26296,7 @@
       "Check": "at least one",
       "Comment": "sgabios is earlier than 1:0.20170427git-3.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345179",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715091"
       },
@@ -26308,7 +26308,7 @@
       "Check": "at least one",
       "Comment": "sgabios-bin is earlier than 1:0.20170427git-3.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345181",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715092"
       },
@@ -26320,7 +26320,7 @@
       "Check": "at least one",
       "Comment": "supermin is earlier than 0:5.1.19-9.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345183",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715093"
       },
@@ -26332,7 +26332,7 @@
       "Check": "at least one",
       "Comment": "supermin-devel is earlier than 0:5.1.19-9.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345185",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715094"
       },
@@ -26344,7 +26344,7 @@
       "Check": "at least one",
       "Comment": "virt-dib is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345187",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715095"
       },
@@ -26356,7 +26356,7 @@
       "Check": "at least one",
       "Comment": "virt-p2v-maker is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345189",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715096"
       },
@@ -26368,7 +26368,7 @@
       "Check": "at least one",
       "Comment": "virt-v2v is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345191",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715097"
       },
@@ -26380,7 +26380,7 @@
       "Check": "at least one",
       "Comment": "hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345194",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715002"
       },
@@ -26392,7 +26392,7 @@
       "Check": "at least one",
       "Comment": "hivex-devel is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345195",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715003"
       },
@@ -26404,7 +26404,7 @@
       "Check": "at least one",
       "Comment": "libguestfs-winsupport is earlier than 0:8.0-4.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345196",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715021"
       },
@@ -26416,7 +26416,7 @@
       "Check": "at least one",
       "Comment": "libiscsi is earlier than 0:1.18.0-8.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345197",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715023"
       },
@@ -26428,7 +26428,7 @@
       "Check": "at least one",
       "Comment": "libiscsi-devel is earlier than 0:1.18.0-8.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345198",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715024"
       },
@@ -26440,7 +26440,7 @@
       "Check": "at least one",
       "Comment": "libiscsi-utils is earlier than 0:1.18.0-8.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345199",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715025"
       },
@@ -26452,7 +26452,7 @@
       "Check": "at least one",
       "Comment": "libvirt is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345200",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715027"
       },
@@ -26464,7 +26464,7 @@
       "Check": "at least one",
       "Comment": "libvirt-admin is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345201",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715028"
       },
@@ -26476,7 +26476,7 @@
       "Check": "at least one",
       "Comment": "libvirt-bash-completion is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345202",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715029"
       },
@@ -26488,7 +26488,7 @@
       "Check": "at least one",
       "Comment": "libvirt-client is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345203",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715030"
       },
@@ -26500,7 +26500,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345204",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715031"
       },
@@ -26512,7 +26512,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-config-network is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345205",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715032"
       },
@@ -26524,7 +26524,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-config-nwfilter is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345206",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715033"
       },
@@ -26536,7 +26536,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-interface is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345207",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715034"
       },
@@ -26548,7 +26548,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-network is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345208",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715035"
       },
@@ -26560,7 +26560,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-nodedev is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345209",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715036"
       },
@@ -26572,7 +26572,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-nwfilter is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345210",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715037"
       },
@@ -26584,7 +26584,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-secret is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345211",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715039"
       },
@@ -26596,7 +26596,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345212",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715040"
       },
@@ -26608,7 +26608,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-core is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345213",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715041"
       },
@@ -26620,7 +26620,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-disk is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345214",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715042"
       },
@@ -26632,7 +26632,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-iscsi is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345215",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715044"
       },
@@ -26644,7 +26644,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-logical is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345216",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715045"
       },
@@ -26656,7 +26656,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-mpath is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345217",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715046"
       },
@@ -26668,7 +26668,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-rbd is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345218",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715047"
       },
@@ -26680,7 +26680,7 @@
       "Check": "at least one",
       "Comment": "libvirt-daemon-driver-storage-scsi is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345219",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715048"
       },
@@ -26692,7 +26692,7 @@
       "Check": "at least one",
       "Comment": "libvirt-dbus is earlier than 0:1.2.0-3.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345220",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715050"
       },
@@ -26704,7 +26704,7 @@
       "Check": "at least one",
       "Comment": "libvirt-devel is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345221",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715051"
       },
@@ -26716,7 +26716,7 @@
       "Check": "at least one",
       "Comment": "libvirt-docs is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345222",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715052"
       },
@@ -26728,7 +26728,7 @@
       "Check": "at least one",
       "Comment": "libvirt-libs is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345223",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715053"
       },
@@ -26740,7 +26740,7 @@
       "Check": "at least one",
       "Comment": "libvirt-nss is earlier than 0:4.5.0-35.module+el8.1.0+4227+b2722cb3",
       "ID": "oval:com.redhat.rhsa:tst:20193345224",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715055"
       },
@@ -26752,7 +26752,7 @@
       "Check": "at least one",
       "Comment": "netcf is earlier than 0:0.2.8-12.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345225",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715067"
       },
@@ -26764,7 +26764,7 @@
       "Check": "at least one",
       "Comment": "netcf-devel is earlier than 0:0.2.8-12.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345226",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715068"
       },
@@ -26776,7 +26776,7 @@
       "Check": "at least one",
       "Comment": "netcf-libs is earlier than 0:0.2.8-12.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345227",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715069"
       },
@@ -26788,7 +26788,7 @@
       "Check": "at least one",
       "Comment": "ocaml-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345228",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715101"
       },
@@ -26800,7 +26800,7 @@
       "Check": "at least one",
       "Comment": "ocaml-hivex-devel is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345230",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715102"
       },
@@ -26812,7 +26812,7 @@
       "Check": "at least one",
       "Comment": "ocaml-libguestfs is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345232",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715103"
       },
@@ -26824,7 +26824,7 @@
       "Check": "at least one",
       "Comment": "ocaml-libguestfs-devel is earlier than 1:1.38.4-14.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345234",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715104"
       },
@@ -26836,7 +26836,7 @@
       "Check": "at least one",
       "Comment": "perl-Sys-Virt is earlier than 0:4.5.0-5.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345236",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715071"
       },
@@ -26848,7 +26848,7 @@
       "Check": "at least one",
       "Comment": "perl-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345237",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715072"
       },
@@ -26860,7 +26860,7 @@
       "Check": "at least one",
       "Comment": "python3-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345238",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715073"
       },
@@ -26872,7 +26872,7 @@
       "Check": "at least one",
       "Comment": "python3-libvirt is earlier than 0:4.5.0-2.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345239",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715075"
       },
@@ -26884,7 +26884,7 @@
       "Check": "at least one",
       "Comment": "qemu-kvm-tests is earlier than 15:2.12.0-88.module+el8.1.0+4233+bc44be3f",
       "ID": "oval:com.redhat.rhsa:tst:20193345240",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715105"
       },
@@ -26896,7 +26896,7 @@
       "Check": "at least one",
       "Comment": "ruby-hivex is earlier than 0:1.3.15-7.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345242",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715086"
       },
@@ -26908,7 +26908,7 @@
       "Check": "at least one",
       "Comment": "sgabios is earlier than 1:0.20170427git-3.module+el8.1.0+4066+0f1aadab",
       "ID": "oval:com.redhat.rhsa:tst:20193345243",
-      "Version": "641",
+      "Version": "642",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhba:obj:20192715091"
       },
@@ -40312,7 +40312,7 @@
       "Check": "at least one",
       "Comment": "curl is earlier than 0:7.61.1-11.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193701001",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701001"
       },
@@ -40324,7 +40324,7 @@
       "Check": "at least one",
       "Comment": "curl is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193701002",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701001"
       },
@@ -40336,7 +40336,7 @@
       "Check": "at least one",
       "Comment": "libcurl is earlier than 0:7.61.1-11.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193701003",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701002"
       },
@@ -40348,7 +40348,7 @@
       "Check": "at least one",
       "Comment": "libcurl is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193701004",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701002"
       },
@@ -40360,7 +40360,7 @@
       "Check": "at least one",
       "Comment": "libcurl-devel is earlier than 0:7.61.1-11.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193701005",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701003"
       },
@@ -40372,7 +40372,7 @@
       "Check": "at least one",
       "Comment": "libcurl-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193701006",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701003"
       },
@@ -40384,7 +40384,7 @@
       "Check": "at least one",
       "Comment": "libcurl-minimal is earlier than 0:7.61.1-11.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193701007",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701004"
       },
@@ -40396,7 +40396,7 @@
       "Check": "at least one",
       "Comment": "libcurl-minimal is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193701008",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193701004"
       },
@@ -40600,7 +40600,7 @@
       "Check": "at least one",
       "Comment": "libvorbis is earlier than 1:1.3.6-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193703001",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193703001"
       },
@@ -40612,7 +40612,7 @@
       "Check": "at least one",
       "Comment": "libvorbis is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193703002",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193703001"
       },
@@ -40624,7 +40624,7 @@
       "Check": "at least one",
       "Comment": "libvorbis-devel is earlier than 1:1.3.6-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193703003",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193703002"
       },
@@ -40636,7 +40636,7 @@
       "Check": "at least one",
       "Comment": "libvorbis-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193703004",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193703002"
       },
@@ -40648,7 +40648,7 @@
       "Check": "at least one",
       "Comment": "libvorbis-devel-docs is earlier than 1:1.3.6-2.el8",
       "ID": "oval:com.redhat.rhsa:tst:20193703005",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193703003"
       },
@@ -40660,7 +40660,7 @@
       "Check": "at least one",
       "Comment": "libvorbis-devel-docs is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20193703006",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20193703003"
       },
@@ -50715,7 +50715,7 @@
       "Check": "at least one",
       "Comment": "wavpack is earlier than 0:5.1.0-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201581001",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201581001"
       },
@@ -50727,7 +50727,7 @@
       "Check": "at least one",
       "Comment": "wavpack is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201581002",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201581001"
       },
@@ -50739,7 +50739,7 @@
       "Check": "at least one",
       "Comment": "wavpack-devel is earlier than 0:5.1.0-15.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201581003",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201581002"
       },
@@ -50751,7 +50751,7 @@
       "Check": "at least one",
       "Comment": "wavpack-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201581004",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201581002"
       },
@@ -59499,7 +59499,7 @@
       "Check": "at least one",
       "Comment": "liblouis is earlier than 0:2.6.2-21.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201708001",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201708001"
       },
@@ -59511,7 +59511,7 @@
       "Check": "at least one",
       "Comment": "liblouis is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201708002",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201708001"
       },
@@ -59523,7 +59523,7 @@
       "Check": "at least one",
       "Comment": "python3-louis is earlier than 0:2.6.2-21.el8",
       "ID": "oval:com.redhat.rhsa:tst:20201708003",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201708002"
       },
@@ -59535,7 +59535,7 @@
       "Check": "at least one",
       "Comment": "python3-louis is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.rhsa:tst:20201708004",
-      "Version": "636",
+      "Version": "637",
       "Object": {
         "ObjectRef": "oval:com.redhat.rhsa:obj:20201708002"
       },
