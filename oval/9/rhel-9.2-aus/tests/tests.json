@@ -126533,6 +126533,30 @@
       "State": {
         "StateRef": "oval:com.redhat.rhba:ste:20223893002"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pcs is earlier than 0:0.11.4-7.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20253108001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224587001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20253108001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pcs-snmp is earlier than 0:0.11.4-7.el9_2.4",
+      "ID": "oval:com.redhat.rhsa:tst:20253108003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224587002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20253108001"
+      }
     }
   ],
   "RpmverifyfileTests": [
