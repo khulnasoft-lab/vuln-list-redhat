@@ -5946,11 +5946,6 @@
       "Name": "redis-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20223638006",
-      "Version": "636",
-      "Name": "nginx-core"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202237290001",
       "Version": "636",
       "Name": "nautilus"
@@ -6379,6 +6374,11 @@
       "ID": "oval:com.redhat.cve:obj:202241715014",
       "Version": "636",
       "Name": "oci-seccomp-bpf-hook"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202241741009",
+      "Version": "636",
+      "Name": "nginx-core"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241854002",
@@ -8058,22 +8058,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:202444192001",
       "Version": "636",
-      "Name": "webkit2gtk3-jsc-devel"
+      "Name": "webkit2gtk3-jsc"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202444192002",
       "Version": "636",
-      "Name": "webkit2gtk3-jsc"
+      "Name": "webkit2gtk3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202444192003",
       "Version": "636",
-      "Name": "webkit2gtk3-devel"
+      "Name": "webkit2gtk3-jsc-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202444192004",
       "Version": "636",
-      "Name": "webkit2gtk3"
+      "Name": "webkit2gtk3-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202445336030",
@@ -9716,6 +9716,11 @@
       "Name": "freetype-devel"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202527516002",
+      "Version": "636",
+      "Name": "rhel9/keylime-verifier"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202527610001",
       "Version": "636",
       "Name": "rhel9/ruby-33"
@@ -9748,37 +9753,37 @@
     {
       "ID": "oval:com.redhat.cve:obj:202530472001",
       "Version": "636",
-      "Name": "corosynclib-devel"
+      "Name": "corosync-qdevice"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202530472002",
       "Version": "636",
-      "Name": "corosynclib"
+      "Name": "corosync-qnetd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202530472003",
       "Version": "636",
-      "Name": "corosync-vqsim"
+      "Name": "corosynclib-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202530472004",
       "Version": "636",
-      "Name": "corosync-qdevice"
+      "Name": "corosynclib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202530472005",
       "Version": "636",
-      "Name": "spausedd"
+      "Name": "corosync-vqsim"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202530472006",
       "Version": "636",
-      "Name": "corosync-qnetd"
+      "Name": "corosync"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202530472007",
       "Version": "636",
-      "Name": "corosync"
+      "Name": "spausedd"
     },
     {
       "ID": "oval:com.redhat.rhba:obj:20223893001",
