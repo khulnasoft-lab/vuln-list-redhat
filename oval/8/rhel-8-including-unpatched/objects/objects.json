@@ -21121,11 +21121,6 @@
       "Name": "zsh-debugsource"
     },
     {
-      "ID": "oval:com.redhat.unaffected:obj:20144174001",
-      "Version": "635",
-      "Name": "libpcap-debugsource"
-    },
-    {
       "ID": "oval:com.redhat.unaffected:obj:201510082001",
       "Version": "635",
       "Name": "libplist"
@@ -21254,11 +21249,6 @@
       "ID": "oval:com.redhat.unaffected:obj:20162779014",
       "Version": "635",
       "Name": "util-linux"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20164608001",
-      "Version": "635",
-      "Name": "libxslt-debugsource"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20164761002",
@@ -22359,6 +22349,11 @@
       "ID": "oval:com.redhat.unaffected:obj:201914513002",
       "Version": "635",
       "Name": "dnsmasq-debugsource"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201915161001",
+      "Version": "635",
+      "Name": "libpcap-debugsource"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:201915847001",
