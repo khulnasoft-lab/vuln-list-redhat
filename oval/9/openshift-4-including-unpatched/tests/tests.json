@@ -2793,23 +2793,23 @@
     },
     {
       "Check": "at least one",
-      "Comment": "skopeo-tests is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:20221705004",
+      "Comment": "conmon is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20221705002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445336019"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445341014"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "conmon is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:20221705018",
+      "Comment": "skopeo-tests is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:20221705010",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202445341014"
+        "ObjectRef": "oval:com.redhat.cve:obj:202445336019"
       },
       "State": {}
     },
@@ -2849,7 +2849,7 @@
     {
       "Check": "at least one",
       "Comment": "openshift-clients-redistributable is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202230631014",
+      "ID": "oval:com.redhat.unaffected:tst:202230631010",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
